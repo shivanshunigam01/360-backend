@@ -1,0 +1,6183 @@
+[
+    {
+        "name": "Abacavir / Lamivudine (Generic for Epzicom)",
+        "category": "Anti-bacterial",
+        "type": "Tablet",
+        "description": "",
+        "strength": "600mg-300mg, 30 count"
+    },
+    {
+        "name": "Abacavir / Lamivudine (Generic for Epzicom)",
+        "category": "HIV",
+        "type": "Tablet",
+        "description": "",
+        "strength": "600mg-300mg, 30 count"
+    },
+    {
+        "name": "Abacavir Sulfate (Generic for Ziagen)",
+        "category": "Anti-bacterial",
+        "type": "Liquid",
+        "description": "",
+        "strength": "300mg, 30 count"
+    },
+    {
+        "name": "Abacavir Sulfate (Generic for Ziagen)",
+        "category": "HIV",
+        "type": "Liquid",
+        "description": "",
+        "strength": "300mg, 30 count"
+    },
+    {
+        "name": "Abiraterone Acetate (Generic for Zytiga)",
+        "category": "Anti-bacterial",
+        "type": "Tablet",
+        "description": "",
+        "strength": "500mg, 30 count"
+    },
+    {
+        "name": "Abiraterone Acetate (Generic for Zytiga)",
+        "category": "Prostate",
+        "type": "Tablet",
+        "description": "",
+        "strength": "500mg, 30 count"
+    },
+    {
+        "name": "Acamprosate Calcium (Generic for Campral)",
+        "category": "Alcohol Dependence",
+        "type": "Tablet",
+        "description": "",
+        "strength": "333mg, 30 count"
+    },
+    {
+        "name": "Acamprosate Calcium (Generic for Campral)",
+        "category": "Anti-bacterial",
+        "type": "Tablet",
+        "description": "",
+        "strength": "333mg, 30 count"
+    },
+    {
+        "name": "Acarbose (Generic for Precose)",
+        "category": "Anti-bacterial",
+        "type": "Tablet",
+        "description": "",
+        "strength": "50mg, 30 count"
+    },
+    {
+        "name": "Acarbose (Generic for Precose)",
+        "category": "Diabetes",
+        "type": "Tablet",
+        "description": "",
+        "strength": "50mg, 30 count"
+    },
+    {
+        "name": "Accu-Chek Guide Me Meter for Diabetic Blood Glucose Testing",
+        "category": "Anti-bacterial",
+        "type": "Tablet",
+        "description": "",
+        "strength": "-, 1 Kit, 1 count"
+    },
+    {
+        "name": "Accu-Chek Guide Me Meter for Diabetic Blood Glucose Testing",
+        "category": "Diabetes",
+        "type": "Tablet",
+        "description": "",
+        "strength": "-, 1 Kit, 1 count"
+    },
+    {
+        "name": "Accu-Chek Guide Test Strips for Diabetic Blood Glucose",
+        "category": "Anti-bacterial",
+        "type": "Tablet",
+        "description": "",
+        "strength": "-, 50 Test Strips, 1 count"
+    },
+    {
+        "name": "Accu-Chek Guide Test Strips for Diabetic Blood Glucose",
+        "category": "Diabetes",
+        "type": "Tablet",
+        "description": "",
+        "strength": "-, 50 Test Strips, 1 count"
+    },
+    {
+        "name": "Accu-Chek Softclix Lancets for Diabetic Blood Glucose Testing",
+        "category": "Anti-bacterial",
+        "type": "Tablet",
+        "description": "",
+        "strength": "-, 100 Lancets, 1 count"
+    },
+    {
+        "name": "Accu-Chek Softclix Lancets for Diabetic Blood Glucose Testing",
+        "category": "Diabetes",
+        "type": "Tablet",
+        "description": "",
+        "strength": "-, 100 Lancets, 1 count"
+    },
+    {
+        "name": "Acebutolol HCl (Generic for Sectral)",
+        "category": "Anti-bacterial",
+        "type": "Capsule",
+        "description": "",
+        "strength": "400mg, 30 count"
+    },
+    {
+        "name": "Acebutolol HCl (Generic for Sectral)",
+        "category": "High Blood Pressure",
+        "type": "Capsule",
+        "description": "",
+        "strength": "400mg, 30 count"
+    },
+    {
+        "name": "Acetazolamide (Generic for Diamox)",
+        "category": "Anti-bacterial",
+        "type": "Tablet",
+        "description": "",
+        "strength": "250mg, 30 count"
+    },
+    {
+        "name": "Acetazolamide (Generic for Diamox)",
+        "category": "Diuretic",
+        "type": "Tablet",
+        "description": "",
+        "strength": "250mg, 30 count"
+    },
+    {
+        "name": "Acetazolamide (Generic for Diamox)",
+        "category": "Glaucoma",
+        "type": "Tablet",
+        "description": "",
+        "strength": "250mg, 30 count"
+    },
+    {
+        "name": "Acetazolamide (Generic for Diamox)",
+        "category": "Nausea",
+        "type": "Tablet",
+        "description": "",
+        "strength": "250mg, 30 count"
+    },
+    {
+        "name": "Acetazolamide (Generic for Diamox)",
+        "category": "Seizures",
+        "type": "Tablet",
+        "description": "",
+        "strength": "250mg, 30 count"
+    },
+    {
+        "name": "Acetazolamide ER (Generic for Diamox Sequels)",
+        "category": "Anti-bacterial",
+        "type": "Capsule",
+        "description": "",
+        "strength": "500mg, 30 count"
+    },
+    {
+        "name": "Acetazolamide ER (Generic for Diamox Sequels)",
+        "category": "Glaucoma",
+        "type": "Capsule",
+        "description": "",
+        "strength": "500mg, 30 count"
+    },
+    {
+        "name": "Acetic Acid (Generic for VoSol)",
+        "category": "Anti-bacterial",
+        "type": "Liquid",
+        "description": "",
+        "strength": "2%, 15mL, 1 count"
+    },
+    {
+        "name": "Acetic Acid (Generic for VoSol)",
+        "category": "Anti-fungal",
+        "type": "Liquid",
+        "description": "",
+        "strength": "2%, 15mL, 1 count"
+    },
+    {
+        "name": "Acitretin (Generic for Soriatane)",
+        "category": "Anti-bacterial",
+        "type": "Capsule",
+        "description": "",
+        "strength": "25mg, 30 count"
+    },
+    {
+        "name": "Acitretin (Generic for Soriatane)",
+        "category": "Hair & Skin Health",
+        "type": "Capsule",
+        "description": "",
+        "strength": "25mg, 30 count"
+    },
+    {
+        "name": "Acyclovir (Generic for Zovirax)",
+        "category": "Anti-bacterial",
+        "type": "Liquid",
+        "description": "",
+        "strength": "5%, 30g, 1 count"
+    },
+    {
+        "name": "Acyclovir (Generic for Zovirax)",
+        "category": "Anti-viral",
+        "type": "Liquid",
+        "description": "",
+        "strength": "5%, 30g, 1 count"
+    },
+    {
+        "name": "Acyclovir (Generic for Zovirax)",
+        "category": "Infection",
+        "type": "Liquid",
+        "description": "",
+        "strength": "5%, 30g, 1 count"
+    },
+    {
+        "name": "Adapalene (Generic for Differin)",
+        "category": "Anti-bacterial",
+        "type": "Tablet",
+        "description": "",
+        "strength": "0.30%, 45g, 1 count"
+    },
+    {
+        "name": "Adapalene (Generic for Differin)",
+        "category": "Hair & Skin Health",
+        "type": "Tablet",
+        "description": "",
+        "strength": "0.30%, 45g, 1 count"
+    },
+    {
+        "name": "Adapalene-Benzoyl Peroxide (Generic for Epiduo Forte)",
+        "category": "Anti-bacterial",
+        "type": "Tablet",
+        "description": "",
+        "strength": "0.3-2.5%, 45g, 1 count"
+    },
+    {
+        "name": "Adapalene-Benzoyl Peroxide (Generic for Epiduo Forte)",
+        "category": "Hair & Skin Health",
+        "type": "Tablet",
+        "description": "",
+        "strength": "0.3-2.5%, 45g, 1 count"
+    },
+    {
+        "name": "Adapalene-Benzoyl Peroxide (Generic for Epiduo)",
+        "category": "Anti-bacterial",
+        "type": "Tablet",
+        "description": "",
+        "strength": "0.1-2.5%, 45g, 1 count"
+    },
+    {
+        "name": "Adapalene-Benzoyl Peroxide (Generic for Epiduo)",
+        "category": "Hair & Skin Health",
+        "type": "Tablet",
+        "description": "",
+        "strength": "0.1-2.5%, 45g, 1 count"
+    },
+    {
+        "name": "Adefovir Dipivoxil (Generic for Hepsera)",
+        "category": "Anti-bacterial",
+        "type": "Tablet",
+        "description": "",
+        "strength": "10mg, 30 count"
+    },
+    {
+        "name": "Adefovir Dipivoxil (Generic for Hepsera)",
+        "category": "Anti-viral",
+        "type": "Tablet",
+        "description": "",
+        "strength": "10mg, 30 count"
+    },
+    {
+        "name": "Advair Diskus (Fluticasone / Salmeterol)",
+        "category": "Anti-bacterial",
+        "type": "Tablet",
+        "description": "",
+        "strength": "500-50mcg, 60 Doses, 1 count"
+    },
+    {
+        "name": "Advair Diskus (Fluticasone / Salmeterol)",
+        "category": "Asthma/COPD",
+        "type": "Tablet",
+        "description": "",
+        "strength": "500-50mcg, 60 Doses, 1 count"
+    },
+    {
+        "name": "Albendazole (Generic for Albenza)",
+        "category": "Anti-bacterial",
+        "type": "Tablet",
+        "description": "",
+        "strength": "200mg, 30 count"
+    },
+    {
+        "name": "Albendazole (Generic for Albenza)",
+        "category": "Anti-Parasitic",
+        "type": "Tablet",
+        "description": "",
+        "strength": "200mg, 30 count"
+    },
+    {
+        "name": "Albendazole (Generic for Albenza)",
+        "category": "Infection",
+        "type": "Tablet",
+        "description": "",
+        "strength": "200mg, 30 count"
+    },
+    {
+        "name": "Albuterol HFA (Generic for Ventolin)",
+        "category": "Anti-bacterial",
+        "type": "Tablet",
+        "description": "",
+        "strength": "90mcg, 18g, 1 count"
+    },
+    {
+        "name": "Albuterol HFA (Generic for Ventolin)",
+        "category": "Asthma/COPD",
+        "type": "Tablet",
+        "description": "",
+        "strength": "90mcg, 18g, 1 count"
+    },
+    {
+        "name": "Albuterol Sulfate (Generic for AccuNeb)",
+        "category": "Anti-bacterial",
+        "type": "Liquid",
+        "description": "",
+        "strength": "1.25mg/3mL, 75mL, 1 count"
+    },
+    {
+        "name": "Albuterol Sulfate (Generic for AccuNeb)",
+        "category": "Asthma/COPD",
+        "type": "Liquid",
+        "description": "",
+        "strength": "1.25mg/3mL, 75mL, 1 count"
+    },
+    {
+        "name": "Albuterol Sulfate (Generic for Proventil)",
+        "category": "Anti-bacterial",
+        "type": "Liquid",
+        "description": "",
+        "strength": "4mg, 30 count"
+    },
+    {
+        "name": "Albuterol Sulfate (Generic for Proventil)",
+        "category": "Asthma/COPD",
+        "type": "Liquid",
+        "description": "",
+        "strength": "4mg, 30 count"
+    },
+    {
+        "name": "Alclometasone Dipropionate (Generic for Aclovate)",
+        "category": "Anti-bacterial",
+        "type": "Tablet",
+        "description": "",
+        "strength": "0.05%, 45mL, 1 count"
+    },
+    {
+        "name": "Alclometasone Dipropionate (Generic for Aclovate)",
+        "category": "Hair & Skin Health",
+        "type": "Tablet",
+        "description": "",
+        "strength": "0.05%, 45mL, 1 count"
+    },
+    {
+        "name": "Alendronate Sodium (Generic for Fosamax)",
+        "category": "Anti-bacterial",
+        "type": "Liquid",
+        "description": "",
+        "strength": "70mg/75mL, 75mL, 1 count"
+    },
+    {
+        "name": "Alendronate Sodium (Generic for Fosamax)",
+        "category": "Bone Health",
+        "type": "Liquid",
+        "description": "",
+        "strength": "70mg/75mL, 75mL, 1 count"
+    },
+    {
+        "name": "Alfuzosin HCl ER (Generic for Uroxatral)",
+        "category": "Prostate",
+        "type": "Tablet",
+        "description": "",
+        "strength": "10mg, 30 count"
+    },
+    {
+        "name": "Alfuzosin HCl ER (Generic for Uroxatral)",
+        "category": "Urinary Symptoms",
+        "type": "Tablet",
+        "description": "",
+        "strength": "10mg, 30 count"
+    },
+    {
+        "name": "Aliskiren Fumarate (Generic for Tekturna)",
+        "category": "High Blood Pressure",
+        "type": "Tablet",
+        "description": "",
+        "strength": "300mg, 30 count"
+    },
+    {
+        "name": "Allopurinol (Generic for Zyloprim)",
+        "category": "Gout",
+        "type": "Tablet",
+        "description": "",
+        "strength": "300mg, 30 count"
+    },
+    {
+        "name": "Almotriptan Malate (Generic for Axert)",
+        "category": "Migraines",
+        "type": "Tablet",
+        "description": "",
+        "strength": "6.25mg, 30 count"
+    },
+    {
+        "name": "Alosetron HCl (Generic for Lotronex)",
+        "category": "Gastrointestinal",
+        "type": "Tablet",
+        "description": "",
+        "strength": "1mg, 30 count"
+    },
+    {
+        "name": "Amantadine HCl (Generic for Symmetrel)",
+        "category": "Anti-viral",
+        "type": "Liquid",
+        "description": "",
+        "strength": "50mg/5mL, 473mL, 1 count"
+    },
+    {
+        "name": "Amiloride HCl (Generic for Midamor)",
+        "category": "Heart Failure",
+        "type": "Tablet",
+        "description": "",
+        "strength": "5mg, 30 count"
+    },
+    {
+        "name": "Amiloride HCl (Generic for Midamor)",
+        "category": "High Blood Pressure",
+        "type": "Tablet",
+        "description": "",
+        "strength": "5mg, 30 count"
+    },
+    {
+        "name": "Amiloride-Hydrochlorothiazide (Generic for Moduretic)",
+        "category": "Heart Failure",
+        "type": "Tablet",
+        "description": "",
+        "strength": "5-50mg, 30 count"
+    },
+    {
+        "name": "Amiloride-Hydrochlorothiazide (Generic for Moduretic)",
+        "category": "High Blood Pressure",
+        "type": "Tablet",
+        "description": "",
+        "strength": "5-50mg, 30 count"
+    },
+    {
+        "name": "Aminocaproic Acid (Generic for Amicar)",
+        "category": "Hemorrhage",
+        "type": "Liquid",
+        "description": "",
+        "strength": "500mg, 30 count"
+    },
+    {
+        "name": "Amiodarone HCl (Generic for Pacerone)",
+        "category": "Heart Health",
+        "type": "Tablet",
+        "description": "",
+        "strength": "400mg, 30 count"
+    },
+    {
+        "name": "Amitriptyline (Generic for Elavil)",
+        "category": "Mental Health",
+        "type": "Tablet",
+        "description": "",
+        "strength": "75mg, 30 count"
+    },
+    {
+        "name": "Amlodipine (Generic for Norvasc)",
+        "category": "Angina",
+        "type": "Tablet",
+        "description": "",
+        "strength": "5mg, 30 count"
+    },
+    {
+        "name": "Amlodipine (Generic for Norvasc)",
+        "category": "Heart Health",
+        "type": "Tablet",
+        "description": "",
+        "strength": "5mg, 30 count"
+    },
+    {
+        "name": "Amlodipine (Generic for Norvasc)",
+        "category": "High Blood Pressure",
+        "type": "Tablet",
+        "description": "",
+        "strength": "5mg, 30 count"
+    },
+    {
+        "name": "Amlodipine Besylate-Benazepril HCl (Generic for Lotrel)",
+        "category": "High Blood Pressure",
+        "type": "Capsule",
+        "description": "",
+        "strength": "5mg-20mg, 30 count"
+    },
+    {
+        "name": "Amlodipine Besylate-Valsartan (Generic for Exforge)",
+        "category": "High Blood Pressure",
+        "type": "Tablet",
+        "description": "",
+        "strength": "5-320mg, 30 count"
+    },
+    {
+        "name": "Amlodipine-Atorvastatin (Generic for Caduet)",
+        "category": "Angina",
+        "type": "Tablet",
+        "description": "",
+        "strength": "5-80mg, 30 count"
+    },
+    {
+        "name": "Amlodipine-Atorvastatin (Generic for Caduet)",
+        "category": "High Blood Pressure",
+        "type": "Tablet",
+        "description": "",
+        "strength": "5-80mg, 30 count"
+    },
+    {
+        "name": "Amlodipine-Atorvastatin (Generic for Caduet)",
+        "category": "High Cholesterol",
+        "type": "Tablet",
+        "description": "",
+        "strength": "5-80mg, 30 count"
+    },
+    {
+        "name": "Amlodipine-Olmesartan (Generic for Azor)",
+        "category": "High Blood Pressure",
+        "type": "Tablet",
+        "description": "",
+        "strength": "5-40mg, 30 count"
+    },
+    {
+        "name": "Amlodipine-Valsartan-HCTZ (Generic for Exforge HCT)",
+        "category": "High Blood Pressure",
+        "type": "Tablet",
+        "description": "",
+        "strength": "5-160-25mg, 30 count"
+    },
+    {
+        "name": "Ammonium Lactate (Generic for Lac-Hydrin)",
+        "category": "Hair & Skin Health",
+        "type": "Tablet",
+        "description": "",
+        "strength": "12%, 385g, 1 count"
+    },
+    {
+        "name": "Amoxapine (Generic for Asendin)",
+        "category": "Mental Health",
+        "type": "Tablet",
+        "description": "",
+        "strength": "50mg, 30 count"
+    },
+    {
+        "name": "Amoxicillin (Trihydrate) (Generic for Amoxil)",
+        "category": "Infection",
+        "type": "Tablet",
+        "description": "",
+        "strength": "500mg, 30 count"
+    },
+    {
+        "name": "Amoxicillin-Pot Clavulanate (Generic for Augmentin)",
+        "category": "Infection",
+        "type": "Tablet",
+        "description": "",
+        "strength": "200-28.5mg, 30 count"
+    },
+    {
+        "name": "Amoxicillin-Pot Clavulanate ER (Generic for Augmentin XR)",
+        "category": "Infection",
+        "type": "Tablet",
+        "description": "",
+        "strength": "1000-62.5mg, 30 count"
+    },
+    {
+        "name": "Ampicillin (Generic for Principen)",
+        "category": "Infection",
+        "type": "Capsule",
+        "description": "",
+        "strength": "500mg, 30 count"
+    },
+    {
+        "name": "Anagrelide HCl (Generic for Agrylin)",
+        "category": "Blood Thinner",
+        "type": "Capsule",
+        "description": "",
+        "strength": "1mg, 100 Capsules, 1 count"
+    },
+    {
+        "name": "Anastrozole (Generic for Arimidex)",
+        "category": "Breast Cancer",
+        "type": "Tablet",
+        "description": "",
+        "strength": "1mg, 30 count"
+    },
+    {
+        "name": "Anastrozole (Generic for Arimidex)",
+        "category": "Cancer",
+        "type": "Tablet",
+        "description": "",
+        "strength": "1mg, 30 count"
+    },
+    {
+        "name": "Apraclonidine HCl (Generic for Iopidine)",
+        "category": "Glaucoma",
+        "type": "Liquid",
+        "description": "",
+        "strength": "0.50%, 10mL, 1 count"
+    },
+    {
+        "name": "Aprepitant (Generic for Emend Tri-Pack)",
+        "category": "Nausea",
+        "type": "Capsule",
+        "description": "",
+        "strength": "80 & 125mg, 3 Capsules, 1 count"
+    },
+    {
+        "name": "Aprepitant (Generic for Emend)",
+        "category": "Nausea",
+        "type": "Capsule",
+        "description": "",
+        "strength": "80mg, 30 count"
+    },
+    {
+        "name": "Arformoterol Tartrate (Generic for Brovana)",
+        "category": "Asthma/COPD",
+        "type": "Liquid",
+        "description": "",
+        "strength": "15 mcg/2ml, 2 mL, 1 count"
+    },
+    {
+        "name": "Aripiprazole (Generic for Abilify Discmelt)",
+        "category": "Mental Health",
+        "type": "Tablet",
+        "description": "",
+        "strength": "15mg, 30 Tablets, 1 count"
+    },
+    {
+        "name": "Aripiprazole (Generic for Abilify)",
+        "category": "Mental Health",
+        "type": "Liquid",
+        "description": "",
+        "strength": "5mg, 30 count"
+    },
+    {
+        "name": "Asenapine Maleate (Generic for Saphris)",
+        "category": "Mental Health",
+        "type": "Tablet",
+        "description": "",
+        "strength": "5mg, 60 Tablets, 1 count"
+    },
+    {
+        "name": "Aspirin (Generic for Aspirin)",
+        "category": "Pain & Inflammation",
+        "type": "Tablet",
+        "description": "",
+        "strength": "81mg, 30 count"
+    },
+    {
+        "name": "Aspirin (Generic for Aspirin)",
+        "category": "Rheumatoid Arthritis",
+        "type": "Tablet",
+        "description": "",
+        "strength": "81mg, 30 count"
+    },
+    {
+        "name": "Aspirin Low Dose (Generic for Aspirin Low Dose)",
+        "category": "Pain & Inflammation",
+        "type": "Tablet",
+        "description": "",
+        "strength": "81mg, 30 count"
+    },
+    {
+        "name": "Aspirin Low Dose (Generic for Aspirin Low Dose)",
+        "category": "Rheumatoid Arthritis",
+        "type": "Tablet",
+        "description": "",
+        "strength": "81mg, 30 count"
+    },
+    {
+        "name": "Aspirin-Dipyridamole ER (Generic for Aggrenox)",
+        "category": "Stroke Prevention",
+        "type": "Capsule",
+        "description": "",
+        "strength": "25-200mg, 60 Capsules, 1 count"
+    },
+    {
+        "name": "Atazanavir Sulfate (Generic for Reyataz)",
+        "category": "HIV",
+        "type": "Capsule",
+        "description": "",
+        "strength": "300mg, 30 Capsules, 1 count"
+    },
+    {
+        "name": "Atenolol (Generic for Tenormin)",
+        "category": "Heart Health",
+        "type": "Tablet",
+        "description": "",
+        "strength": "50mg, 30 count"
+    },
+    {
+        "name": "Atenolol (Generic for Tenormin)",
+        "category": "High Blood Pressure",
+        "type": "Tablet",
+        "description": "",
+        "strength": "50mg, 30 count"
+    },
+    {
+        "name": "Atenolol-Chlorthalidone (Generic for Tenoretic)",
+        "category": "High Blood Pressure",
+        "type": "Tablet",
+        "description": "",
+        "strength": "100mg-25mg, 30 count"
+    },
+    {
+        "name": "Atomoxetine HCl (Generic for Strattera)",
+        "category": "Mental Health",
+        "type": "Capsule",
+        "description": "",
+        "strength": "80mg, 30 count"
+    },
+    {
+        "name": "Atorvastatin (Generic for Lipitor)",
+        "category": "Heart Health",
+        "type": "Tablet",
+        "description": "",
+        "strength": "80mg, 30 count"
+    },
+    {
+        "name": "Atorvastatin (Generic for Lipitor)",
+        "category": "High Cholesterol",
+        "type": "Tablet",
+        "description": "",
+        "strength": "80mg, 30 count"
+    },
+    {
+        "name": "Atovaquone (Generic for Mepron)",
+        "category": "Infection",
+        "type": "Liquid",
+        "description": "",
+        "strength": "750mg/5mL, 210mL, 1 count"
+    },
+    {
+        "name": "Atovaquone-Proguanil HCl (Generic for Malarone)",
+        "category": "Anti-Parasitic",
+        "type": "Tablet",
+        "description": "",
+        "strength": "62.5-25mg, 30 count"
+    },
+    {
+        "name": "Atropine Sulfate (Generic for Isopto Atropine)",
+        "category": "Eye Health",
+        "type": "Liquid",
+        "description": "",
+        "strength": "1%, 15mL, 1 count"
+    },
+    {
+        "name": "Azathioprine (Generic for Azasan)",
+        "category": "Organ Transplant",
+        "type": "Tablet",
+        "description": "",
+        "strength": "75mg, 30 count"
+    },
+    {
+        "name": "Azathioprine (Generic for Azasan)",
+        "category": "Rheumatoid Arthritis",
+        "type": "Tablet",
+        "description": "",
+        "strength": "75mg, 30 count"
+    },
+    {
+        "name": "Azathioprine (Generic for Imuran)",
+        "category": "Organ Transplant",
+        "type": "Tablet",
+        "description": "",
+        "strength": "50mg, 30 count"
+    },
+    {
+        "name": "Azelaic Acid (Generic for Finacea)",
+        "category": "Hair & Skin Health",
+        "type": "Tablet",
+        "description": "",
+        "strength": "15%, 50g, 1 count"
+    },
+    {
+        "name": "Azelastine HCl (Generic for Astelin)",
+        "category": "Allergies",
+        "type": "Liquid",
+        "description": "",
+        "strength": "0.10%, 30mL, 1 count"
+    },
+    {
+        "name": "Azelastine HCl (Generic for Optivar)",
+        "category": "Allergies",
+        "type": "Liquid",
+        "description": "",
+        "strength": "0.05%, 6mL, 1 count"
+    },
+    {
+        "name": "Azelastine-Fluticasone (Generic for Dymista)",
+        "category": "Allergies",
+        "type": "Liquid",
+        "description": "",
+        "strength": "137-50mcg/Act, 23g, 1 count"
+    },
+    {
+        "name": "Azelastine-Fluticasone (Generic for Dymista)",
+        "category": "Steroid",
+        "type": "Liquid",
+        "description": "",
+        "strength": "137-50mcg/Act, 23g, 1 count"
+    },
+    {
+        "name": "Azithromycin (Generic for Zithromax)",
+        "category": "Infection",
+        "type": "Tablet",
+        "description": "",
+        "strength": "600mg, 30 count"
+    },
+    {
+        "name": "B-Complex W/C & Folic Acid (Generic for WesCaps)",
+        "category": "Vitamin Deficiency",
+        "type": "Capsule",
+        "description": "",
+        "strength": "1mg, 30 count"
+    },
+    {
+        "name": "Bacitra-Neomycin-Polymyxin-HC (Generic for Neo-Polycin HC)",
+        "category": "Eye Health",
+        "type": "Tablet",
+        "description": "",
+        "strength": "1%, 3.5g, 1 count"
+    },
+    {
+        "name": "Bacitracin (Generic for Baciguent)",
+        "category": "Eye Health",
+        "type": "Tablet",
+        "description": "",
+        "strength": "500 unit/g, 28g, 1 count"
+    },
+    {
+        "name": "Bacitracin (Generic for Baciguent)",
+        "category": "Infection",
+        "type": "Tablet",
+        "description": "",
+        "strength": "500 unit/g, 28g, 1 count"
+    },
+    {
+        "name": "Bacitracin-Polymyxin B (Generic for Polycin)",
+        "category": "Eye Health",
+        "type": "Tablet",
+        "description": "",
+        "strength": "500-10000 Unit/gm, 3.5g, 1 count"
+    },
+    {
+        "name": "Bacitracin-Polymyxin B (Generic for Polycin)",
+        "category": "Infection",
+        "type": "Tablet",
+        "description": "",
+        "strength": "500-10000 Unit/gm, 3.5g, 1 count"
+    },
+    {
+        "name": "Baclofen (Generic for Lioresal)",
+        "category": "Muscle Relaxants",
+        "type": "Tablet",
+        "description": "",
+        "strength": "5mg, 30 count"
+    },
+    {
+        "name": "Balsalazide Disodium (Generic for Colazal)",
+        "category": "Anti-Inflammation",
+        "type": "Capsule",
+        "description": "",
+        "strength": "750mg, 30 count"
+    },
+    {
+        "name": "Balsalazide Disodium (Generic for Colazal)",
+        "category": "Gastrointestinal",
+        "type": "Capsule",
+        "description": "",
+        "strength": "750mg, 30 count"
+    },
+    {
+        "name": "Benazepril HCl (Generic for Lotensin)",
+        "category": "High Blood Pressure",
+        "type": "Tablet",
+        "description": "",
+        "strength": "5mg, 30 count"
+    },
+    {
+        "name": "Benazepril-Hydrochlorothiazide (Generic for Lotensin HCT)",
+        "category": "High Blood Pressure",
+        "type": "Tablet",
+        "description": "",
+        "strength": "5-6.25mg, 30 count"
+    },
+    {
+        "name": "Benzonatate (Generic for Tessalon)",
+        "category": "Cough",
+        "type": "Capsule",
+        "description": "",
+        "strength": "200mg, 30 count"
+    },
+    {
+        "name": "Benztropine Mesylate (Generic for Cogentin)",
+        "category": "Neurological",
+        "type": "Tablet",
+        "description": "",
+        "strength": "2mg, 30 count"
+    },
+    {
+        "name": "Bepotastine Besilate (Generic for Bepreve)",
+        "category": "Allergies",
+        "type": "Liquid",
+        "description": "",
+        "strength": "1.50%, 10mL, 1 count"
+    },
+    {
+        "name": "Bepotastine Besilate (Generic for Bepreve)",
+        "category": "Hair & Skin Health",
+        "type": "Liquid",
+        "description": "",
+        "strength": "1.50%, 10mL, 1 count"
+    },
+    {
+        "name": "Betamethasone Dipropionate (Generic for Alphatrex)",
+        "category": "Hair & Skin Health",
+        "type": "Tablet",
+        "description": "",
+        "strength": "0.05%, 45g, 1 count"
+    },
+    {
+        "name": "Betamethasone Dipropionate Augmented (Generic for Diprolene)",
+        "category": "Hair & Skin Health",
+        "type": "Tablet",
+        "description": "",
+        "strength": "0.05%, 15g, 1 count"
+    },
+    {
+        "name": "Betamethasone Valerate (Generic for Beta-Val)",
+        "category": "Hair & Skin Health",
+        "type": "Tablet",
+        "description": "",
+        "strength": "0.10%, 15g, 1 count"
+    },
+    {
+        "name": "Betamethasone Valerate (Generic for Betatrex)",
+        "category": "Hair & Skin Health",
+        "type": "Tablet",
+        "description": "",
+        "strength": "0.10%, 15g, 1 count"
+    },
+    {
+        "name": "Betamethasone Valerate (Generic for Luxiq)",
+        "category": "Hair & Skin Health",
+        "type": "Tablet",
+        "description": "",
+        "strength": "0.12%, 50g, 1 count"
+    },
+    {
+        "name": "Betaxolol HCl (Generic for Betoptic)",
+        "category": "Eye Health",
+        "type": "Liquid",
+        "description": "",
+        "strength": "0.50%, 5mL, 1 count"
+    },
+    {
+        "name": "Betaxolol HCl (Generic for Betoptic)",
+        "category": "Glaucoma",
+        "type": "Liquid",
+        "description": "",
+        "strength": "0.50%, 5mL, 1 count"
+    },
+    {
+        "name": "Betaxolol HCl (Generic for Kerlone)",
+        "category": "High Blood Pressure",
+        "type": "Tablet",
+        "description": "",
+        "strength": "20mg, 30 count"
+    },
+    {
+        "name": "Bethanechol Chloride (Generic for Urecholine)",
+        "category": "Urinary Symptoms",
+        "type": "Tablet",
+        "description": "",
+        "strength": "5mg, 30 count"
+    },
+    {
+        "name": "Bicalutamide (Generic for Casodex)",
+        "category": "Prostate",
+        "type": "Tablet",
+        "description": "",
+        "strength": "50mg, 30 count"
+    },
+    {
+        "name": "Bimatoprost (Generic for Latisse)",
+        "category": "Eye Health",
+        "type": "Liquid",
+        "description": "",
+        "strength": "0.03%, 5mL, 1 count"
+    },
+    {
+        "name": "Bimatoprost (Generic for Latisse)",
+        "category": "Glaucoma",
+        "type": "Liquid",
+        "description": "",
+        "strength": "0.03%, 5mL, 1 count"
+    },
+    {
+        "name": "Bimatoprost (Generic for Lumigan)",
+        "category": "Eye Health",
+        "type": "Liquid",
+        "description": "",
+        "strength": "0.03%, 2.5mL, 1 count"
+    },
+    {
+        "name": "Bimatoprost (Generic for Lumigan)",
+        "category": "Glaucoma",
+        "type": "Liquid",
+        "description": "",
+        "strength": "0.03%, 2.5mL, 1 count"
+    },
+    {
+        "name": "Bismuth Subcitrate Potassium/Metronidaz/Tetracyclin (Generic for Pylera)",
+        "category": "Gastrointestinal",
+        "type": "Tablet",
+        "description": "",
+        "strength": "140/125/125mg, 30 count"
+    },
+    {
+        "name": "Bisoprolol Fumarate (Generic for Zebeta)",
+        "category": "Heart Health",
+        "type": "Tablet",
+        "description": "",
+        "strength": "5mg, 30 count"
+    },
+    {
+        "name": "Bisoprolol Fumarate (Generic for Zebeta)",
+        "category": "High Blood Pressure",
+        "type": "Tablet",
+        "description": "",
+        "strength": "5mg, 30 count"
+    },
+    {
+        "name": "Bisoprolol-Hydrochlorothiazide (Generic for Ziac)",
+        "category": "Heart Health",
+        "type": "Tablet",
+        "description": "",
+        "strength": "5mg-6.25mg, 30 count"
+    },
+    {
+        "name": "Bisoprolol-Hydrochlorothiazide (Generic for Ziac)",
+        "category": "High Blood Pressure",
+        "type": "Tablet",
+        "description": "",
+        "strength": "5mg-6.25mg, 30 count"
+    },
+    {
+        "name": "Boric Acid (Generic for Mirvaso)",
+        "category": "Hair & Skin Health",
+        "type": "Tablet",
+        "description": "",
+        "strength": "10%, 30g, 1 count"
+    },
+    {
+        "name": "Brenzavvy (Bexagliflozin)",
+        "category": "Diabetes",
+        "type": "Tablet",
+        "description": "",
+        "strength": "20mg, 30 Tablets, 1 count"
+    },
+    {
+        "name": "Brimonidine Tartrate (Generic for Alphagan P)",
+        "category": "Eye Health",
+        "type": "Liquid",
+        "description": "",
+        "strength": "0.15%, 5mL, 1 count"
+    },
+    {
+        "name": "Brimonidine Tartrate (Generic for Alphagan P)",
+        "category": "Glaucoma",
+        "type": "Liquid",
+        "description": "",
+        "strength": "0.15%, 5mL, 1 count"
+    },
+    {
+        "name": "Brimonidine Tartrate (Generic for Alphagan)",
+        "category": "Glaucoma",
+        "type": "Liquid",
+        "description": "",
+        "strength": "0.20%, 15mL, 1 count"
+    },
+    {
+        "name": "Brimonidine Tartrate-Timolol (Generic for Combigan)",
+        "category": "Glaucoma",
+        "type": "Liquid",
+        "description": "",
+        "strength": "0.2%-0.5%, 15mL, 1 count"
+    },
+    {
+        "name": "Brinzolamide (Generic for Azopt)",
+        "category": "Eye Health",
+        "type": "Liquid",
+        "description": "",
+        "strength": "1%, 15mL, 1 count"
+    },
+    {
+        "name": "Brinzolamide (Generic for Azopt)",
+        "category": "Glaucoma",
+        "type": "Liquid",
+        "description": "",
+        "strength": "1%, 15mL, 1 count"
+    },
+    {
+        "name": "Bromfenac Sodium (Once-Daily) (Generic for Bromday)",
+        "category": "Anti-Inflammation",
+        "type": "Liquid",
+        "description": "",
+        "strength": "0.09%, 1.7mL, 1 count"
+    },
+    {
+        "name": "Bromfenac Sodium (Once-Daily) (Generic for Bromday)",
+        "category": "Eye Health",
+        "type": "Liquid",
+        "description": "",
+        "strength": "0.09%, 1.7mL, 1 count"
+    },
+    {
+        "name": "Budesonide (Generic for Pulmicort Respules)",
+        "category": "Asthma/COPD",
+        "type": "Tablet",
+        "description": "",
+        "strength": "0.5mg / 2mL, 60mL (30 x 2mL), 1 count"
+    },
+    {
+        "name": "Budesonide (Generic for Pulmicort)",
+        "category": "Asthma/COPD",
+        "type": "Tablet",
+        "description": "",
+        "strength": "1mg/2mL, 30 Ampules, 1 count"
+    },
+    {
+        "name": "Budesonide (Generic for Uceris)",
+        "category": "Gastrointestinal",
+        "type": "Tablet",
+        "description": "",
+        "strength": "9mg, 30 count"
+    },
+    {
+        "name": "Budesonide DR (Generic for Entocort EC)",
+        "category": "Gastrointestinal",
+        "type": "Capsule",
+        "description": "",
+        "strength": "3mg, 30 count"
+    },
+    {
+        "name": "Budesonide-Formoterol Fumarate (Generic for Symbicort)",
+        "category": "Asthma/COPD",
+        "type": "Tablet",
+        "description": "",
+        "strength": "80-4.5mcg/Act, 10.2g Inhaler, 1 count"
+    },
+    {
+        "name": "Bumetanide (Generic for Bumex)",
+        "category": "Heart Health",
+        "type": "Tablet",
+        "description": "",
+        "strength": "2mg, 30 count"
+    },
+    {
+        "name": "Bumetanide (Generic for Bumex)",
+        "category": "High Blood Pressure",
+        "type": "Tablet",
+        "description": "",
+        "strength": "2mg, 30 count"
+    },
+    {
+        "name": "Bupropion HCl (Generic for Wellbutrin)",
+        "category": "Mental Health",
+        "type": "Tablet",
+        "description": "",
+        "strength": "75mg, 30 count"
+    },
+    {
+        "name": "Bupropion HCl ER (Generic for Zyban)",
+        "category": "Smoking Cessation",
+        "type": "Tablet",
+        "description": "",
+        "strength": "150mg, 30 count"
+    },
+    {
+        "name": "Bupropion SR (Generic for Wellbutrin SR)",
+        "category": "Mental Health",
+        "type": "Tablet",
+        "description": "",
+        "strength": "200mg, 30 count"
+    },
+    {
+        "name": "Bupropion SR (Generic for Wellbutrin SR)",
+        "category": "Smoking Cessation",
+        "type": "Tablet",
+        "description": "",
+        "strength": "200mg, 30 count"
+    },
+    {
+        "name": "Bupropion XL (Generic for Wellbutrin XL)",
+        "category": "Mental Health",
+        "type": "Tablet",
+        "description": "",
+        "strength": "300mg, 30 count"
+    },
+    {
+        "name": "Buspirone HCl (Generic for Buspar)",
+        "category": "Mental Health",
+        "type": "Tablet",
+        "description": "",
+        "strength": "7.5mg, 30 count"
+    },
+    {
+        "name": "Cabergoline (Generic for Dostinex)",
+        "category": "Fertility",
+        "type": "Tablet",
+        "description": "",
+        "strength": "0.5mg, 8 Tablets, 1 count"
+    },
+    {
+        "name": "Calcipotriene (Generic for Dovonex)",
+        "category": "Hair & Skin Health",
+        "type": "Liquid",
+        "description": "",
+        "strength": "0.005%, 60g, 1 count"
+    },
+    {
+        "name": "Calcipotriene-Betameth Diprop (Generic for Taclonex)",
+        "category": "Hair & Skin Health",
+        "type": "Liquid",
+        "description": "",
+        "strength": "0.005-0.064%, 60g, 1 count"
+    },
+    {
+        "name": "Calcitonin (Salmon) (Generic for Miacalcin)",
+        "category": "Bone Health",
+        "type": "Liquid",
+        "description": "",
+        "strength": "200 Unit/Act, 3.7mL, 1 count"
+    },
+    {
+        "name": "Calcitriol (Generic for Rocaltrol)",
+        "category": "Vitamin Deficiency",
+        "type": "Liquid",
+        "description": "",
+        "strength": "1mcg/mL, 15mL, 1 count"
+    },
+    {
+        "name": "Calcium Acetate (Generic for PhosLo)",
+        "category": "Organ Transplant",
+        "type": "Capsule",
+        "description": "",
+        "strength": "667mg, 30 count"
+    },
+    {
+        "name": "Calcium Acetate (Phos Binder) (Generic for Calphron)",
+        "category": "Kidney Disease",
+        "type": "Tablet",
+        "description": "",
+        "strength": "667mg, 30 count"
+    },
+    {
+        "name": "Candesartan Cilexetil (Generic for Atacand)",
+        "category": "Heart Failure",
+        "type": "Tablet",
+        "description": "",
+        "strength": "8mg, 30 count"
+    },
+    {
+        "name": "Candesartan Cilexetil (Generic for Atacand)",
+        "category": "High Blood Pressure",
+        "type": "Tablet",
+        "description": "",
+        "strength": "8mg, 30 count"
+    },
+    {
+        "name": "Candesartan Cilexetil-HCTZ (Generic for Atacand HCT)",
+        "category": "High Blood Pressure",
+        "type": "Tablet",
+        "description": "",
+        "strength": "32-25mg, 30 count"
+    },
+    {
+        "name": "Captopril (Generic for Capoten)",
+        "category": "Heart Failure",
+        "type": "Tablet",
+        "description": "",
+        "strength": "50mg, 30 count"
+    },
+    {
+        "name": "Captopril (Generic for Capoten)",
+        "category": "High Blood Pressure",
+        "type": "Tablet",
+        "description": "",
+        "strength": "50mg, 30 count"
+    },
+    {
+        "name": "Captopril-Hydrochlorothiazide (Generic for Capozide)",
+        "category": "High Blood Pressure",
+        "type": "Tablet",
+        "description": "",
+        "strength": "50-25mg, 30 count"
+    },
+    {
+        "name": "Carbamazepine (Generic for Epitol)",
+        "category": "Mental Health",
+        "type": "Tablet",
+        "description": "",
+        "strength": "200mg, 30 count"
+    },
+    {
+        "name": "Carbamazepine (Generic for Epitol)",
+        "category": "Pain & Inflammation",
+        "type": "Tablet",
+        "description": "",
+        "strength": "200mg, 30 count"
+    },
+    {
+        "name": "Carbamazepine (Generic for Epitol)",
+        "category": "Seizures",
+        "type": "Tablet",
+        "description": "",
+        "strength": "200mg, 30 count"
+    },
+    {
+        "name": "Carbamazepine (Generic for Tegretol)",
+        "category": "Mental Health",
+        "type": "Liquid",
+        "description": "",
+        "strength": "100mg/5mL, 450mL, 1 count"
+    },
+    {
+        "name": "Carbamazepine (Generic for Tegretol)",
+        "category": "Pain & Inflammation",
+        "type": "Liquid",
+        "description": "",
+        "strength": "100mg/5mL, 450mL, 1 count"
+    },
+    {
+        "name": "Carbamazepine (Generic for Tegretol)",
+        "category": "Seizures",
+        "type": "Liquid",
+        "description": "",
+        "strength": "100mg/5mL, 450mL, 1 count"
+    },
+    {
+        "name": "Carbamazepine ER (Generic for Carbatrol)",
+        "category": "Seizures",
+        "type": "Capsule",
+        "description": "",
+        "strength": "300mg, 30 count"
+    },
+    {
+        "name": "Carbamazepine ER (Generic for Tegretol-XR)",
+        "category": "Seizures",
+        "type": "Tablet",
+        "description": "",
+        "strength": "400mg, 30 count"
+    },
+    {
+        "name": "Carbinoxamine Maleate (Generic for Arbinoxa)",
+        "category": "Allergies",
+        "type": "Tablet",
+        "description": "",
+        "strength": "4mg, 30 count"
+    },
+    {
+        "name": "Carbinoxamine Maleate (Generic for Arbinoxa)",
+        "category": "Hair & Skin Health",
+        "type": "Tablet",
+        "description": "",
+        "strength": "4mg, 30 count"
+    },
+    {
+        "name": "CaroSpir (Spironolactone)",
+        "category": "Heart Failure",
+        "type": "Liquid",
+        "description": "",
+        "strength": "25mg/5mL, 118mL, 1 count"
+    },
+    {
+        "name": "CaroSpir (Spironolactone)",
+        "category": "High Blood Pressure",
+        "type": "Liquid",
+        "description": "",
+        "strength": "25mg/5mL, 118mL, 1 count"
+    },
+    {
+        "name": "CaroSpir (Spironolactone)",
+        "category": "Kidney Disease",
+        "type": "Liquid",
+        "description": "",
+        "strength": "25mg/5mL, 118mL, 1 count"
+    },
+    {
+        "name": "Carteolol HCl (Generic for Ocupress)",
+        "category": "Eye Health",
+        "type": "Liquid",
+        "description": "",
+        "strength": "1%, 5mL, 1 count"
+    },
+    {
+        "name": "Carteolol HCl (Generic for Ocupress)",
+        "category": "Glaucoma",
+        "type": "Liquid",
+        "description": "",
+        "strength": "1%, 5mL, 1 count"
+    },
+    {
+        "name": "Carvedilol (Generic for Coreg)",
+        "category": "Heart Health",
+        "type": "Tablet",
+        "description": "",
+        "strength": "6.25mg, 30 count"
+    },
+    {
+        "name": "Carvedilol (Generic for Coreg)",
+        "category": "High Blood Pressure",
+        "type": "Tablet",
+        "description": "",
+        "strength": "6.25mg, 30 count"
+    },
+    {
+        "name": "Carvedilol Phosphate ER (Generic for Coreg CR)",
+        "category": "Heart Health",
+        "type": "Capsule",
+        "description": "",
+        "strength": "80mg, 30 count"
+    },
+    {
+        "name": "Carvedilol Phosphate ER (Generic for Coreg CR)",
+        "category": "High Blood Pressure",
+        "type": "Capsule",
+        "description": "",
+        "strength": "80mg, 30 count"
+    },
+    {
+        "name": "Cefaclor (Generic for Ceclor)",
+        "category": "Infection",
+        "type": "Capsule",
+        "description": "",
+        "strength": "500mg, 30 count"
+    },
+    {
+        "name": "Cefaclor ER (Generic for Ceclor CD)",
+        "category": "Infection",
+        "type": "Tablet",
+        "description": "",
+        "strength": "500mg, 30 count"
+    },
+    {
+        "name": "Cefadroxil (Generic for Duricef)",
+        "category": "Infection",
+        "type": "Tablet",
+        "description": "",
+        "strength": "500mg, 30 count"
+    },
+    {
+        "name": "Cefdinir (Generic for Omnicef)",
+        "category": "Infection",
+        "type": "Capsule",
+        "description": "",
+        "strength": "300mg, 30 count"
+    },
+    {
+        "name": "Cefixime (Generic for Suprax)",
+        "category": "Infection",
+        "type": "Capsule",
+        "description": "",
+        "strength": "400mg, 30 count"
+    },
+    {
+        "name": "Cefpodoxime Proxetil (Generic for Vantin)",
+        "category": "Infection",
+        "type": "Tablet",
+        "description": "",
+        "strength": "200mg, 30 count"
+    },
+    {
+        "name": "Cefprozil (Generic for Cefzil)",
+        "category": "Infection",
+        "type": "Tablet",
+        "description": "",
+        "strength": "500mg, 30 count"
+    },
+    {
+        "name": "Cefuroxime Axetil (Generic for Ceftin)",
+        "category": "Infection",
+        "type": "Tablet",
+        "description": "",
+        "strength": "500mg, 30 count"
+    },
+    {
+        "name": "Celecoxib (Generic for Celebrex)",
+        "category": "Pain & Inflammation",
+        "type": "Capsule",
+        "description": "",
+        "strength": "50mg, 30 count"
+    },
+    {
+        "name": "Cephalexin (Generic for Keflex)",
+        "category": "Infection",
+        "type": "Capsule",
+        "description": "",
+        "strength": "125mg/5mL, 30 count"
+    },
+    {
+        "name": "Cephalexin (Generic for Keftab)",
+        "category": "Infection",
+        "type": "Tablet",
+        "description": "",
+        "strength": "250mg, 30 count"
+    },
+    {
+        "name": "Cetirizine HCl (Generic for Zyrtec)",
+        "category": "Allergies",
+        "type": "Liquid",
+        "description": "",
+        "strength": "5mg, 30 count"
+    },
+    {
+        "name": "Cevimeline HCl (Generic for Evoxac)",
+        "category": "Oral Health",
+        "type": "Capsule",
+        "description": "",
+        "strength": "30mg, 100 Capsules, 1 count"
+    },
+    {
+        "name": "Chlorhexidine Gluconate (Generic for Peridex)",
+        "category": "Dental Care",
+        "type": "Liquid",
+        "description": "",
+        "strength": "0.12%, 473mL, 1 count"
+    },
+    {
+        "name": "Chlorhexidine Gluconate (Generic for Peridex)",
+        "category": "Oral Health",
+        "type": "Liquid",
+        "description": "",
+        "strength": "0.12%, 473mL, 1 count"
+    },
+    {
+        "name": "Chloroquine Phosphate (Generic for Aralen)",
+        "category": "Antimalarial",
+        "type": "Tablet",
+        "description": "",
+        "strength": "500mg, 30 count"
+    },
+    {
+        "name": "Chlorpromazine HCl (Generic for Thorazine)",
+        "category": "Mental Health",
+        "type": "Tablet",
+        "description": "",
+        "strength": "50mg, 30 count"
+    },
+    {
+        "name": "Chlorpromazine HCl (Generic for Thorazine)",
+        "category": "Nausea",
+        "type": "Tablet",
+        "description": "",
+        "strength": "50mg, 30 count"
+    },
+    {
+        "name": "Chlorthalidone (Generic for Hygroton)",
+        "category": "Heart Health",
+        "type": "Tablet",
+        "description": "",
+        "strength": "50mg, 30 count"
+    },
+    {
+        "name": "Chlorzoxazone (Generic for Lorzone)",
+        "category": "Musculoskeletal",
+        "type": "Tablet",
+        "description": "",
+        "strength": "750mg, 30 count"
+    },
+    {
+        "name": "Chlorzoxazone (Generic for Parafon Forte DSC)",
+        "category": "Musculoskeletal",
+        "type": "Tablet",
+        "description": "",
+        "strength": "500mg, 30 count"
+    },
+    {
+        "name": "Cholestyramine (Generic for Questran)",
+        "category": "High Cholesterol",
+        "type": "Tablet",
+        "description": "",
+        "strength": "4gm/Dose, 378g, 1 count"
+    },
+    {
+        "name": "Cholestyramine Light (Generic for Prevalite)",
+        "category": "High Cholesterol",
+        "type": "Tablet",
+        "description": "",
+        "strength": "4gm/Dose, 239.4g, 1 count"
+    },
+    {
+        "name": "Choline Fenofibrate (Generic for Trilipix)",
+        "category": "High Cholesterol",
+        "type": "Capsule",
+        "description": "",
+        "strength": "45mg, 30 count"
+    },
+    {
+        "name": "Ciclopirox (Generic for Loprox)",
+        "category": "Anti-fungal",
+        "type": "Liquid",
+        "description": "",
+        "strength": "0.77%, 90g, 1 count"
+    },
+    {
+        "name": "Ciclopirox (Generic for Penlac)",
+        "category": "Infection",
+        "type": "Liquid",
+        "description": "",
+        "strength": "8%, 6.6mL, 1 count"
+    },
+    {
+        "name": "Cilostazol (Generic for Pletal)",
+        "category": "Heart Health",
+        "type": "Tablet",
+        "description": "",
+        "strength": "50mg, 30 count"
+    },
+    {
+        "name": "Cimetidine (Generic for Tagamet)",
+        "category": "Gastrointestinal",
+        "type": "Tablet",
+        "description": "",
+        "strength": "800mg, 30 count"
+    },
+    {
+        "name": "Cinacalcet HCl (Generic for Sensipar)",
+        "category": "Kidney Disease",
+        "type": "Tablet",
+        "description": "",
+        "strength": "90mg, 30 count"
+    },
+    {
+        "name": "Ciprofloxacin (Generic for Cipro)",
+        "category": "Infection",
+        "type": "Tablet",
+        "description": "",
+        "strength": "750mg, 30 count"
+    },
+    {
+        "name": "Ciprofloxacin HCl (Generic for Ciloxan)",
+        "category": "Infection",
+        "type": "Liquid",
+        "description": "",
+        "strength": "0.30%, 10mL, 1 count"
+    },
+    {
+        "name": "Ciprofloxacin-Dexamethasone (Generic for Ciprodex)",
+        "category": "Infection",
+        "type": "Tablet",
+        "description": "",
+        "strength": "0.3-0.1%, 7.5mL, 1 count"
+    },
+    {
+        "name": "Citalopram Hydrobromide (Generic for Celexa)",
+        "category": "Mental Health",
+        "type": "Liquid",
+        "description": "",
+        "strength": "40mg, 30 count"
+    },
+    {
+        "name": "Clarithromycin (Generic for Biaxin)",
+        "category": "Infection",
+        "type": "Tablet",
+        "description": "",
+        "strength": "500mg, 30 count"
+    },
+    {
+        "name": "Clemastine Fumarate (Generic for Tavist)",
+        "category": "Allergies",
+        "type": "Tablet",
+        "description": "",
+        "strength": "2.68mg, 30 count"
+    },
+    {
+        "name": "Clemastine Fumarate (Generic for Tavist)",
+        "category": "Hair & Skin Health",
+        "type": "Tablet",
+        "description": "",
+        "strength": "2.68mg, 30 count"
+    },
+    {
+        "name": "Clindamycin Phos-Benzoyl Perox (Generic for Acanya)",
+        "category": "Hair & Skin Health",
+        "type": "Tablet",
+        "description": "",
+        "strength": "1.2-2.5%, 50g, 1 count"
+    },
+    {
+        "name": "Clindamycin Phosphate (Generic for Cleocin-T)",
+        "category": "Hair & Skin Health",
+        "type": "Liquid",
+        "description": "",
+        "strength": "1%, 60mL, 1 count"
+    },
+    {
+        "name": "Clindamycin Phosphate (Generic for Evoclin)",
+        "category": "Hair & Skin Health",
+        "type": "Tablet",
+        "description": "",
+        "strength": "1%, 50g, 1 count"
+    },
+    {
+        "name": "Clindamycin Phosphate Benzoyl Peroxide (Generic for BenzaClin)",
+        "category": "Hair & Skin Health",
+        "type": "Tablet",
+        "description": "",
+        "strength": "1%/5%, 50gm, 1 count"
+    },
+    {
+        "name": "Clindamycin Phosphate Benzoyl Peroxide (Generic for Duac)",
+        "category": "Hair & Skin Health",
+        "type": "Tablet",
+        "description": "",
+        "strength": "1.2%/5%, 45gm, 1 count"
+    },
+    {
+        "name": "Clindamycin-Tretinoin (Generic for Ziana)",
+        "category": "Hair & Skin Health",
+        "type": "Tablet",
+        "description": "",
+        "strength": "1.2-0.025%, 30g, 1 count"
+    },
+    {
+        "name": "Clobetasol Propionate (Generic for Olux)",
+        "category": "Hair & Skin Health",
+        "type": "Tablet",
+        "description": "",
+        "strength": "0.05%, 50g, 1 count"
+    },
+    {
+        "name": "Clomid (Clomiphene Citrate)",
+        "category": "Fertility",
+        "type": "Tablet",
+        "description": "",
+        "strength": "50mg, 30 tablets, 1 count"
+    },
+    {
+        "name": "Clomipramine HCl (Generic for Anafranil)",
+        "category": "Mental Health",
+        "type": "Capsule",
+        "description": "",
+        "strength": "75mg, 30 count"
+    },
+    {
+        "name": "Clonidine (Generic for Catapres)",
+        "category": "Heart Health",
+        "type": "Tablet",
+        "description": "",
+        "strength": "0.3mg, 30 count"
+    },
+    {
+        "name": "Clonidine (Generic for Catapres)",
+        "category": "Mental Health",
+        "type": "Tablet",
+        "description": "",
+        "strength": "0.3mg, 30 count"
+    },
+    {
+        "name": "Clonidine Extended Release (ER) (Generic for Kapvay)",
+        "category": "Heart Health",
+        "type": "Tablet",
+        "description": "",
+        "strength": "0.1mg, 30 count"
+    },
+    {
+        "name": "Clopidogrel (Generic for Plavix)",
+        "category": "Blood Thinner",
+        "type": "Tablet",
+        "description": "",
+        "strength": "300mg, 30 count"
+    },
+    {
+        "name": "Clopidogrel (Generic for Plavix)",
+        "category": "Heart Health",
+        "type": "Tablet",
+        "description": "",
+        "strength": "300mg, 30 count"
+    },
+    {
+        "name": "Clotrimazole (Generic for Mycelex)",
+        "category": "Anti-fungal",
+        "type": "Liquid",
+        "description": "",
+        "strength": "10mg, 30 count"
+    },
+    {
+        "name": "Colchicine (Generic for Colcrys)",
+        "category": "Gout",
+        "type": "Tablet",
+        "description": "",
+        "strength": "0.6mg, 30 count"
+    },
+    {
+        "name": "Colchicine-Probenecid (Generic for ColBenemid)",
+        "category": "Gout",
+        "type": "Tablet",
+        "description": "",
+        "strength": "0.5-500mg, 30 count"
+    },
+    {
+        "name": "Colesevelam HCl (Generic for Welchol)",
+        "category": "Diabetes",
+        "type": "Tablet",
+        "description": "",
+        "strength": "625mg, 30 count"
+    },
+    {
+        "name": "Colesevelam HCl (Generic for Welchol)",
+        "category": "Heart Health",
+        "type": "Tablet",
+        "description": "",
+        "strength": "625mg, 30 count"
+    },
+    {
+        "name": "Colesevelam HCl (Generic for Welchol)",
+        "category": "High Cholesterol",
+        "type": "Tablet",
+        "description": "",
+        "strength": "625mg, 30 count"
+    },
+    {
+        "name": "Colestipol HCl (Generic for Colestid)",
+        "category": "High Cholesterol",
+        "type": "Tablet",
+        "description": "",
+        "strength": "5gm, 500g, 1 count"
+    },
+    {
+        "name": "Cromolyn Sodium (Generic for Intal)",
+        "category": "Asthma/COPD",
+        "type": "Liquid",
+        "description": "",
+        "strength": "20mg/2mL, 120mL (60 x 2mL Vials), 1 count"
+    },
+    {
+        "name": "Cromolyn Sodium (Generic for Opticrom)",
+        "category": "Allergies",
+        "type": "Liquid",
+        "description": "",
+        "strength": "4%, 10mL, 1 count"
+    },
+    {
+        "name": "Cyclobenzaprine (Generic for Flexeril)",
+        "category": "Muscle Relaxants",
+        "type": "Tablet",
+        "description": "",
+        "strength": "7.5mg, 30 count"
+    },
+    {
+        "name": "Cyclobenzaprine Extended Release (ER) (Generic for Amrix)",
+        "category": "Muscle Relaxants",
+        "type": "Capsule",
+        "description": "",
+        "strength": "30mg, 30 count"
+    },
+    {
+        "name": "Cyclopentolate HCl (Generic for Cyclogyl)",
+        "category": "Eye Health",
+        "type": "Liquid",
+        "description": "",
+        "strength": "1%, 2mL, 1 count"
+    },
+    {
+        "name": "Cyclosporine (Generic for Restasis)",
+        "category": "Chronic Dry Eye",
+        "type": "Tablet",
+        "description": "",
+        "strength": "0.05%, 24mL (60 x 0.4mL), 1 count"
+    },
+    {
+        "name": "Cyclosporine (Generic for Sandimmune)",
+        "category": "Organ Transplant",
+        "type": "Capsule",
+        "description": "",
+        "strength": "25mg, 30 Capsules, 1 count"
+    },
+    {
+        "name": "Cyclosporine Modified (Generic for Neoral, Gengraf)",
+        "category": "Organ Transplant",
+        "type": "Capsule",
+        "description": "",
+        "strength": "50mg, 30 count"
+    },
+    {
+        "name": "Cyclosporine Modified (Generic for Neoral)",
+        "category": "Arthritis",
+        "type": "Liquid",
+        "description": "",
+        "strength": "100mg/mL, 50mL, 1 count"
+    },
+    {
+        "name": "Cyclosporine Modified (Generic for Neoral)",
+        "category": "Organ Transplant",
+        "type": "Liquid",
+        "description": "",
+        "strength": "100mg/mL, 50mL, 1 count"
+    },
+    {
+        "name": "Cyclosporine Modified (Generic for Neoral)",
+        "category": "Rheumatoid Arthritis",
+        "type": "Liquid",
+        "description": "",
+        "strength": "100mg/mL, 50mL, 1 count"
+    },
+    {
+        "name": "Cyproheptadine HCl (Generic for Periactin)",
+        "category": "Allergies",
+        "type": "Liquid",
+        "description": "",
+        "strength": "4mg, 30 count"
+    },
+    {
+        "name": "Dabigatran Etexilate Mesylate (Generic for Pradaxa)",
+        "category": "Heart Health",
+        "type": "Capsule",
+        "description": "",
+        "strength": "75mg, 60 Capsules, 1 count"
+    },
+    {
+        "name": "Dabigatran Etexilate Mesylate (Generic for Pradaxa)",
+        "category": "Stroke Prevention",
+        "type": "Capsule",
+        "description": "",
+        "strength": "75mg, 60 Capsules, 1 count"
+    },
+    {
+        "name": "Dalfampridine ER (Generic for Ampyra)",
+        "category": "Multiple sclerosis",
+        "type": "Tablet",
+        "description": "",
+        "strength": "10mg, 30 count"
+    },
+    {
+        "name": "Danazol (Generic for Danocrine)",
+        "category": "Endometriosis",
+        "type": "Capsule",
+        "description": "",
+        "strength": "50mg, 100 Capsules, 1 count"
+    },
+    {
+        "name": "Danazol (Generic for Danocrine)",
+        "category": "Fertility",
+        "type": "Capsule",
+        "description": "",
+        "strength": "50mg, 100 Capsules, 1 count"
+    },
+    {
+        "name": "Dantrolene Sodium (Generic for Dantrium)",
+        "category": "Muscle Relaxants",
+        "type": "Capsule",
+        "description": "",
+        "strength": "50mg, 100 Capsules, 1 count"
+    },
+    {
+        "name": "Dantrolene Sodium (Generic for Dantrium)",
+        "category": "Musculoskeletal",
+        "type": "Capsule",
+        "description": "",
+        "strength": "50mg, 100 Capsules, 1 count"
+    },
+    {
+        "name": "Dapagliflozin Propanediol (Generic for Farxiga)",
+        "category": "Diabetes",
+        "type": "Tablet",
+        "description": "",
+        "strength": "5mg, 30 count"
+    },
+    {
+        "name": "Dapagliflozin Propanediol (Generic for Farxiga)",
+        "category": "Heart Failure",
+        "type": "Tablet",
+        "description": "",
+        "strength": "5mg, 30 count"
+    },
+    {
+        "name": "Dapagliflozin Propanediol (Generic for Farxiga)",
+        "category": "Kidney Disease",
+        "type": "Tablet",
+        "description": "",
+        "strength": "5mg, 30 count"
+    },
+    {
+        "name": "Darifenacin Hydrobromide ER (Generic for Enablex)",
+        "category": "Urinary Symptoms",
+        "type": "Tablet",
+        "description": "",
+        "strength": "7.5mg, 30 Tablets, 1 count"
+    },
+    {
+        "name": "Darunavir (Generic for Prezista)",
+        "category": "HIV",
+        "type": "Tablet",
+        "description": "",
+        "strength": "600mg, 30 count"
+    },
+    {
+        "name": "Deferasirox (Generic for Exjade)",
+        "category": "Iron Overload",
+        "type": "Tablet",
+        "description": "",
+        "strength": "500mg, 30 count"
+    },
+    {
+        "name": "Deferasirox (Generic for Jadenu)",
+        "category": "Iron Overload",
+        "type": "Tablet",
+        "description": "",
+        "strength": "90mg, 30 count"
+    },
+    {
+        "name": "Deferiprone (Generic for Ferriprox)",
+        "category": "Iron Overload",
+        "type": "Tablet",
+        "description": "",
+        "strength": "500mg, 30 count"
+    },
+    {
+        "name": "Desipramine HCl (Generic for Norpramin)",
+        "category": "Mental Health",
+        "type": "Tablet",
+        "description": "",
+        "strength": "75mg, 30 count"
+    },
+    {
+        "name": "Desloratadine (Generic for Clarinex Reditabs)",
+        "category": "Allergies",
+        "type": "Tablet",
+        "description": "",
+        "strength": "5mg, 30 Tablets, 1 count"
+    },
+    {
+        "name": "Desloratadine (Generic for Clarinex)",
+        "category": "Allergies",
+        "type": "Tablet",
+        "description": "",
+        "strength": "5mg, 30 count"
+    },
+    {
+        "name": "Desmopressin Ace Spray Refrig (Generic for Minirin)",
+        "category": "Diabetes",
+        "type": "Liquid",
+        "description": "",
+        "strength": "0.01%, 5mL, 1 count"
+    },
+    {
+        "name": "Desmopressin Ace Spray Refrig (Generic for Minirin)",
+        "category": "Urinary Symptoms",
+        "type": "Liquid",
+        "description": "",
+        "strength": "0.01%, 5mL, 1 count"
+    },
+    {
+        "name": "Desmopressin Acetate (Generic for DDAVP)",
+        "category": "Diabetes",
+        "type": "Liquid",
+        "description": "",
+        "strength": "0.01%, 5mL, 1 count"
+    },
+    {
+        "name": "Desmopressin Acetate (Generic for DDAVP)",
+        "category": "Urinary Symptoms",
+        "type": "Liquid",
+        "description": "",
+        "strength": "0.01%, 5mL, 1 count"
+    },
+    {
+        "name": "Desogestrel & Ethinyl Estradiol (Generic for Apri)",
+        "category": "Birth Control",
+        "type": "Tablet",
+        "description": "",
+        "strength": "0.15mg-30mcg, 28 Tablets, 1 count"
+    },
+    {
+        "name": "Desogestrel Ethinyl Estradiol & Ethinyl Estradiol (Generic for Mircette, Volnea)",
+        "category": "Birth Control",
+        "type": "Tablet",
+        "description": "",
+        "strength": "0.15mg-0.02mg / 0.01mg, 28 pack, 1 count"
+    },
+    {
+        "name": "Desvenlafaxine Succinate Extended Release (ER) (Generic for Pristiq)",
+        "category": "Mental Health",
+        "type": "Tablet",
+        "description": "",
+        "strength": "50mg, 30 count"
+    },
+    {
+        "name": "Dexamethasone (Generic for Decadron)",
+        "category": "Anti-Inflammation",
+        "type": "Liquid",
+        "description": "",
+        "strength": "0.10%, 5mL, 1 count"
+    },
+    {
+        "name": "Dexamethasone (Generic for Decadron)",
+        "category": "Steroid",
+        "type": "Liquid",
+        "description": "",
+        "strength": "0.10%, 5mL, 1 count"
+    },
+    {
+        "name": "Dexamethasone (Generic for DexPak)",
+        "category": "Anti-Inflammation",
+        "type": "Tablet",
+        "description": "",
+        "strength": "1.5mg, 21 Tablets, 1 count"
+    },
+    {
+        "name": "Dexamethasone (Generic for DexPak)",
+        "category": "Steroid",
+        "type": "Tablet",
+        "description": "",
+        "strength": "1.5mg, 21 Tablets, 1 count"
+    },
+    {
+        "name": "Dexamethasone Intensol (Dexamethasone)",
+        "category": "Anti-Inflammation",
+        "type": "Liquid",
+        "description": "",
+        "strength": "1mg/mL, 30mL, 1 count"
+    },
+    {
+        "name": "Dexamethasone Intensol (Dexamethasone)",
+        "category": "Steroid",
+        "type": "Liquid",
+        "description": "",
+        "strength": "1mg/mL, 30mL, 1 count"
+    },
+    {
+        "name": "Dexlansoprazole (Generic for Dexilant)",
+        "category": "Gastrointestinal",
+        "type": "Capsule",
+        "description": "",
+        "strength": "60mg, 30 count"
+    },
+    {
+        "name": "Diazoxide (Generic for Proglycem)",
+        "category": "Low Blood Sugar",
+        "type": "Liquid",
+        "description": "",
+        "strength": "50mg/mL, 30mL, 1 count"
+    },
+    {
+        "name": "Diclofenac Potassium (Generic for Cataflam)",
+        "category": "Pain & Inflammation",
+        "type": "Tablet",
+        "description": "",
+        "strength": "50mg, 30 count"
+    },
+    {
+        "name": "Diclofenac Potassium (Generic for Lofena)",
+        "category": "Pain & Inflammation",
+        "type": "Tablet",
+        "description": "",
+        "strength": "25mg, 30 count"
+    },
+    {
+        "name": "Diclofenac Potassium (Generic for Lofena)",
+        "category": "Rheumatoid Arthritis",
+        "type": "Tablet",
+        "description": "",
+        "strength": "25mg, 30 count"
+    },
+    {
+        "name": "Diclofenac Potassium (Generic for Zipsor)",
+        "category": "Pain & Inflammation",
+        "type": "Capsule",
+        "description": "",
+        "strength": "25mg, 30 count"
+    },
+    {
+        "name": "Diclofenac Potassium (Generic for Zipsor)",
+        "category": "Rheumatoid Arthritis",
+        "type": "Capsule",
+        "description": "",
+        "strength": "25mg, 30 count"
+    },
+    {
+        "name": "Diclofenac Potassium(Migraine) (Generic for Cambia)",
+        "category": "Migraines",
+        "type": "Tablet",
+        "description": "",
+        "strength": "50mg, 9 Packets, 1 count"
+    },
+    {
+        "name": "Diclofenac Sodium (Generic for Klofensaid II)",
+        "category": "Anti-Inflammation",
+        "type": "Liquid",
+        "description": "",
+        "strength": "1.50%, 150mL, 1 count"
+    },
+    {
+        "name": "Diclofenac Sodium (Generic for Klofensaid II)",
+        "category": "Rheumatoid Arthritis",
+        "type": "Liquid",
+        "description": "",
+        "strength": "1.50%, 150mL, 1 count"
+    },
+    {
+        "name": "Diclofenac Sodium (Generic for Pennsaid)",
+        "category": "Anti-Inflammation",
+        "type": "Liquid",
+        "description": "",
+        "strength": "2%, 112mL, 1 count"
+    },
+    {
+        "name": "Diclofenac Sodium (Generic for Pennsaid)",
+        "category": "Rheumatoid Arthritis",
+        "type": "Liquid",
+        "description": "",
+        "strength": "2%, 112mL, 1 count"
+    },
+    {
+        "name": "Diclofenac Sodium (Generic for Voltaren)",
+        "category": "Anti-Inflammation",
+        "type": "Liquid",
+        "description": "",
+        "strength": "3%, 100g, 1 count"
+    },
+    {
+        "name": "Diclofenac Sodium (Generic for Voltaren)",
+        "category": "Pain & Inflammation",
+        "type": "Liquid",
+        "description": "",
+        "strength": "3%, 100g, 1 count"
+    },
+    {
+        "name": "Diclofenac Sodium (Generic for Voltaren)",
+        "category": "Rheumatoid Arthritis",
+        "type": "Liquid",
+        "description": "",
+        "strength": "3%, 100g, 1 count"
+    },
+    {
+        "name": "Diclofenac Sodium ER (Generic for Voltaren-XR)",
+        "category": "Pain & Inflammation",
+        "type": "Tablet",
+        "description": "",
+        "strength": "75mg, 30 count"
+    },
+    {
+        "name": "Diclofenac-Misoprostol (Generic for Arthrotec)",
+        "category": "Arthritis",
+        "type": "Tablet",
+        "description": "",
+        "strength": "75-0.2mg, 30 count"
+    },
+    {
+        "name": "Diclofenac-Misoprostol (Generic for Arthrotec)",
+        "category": "Pain & Inflammation",
+        "type": "Tablet",
+        "description": "",
+        "strength": "75-0.2mg, 30 count"
+    },
+    {
+        "name": "Diclofenac-Misoprostol (Generic for Arthrotec)",
+        "category": "Rheumatoid Arthritis",
+        "type": "Tablet",
+        "description": "",
+        "strength": "75-0.2mg, 30 count"
+    },
+    {
+        "name": "Dicyclomine HCl (Generic for Bentyl)",
+        "category": "Gastrointestinal",
+        "type": "Liquid",
+        "description": "",
+        "strength": "10mg/5mL, 473mL, 1 count"
+    },
+    {
+        "name": "Diflunisal (Generic for Dolobid)",
+        "category": "Arthritis",
+        "type": "Tablet",
+        "description": "",
+        "strength": "500mg, 30 count"
+    },
+    {
+        "name": "Diflunisal (Generic for Dolobid)",
+        "category": "Pain & Inflammation",
+        "type": "Tablet",
+        "description": "",
+        "strength": "500mg, 30 count"
+    },
+    {
+        "name": "Diflunisal (Generic for Dolobid)",
+        "category": "Rheumatoid Arthritis",
+        "type": "Tablet",
+        "description": "",
+        "strength": "500mg, 30 count"
+    },
+    {
+        "name": "Difluprednate (Generic for Durezol)",
+        "category": "Anti-Inflammation",
+        "type": "Tablet",
+        "description": "",
+        "strength": "0.05%, 5mL, 1 count"
+    },
+    {
+        "name": "Difluprednate (Generic for Durezol)",
+        "category": "Eye Health",
+        "type": "Tablet",
+        "description": "",
+        "strength": "0.05%, 5mL, 1 count"
+    },
+    {
+        "name": "Digoxin (Generic for Lanoxin)",
+        "category": "Heart Failure",
+        "type": "Liquid",
+        "description": "",
+        "strength": "62.5mcg, 30 count"
+    },
+    {
+        "name": "Digoxin (Generic for Lanoxin)",
+        "category": "Heart Health",
+        "type": "Liquid",
+        "description": "",
+        "strength": "62.5mcg, 30 count"
+    },
+    {
+        "name": "Dihydroergotamine Mesylate (Generic for Migranal)",
+        "category": "Migraines",
+        "type": "Liquid",
+        "description": "",
+        "strength": "4mg/mL, Pack of 8 Vials, 1 count"
+    },
+    {
+        "name": "Diltiazem HCl (Generic for Cardizem)",
+        "category": "Heart Health",
+        "type": "Tablet",
+        "description": "",
+        "strength": "90mg, 30 count"
+    },
+    {
+        "name": "Diltiazem HCl ER (Generic for Diltia XT)",
+        "category": "Angina",
+        "type": "Capsule",
+        "description": "",
+        "strength": "240mg, 30 count"
+    },
+    {
+        "name": "Diltiazem HCl ER Coated Beads (Generic for Cardizem CD)",
+        "category": "Angina",
+        "type": "Capsule",
+        "description": "",
+        "strength": "240mg, 30 count"
+    },
+    {
+        "name": "Diltiazem HCl ER Coated Beads (Generic for Cartia XT)",
+        "category": "Angina",
+        "type": "Capsule",
+        "description": "",
+        "strength": "300mg, 30 count"
+    },
+    {
+        "name": "Diltiazem HCl Extended Release (Generic for Taztia XT)",
+        "category": "Angina",
+        "type": "Capsule",
+        "description": "",
+        "strength": "360mg, 30 count"
+    },
+    {
+        "name": "Diltiazem HCl Extended Release (Generic for Tiadylt ER)",
+        "category": "Angina",
+        "type": "Capsule",
+        "description": "",
+        "strength": "420mg, 30 count"
+    },
+    {
+        "name": "Dimethyl Fumarate (Generic for Tecfidera)",
+        "category": "Multiple sclerosis",
+        "type": "Capsule",
+        "description": "",
+        "strength": "240mg, 60 Capsules, 1 count"
+    },
+    {
+        "name": "Diphenhydramine HCl (Generic for Benadryl)",
+        "category": "Allergies",
+        "type": "Tablet",
+        "description": "",
+        "strength": "12.5 mg/5ml, 473mL, 1 count"
+    },
+    {
+        "name": "Dipyridamole (Generic for Persantine)",
+        "category": "Heart Health",
+        "type": "Tablet",
+        "description": "",
+        "strength": "75mg, 30 count"
+    },
+    {
+        "name": "Disopyramide Phosphate (Generic for Norpace)",
+        "category": "Arrhythmia",
+        "type": "Capsule",
+        "description": "",
+        "strength": "150mg, 30 count"
+    },
+    {
+        "name": "Disulfiram (Generic for Antabuse)",
+        "category": "Alcohol Dependence",
+        "type": "Tablet",
+        "description": "",
+        "strength": "250mg, 30 count"
+    },
+    {
+        "name": "Divalproex Sodium Delayed Release (DR) (Generic for Depakote)",
+        "category": "Mental Health",
+        "type": "Tablet",
+        "description": "",
+        "strength": "500mg, 30 count"
+    },
+    {
+        "name": "Divalproex Sodium Delayed Release (DR) (Generic for Depakote)",
+        "category": "Migraines",
+        "type": "Tablet",
+        "description": "",
+        "strength": "500mg, 30 count"
+    },
+    {
+        "name": "Divalproex Sodium Delayed Release (DR) (Generic for Depakote)",
+        "category": "Neurological",
+        "type": "Tablet",
+        "description": "",
+        "strength": "500mg, 30 count"
+    },
+    {
+        "name": "Divalproex Sodium Delayed Release (DR) (Generic for Depakote)",
+        "category": "Seizures",
+        "type": "Tablet",
+        "description": "",
+        "strength": "500mg, 30 count"
+    },
+    {
+        "name": "Divalproex Sodium Extended Release (ER) (Generic for Depakote ER)",
+        "category": "Mental Health",
+        "type": "Tablet",
+        "description": "",
+        "strength": "500mg, 30 count"
+    },
+    {
+        "name": "Divalproex Sodium Extended Release (ER) (Generic for Depakote ER)",
+        "category": "Seizures",
+        "type": "Tablet",
+        "description": "",
+        "strength": "500mg, 30 count"
+    },
+    {
+        "name": "Dofetilide (Generic for Tikosyn)",
+        "category": "Heart Health",
+        "type": "Capsule",
+        "description": "",
+        "strength": "500mcg, 30 count"
+    },
+    {
+        "name": "Donepezil (Generic for Aricept)",
+        "category": "Dementia",
+        "type": "Tablet",
+        "description": "",
+        "strength": "5mg, 30 count"
+    },
+    {
+        "name": "Donepezil (Generic for Aricept)",
+        "category": "Neurological",
+        "type": "Tablet",
+        "description": "",
+        "strength": "5mg, 30 count"
+    },
+    {
+        "name": "Donepezil HCl (Generic for Aricept ODT)",
+        "category": "Dementia",
+        "type": "Tablet",
+        "description": "",
+        "strength": "5mg, 30 count"
+    },
+    {
+        "name": "Dorzolamide HCl (Generic for Trusopt)",
+        "category": "Glaucoma",
+        "type": "Liquid",
+        "description": "",
+        "strength": "2%, 10mL, 1 count"
+    },
+    {
+        "name": "Dorzolamide HCl Timolol Maleate (Generic for Cosopt)",
+        "category": "Glaucoma",
+        "type": "Liquid",
+        "description": "",
+        "strength": "22.3mg-6.8mg / mL, 10mL, 1 count"
+    },
+    {
+        "name": "Dorzolamide HCl-Timolol Mal PF (Generic for Cosopt PF)",
+        "category": "Eye Health",
+        "type": "Liquid",
+        "description": "",
+        "strength": "2-0.5%, 12mL (60 x 0.2mL), 1 count"
+    },
+    {
+        "name": "Dorzolamide HCl-Timolol Mal PF (Generic for Cosopt PF)",
+        "category": "Glaucoma",
+        "type": "Liquid",
+        "description": "",
+        "strength": "2-0.5%, 12mL (60 x 0.2mL), 1 count"
+    },
+    {
+        "name": "Doxazosin Mesylate (Generic for Cardura)",
+        "category": "Prostate",
+        "type": "Tablet",
+        "description": "",
+        "strength": "8mg, 30 count"
+    },
+    {
+        "name": "Doxazosin Mesylate (Generic for Cardura)",
+        "category": "Urinary Symptoms",
+        "type": "Tablet",
+        "description": "",
+        "strength": "8mg, 30 count"
+    },
+    {
+        "name": "Doxepin HCl (Generic for Adapin)",
+        "category": "Mental Health",
+        "type": "Capsule",
+        "description": "",
+        "strength": "50mg, 30 count"
+    },
+    {
+        "name": "Doxepin HCl (Generic for Silenor)",
+        "category": "Insomnia",
+        "type": "Tablet",
+        "description": "",
+        "strength": "6mg, 30 count"
+    },
+    {
+        "name": "Doxepin HCl (Generic for Sinequan)",
+        "category": "Mental Health",
+        "type": "Liquid",
+        "description": "",
+        "strength": "75mg, 30 count"
+    },
+    {
+        "name": "Doxercalciferol (Generic for Hectorol)",
+        "category": "Kidney Disease",
+        "type": "Capsule",
+        "description": "",
+        "strength": "2.5mcg, 30 count"
+    },
+    {
+        "name": "Doxycycline Hyclate (Generic for Doryx)",
+        "category": "Urinary Symptoms",
+        "type": "Tablet",
+        "description": "",
+        "strength": "75mg, 30 count"
+    },
+    {
+        "name": "Doxycycline Hyclate (Generic for TargaDOX)",
+        "category": "Urinary Symptoms",
+        "type": "Tablet",
+        "description": "",
+        "strength": "50mg, 30 count"
+    },
+    {
+        "name": "Doxycycline Monohydrate (Generic for Adoxa Pak 1/150)",
+        "category": "Urinary Symptoms",
+        "type": "Tablet",
+        "description": "",
+        "strength": "150mg, 30 count"
+    },
+    {
+        "name": "Doxycycline Monohydrate (Generic for Adoxa)",
+        "category": "Urinary Symptoms",
+        "type": "Tablet",
+        "description": "",
+        "strength": "75mg, 30 count"
+    },
+    {
+        "name": "Doxylamine-Pyridoxine (Generic for Diclegis)",
+        "category": "Nausea",
+        "type": "Tablet",
+        "description": "",
+        "strength": "10-10mg, 30 count"
+    },
+    {
+        "name": "Drospiren-Eth Estrad-Levomefol (Generic for Beyaz)",
+        "category": "Birth Control",
+        "type": "Tablet",
+        "description": "",
+        "strength": "3-0.02-0.451mg, 28 Tablets, 1 count"
+    },
+    {
+        "name": "Drospirenone Ethinyl Estradiol (Generic for Yasmin, Syeda, Ocella, Zarah)",
+        "category": "Birth Control",
+        "type": "Tablet",
+        "description": "",
+        "strength": "3mg-0.03mg, 28 pack, 1 count"
+    },
+    {
+        "name": "Drospirenone-Ethinyl Estrad-Levomefolate (Generic for Tydemy)",
+        "category": "Birth Control",
+        "type": "Tablet",
+        "description": "",
+        "strength": "3-0.03-0.451mg, 28 Tablets, 1 count"
+    },
+    {
+        "name": "Drospirenone-Ethinyl Estradiol (Generic for YAZ)",
+        "category": "Birth Control",
+        "type": "Tablet",
+        "description": "",
+        "strength": "3-0.02mg, 28 Tablets, 1 count"
+    },
+    {
+        "name": "Droxidopa (Generic for Northera)",
+        "category": "Heart Health",
+        "type": "Capsule",
+        "description": "",
+        "strength": "300mg, 30 count"
+    },
+    {
+        "name": "Droxidopa (Generic for Northera)",
+        "category": "Low Blood Pressure",
+        "type": "Capsule",
+        "description": "",
+        "strength": "300mg, 30 count"
+    },
+    {
+        "name": "Duavee (Conjugated Estrogens / Bazedoxifene)",
+        "category": "Bone Health",
+        "type": "Tablet",
+        "description": "",
+        "strength": "0.45-20mg, 30 Tablets, 1 count"
+    },
+    {
+        "name": "Duloxetine Delayed Release (DR) (Generic for Cymbalta)",
+        "category": "Mental Health",
+        "type": "Capsule",
+        "description": "",
+        "strength": "60mg, 30 count"
+    },
+    {
+        "name": "Dutasteride (Generic for Avodart)",
+        "category": "Prostate",
+        "type": "Capsule",
+        "description": "",
+        "strength": "0.5mg, 30 count"
+    },
+    {
+        "name": "Dutasteride-Tamsulosin HCl (Generic for Jalyn)",
+        "category": "Prostate",
+        "type": "Capsule",
+        "description": "",
+        "strength": "0.5-0.4mg, 30 count"
+    },
+    {
+        "name": "Econazole Nitrate (Generic for Spectazole)",
+        "category": "Anti-fungal",
+        "type": "Tablet",
+        "description": "",
+        "strength": "1%, 85g, 1 count"
+    },
+    {
+        "name": "Efavirenz (Generic for Sustiva)",
+        "category": "HIV",
+        "type": "Tablet",
+        "description": "",
+        "strength": "600mg, 30 Tablets, 1 count"
+    },
+    {
+        "name": "Efavirenz-Emtricitab-Tenofo DF (Generic for Atripla)",
+        "category": "HIV",
+        "type": "Tablet",
+        "description": "",
+        "strength": "600-200-300mg, 30 Tablets, 1 count"
+    },
+    {
+        "name": "Efavirenz-Lamivudine-Tenofovir (Generic for Symfi Lo)",
+        "category": "HIV",
+        "type": "Tablet",
+        "description": "",
+        "strength": "400-300-300mg, 30 count"
+    },
+    {
+        "name": "Eletriptan Hydrobromide (Generic for Relpax)",
+        "category": "Migraines",
+        "type": "Tablet",
+        "description": "",
+        "strength": "40mg, 30 count"
+    },
+    {
+        "name": "Emtricitabine (Generic for Emtriva)",
+        "category": "HIV",
+        "type": "Capsule",
+        "description": "",
+        "strength": "200mg, 30 count"
+    },
+    {
+        "name": "Emtricitabine-Tenofovir DF (Generic for Truvada)",
+        "category": "HIV",
+        "type": "Tablet",
+        "description": "",
+        "strength": "167-250mg, 30 Tablets, 1 count"
+    },
+    {
+        "name": "Enalapril Maleate (Generic for Epaned)",
+        "category": "Heart Failure",
+        "type": "Liquid",
+        "description": "",
+        "strength": "1mg/mL, 150mL, 1 count"
+    },
+    {
+        "name": "Epinastine HCl (Generic for Elestat)",
+        "category": "Allergies",
+        "type": "Liquid",
+        "description": "",
+        "strength": "0.05%, 5mL, 1 count"
+    },
+    {
+        "name": "Eplerenone (Generic for Inspra)",
+        "category": "Heart Failure",
+        "type": "Tablet",
+        "description": "",
+        "strength": "50mg, 30 count"
+    },
+    {
+        "name": "Eplerenone (Generic for Inspra)",
+        "category": "Heart Health",
+        "type": "Tablet",
+        "description": "",
+        "strength": "50mg, 30 count"
+    },
+    {
+        "name": "Ergocalciferol (Generic for Drisdol)",
+        "category": "Vitamin Deficiency",
+        "type": "Capsule",
+        "description": "",
+        "strength": "1.25mg, 30 count"
+    },
+    {
+        "name": "Erythromycin Base (Generic for Ery-Tab)",
+        "category": "Urinary Symptoms",
+        "type": "Tablet",
+        "description": "",
+        "strength": "500mg, 30 count"
+    },
+    {
+        "name": "Escitalopram Oxalate (Generic for Lexapro)",
+        "category": "Mental Health",
+        "type": "Liquid",
+        "description": "",
+        "strength": "5mg/5mL, 240mL, 1 count"
+    },
+    {
+        "name": "Esomeprazole Magnesium (Generic for Nexium)",
+        "category": "Gastrointestinal",
+        "type": "Liquid",
+        "description": "",
+        "strength": "40mg, 30 count"
+    },
+    {
+        "name": "Estradiol (Generic for Climara)",
+        "category": "Hormone Therapy",
+        "type": "Tablet",
+        "description": "",
+        "strength": "0.1mg, 4 Patches, 1 count"
+    },
+    {
+        "name": "Estradiol (Generic for Divigel)",
+        "category": "Hormone Therapy",
+        "type": "Tablet",
+        "description": "",
+        "strength": "1mg/g, 30 count"
+    },
+    {
+        "name": "Estradiol (Twice Weekly) (Generic for Dotti)",
+        "category": "Hormone Therapy",
+        "type": "Tablet",
+        "description": "",
+        "strength": "0.075mg, 8 Patches, 1 count"
+    },
+    {
+        "name": "Estradiol (Twice Weekly) (Generic for Minivelle)",
+        "category": "Hormone Therapy",
+        "type": "Tablet",
+        "description": "",
+        "strength": "0.1 mg/24hr, 8 ea, 1 count"
+    },
+    {
+        "name": "Estradiol (Twice Weekly) (Generic for Vivelle-Dot)",
+        "category": "Hormone Therapy",
+        "type": "Tablet",
+        "description": "",
+        "strength": "0.1mg, 8 pack, 1 count"
+    },
+    {
+        "name": "Estradiol / Norethrindrone Acetate (Generic for Activella)",
+        "category": "Hormone Therapy",
+        "type": "Tablet",
+        "description": "",
+        "strength": "1mg-0.5mg, 28 pack, 1 count"
+    },
+    {
+        "name": "Estradiol Oral Estrogen Tablet (Generic for Estrace)",
+        "category": "Hormone Therapy",
+        "type": "Tablet",
+        "description": "",
+        "strength": "2mg, 30 count"
+    },
+    {
+        "name": "Estradiol Vaginal Estrogen Cream (Generic for Estrace)",
+        "category": "Hormone Therapy",
+        "type": "Tablet",
+        "description": "",
+        "strength": "0.01%, 42.5g, 1 count"
+    },
+    {
+        "name": "Estradiol Vaginal Estrogen Tablet Insert (Generic for Vagifem)",
+        "category": "Hormone Therapy",
+        "type": "Tablet",
+        "description": "",
+        "strength": "10mcg, 30 count"
+    },
+    {
+        "name": "Estring (Estradiol)",
+        "category": "Hormone Therapy",
+        "type": "Tablet",
+        "description": "",
+        "strength": "2mg, 1 Ring, 1 count"
+    },
+    {
+        "name": "Ethacrynic Acid (Generic for Edecrin)",
+        "category": "Diuretic",
+        "type": "Tablet",
+        "description": "",
+        "strength": "25mg, 30 count"
+    },
+    {
+        "name": "Ethacrynic Acid (Generic for Edecrin)",
+        "category": "Heart Health",
+        "type": "Tablet",
+        "description": "",
+        "strength": "25mg, 30 count"
+    },
+    {
+        "name": "Ethosuximide (Generic for Zarontin)",
+        "category": "Heart Health",
+        "type": "Liquid",
+        "description": "",
+        "strength": "250mg/5mL, 473mL, 1 count"
+    },
+    {
+        "name": "Ethosuximide (Generic for Zarontin)",
+        "category": "Neurological",
+        "type": "Liquid",
+        "description": "",
+        "strength": "250mg/5mL, 473mL, 1 count"
+    },
+    {
+        "name": "Ethosuximide (Generic for Zarontin)",
+        "category": "Seizures",
+        "type": "Liquid",
+        "description": "",
+        "strength": "250mg/5mL, 473mL, 1 count"
+    },
+    {
+        "name": "Ethynodiol Diacetate & Ethinyl Estradiol (Generic for Kelnor)",
+        "category": "Birth Control",
+        "type": "Tablet",
+        "description": "",
+        "strength": "1mg-50mcg, 28 Tablets, 1 count"
+    },
+    {
+        "name": "Etodolac (Generic for Lodine)",
+        "category": "Pain & Inflammation",
+        "type": "Tablet",
+        "description": "",
+        "strength": "500mg, 30 count"
+    },
+    {
+        "name": "Etodolac ER (Generic for Lodine XL)",
+        "category": "Arthritis",
+        "type": "Tablet",
+        "description": "",
+        "strength": "600mg, 30 count"
+    },
+    {
+        "name": "Etodolac ER (Generic for Lodine XL)",
+        "category": "Pain & Inflammation",
+        "type": "Tablet",
+        "description": "",
+        "strength": "600mg, 30 count"
+    },
+    {
+        "name": "Etodolac ER (Generic for Lodine XL)",
+        "category": "Rheumatoid Arthritis",
+        "type": "Tablet",
+        "description": "",
+        "strength": "600mg, 30 count"
+    },
+    {
+        "name": "Etonogestrel-Ethinyl Estradiol (Generic for EluRyng)",
+        "category": "Birth Control",
+        "type": "Tablet",
+        "description": "",
+        "strength": "0.12-0.015mg, 1 Ring, 1 count"
+    },
+    {
+        "name": "Etravirine (Generic for Intelence)",
+        "category": "HIV",
+        "type": "Tablet",
+        "description": "",
+        "strength": "200mg, 30 count"
+    },
+    {
+        "name": "Euthyrox (Levothyroxine Sodium)",
+        "category": "Thyroid",
+        "type": "Tablet",
+        "description": "",
+        "strength": "88mcg, 30 Tablets, 1 count"
+    },
+    {
+        "name": "Everolimus (Generic for Afinitor Disperz)",
+        "category": "Breast Cancer",
+        "type": "Tablet",
+        "description": "",
+        "strength": "2mg, 28 Tablets, 1 count"
+    },
+    {
+        "name": "Everolimus (Generic for Afinitor Disperz)",
+        "category": "Cancer",
+        "type": "Tablet",
+        "description": "",
+        "strength": "2mg, 28 Tablets, 1 count"
+    },
+    {
+        "name": "Everolimus (Generic for Afinitor Disperz)",
+        "category": "Organ Transplant",
+        "type": "Tablet",
+        "description": "",
+        "strength": "2mg, 28 Tablets, 1 count"
+    },
+    {
+        "name": "Everolimus (Generic for Afinitor)",
+        "category": "Breast Cancer",
+        "type": "Tablet",
+        "description": "",
+        "strength": "7.5mg, 30 count"
+    },
+    {
+        "name": "Everolimus (Generic for Afinitor)",
+        "category": "Cancer",
+        "type": "Tablet",
+        "description": "",
+        "strength": "7.5mg, 30 count"
+    },
+    {
+        "name": "Everolimus (Generic for Afinitor)",
+        "category": "Organ Transplant",
+        "type": "Tablet",
+        "description": "",
+        "strength": "7.5mg, 30 count"
+    },
+    {
+        "name": "Everolimus (Generic for Zortress)",
+        "category": "Breast Cancer",
+        "type": "Tablet",
+        "description": "",
+        "strength": "1mg, 30 count"
+    },
+    {
+        "name": "Everolimus (Generic for Zortress)",
+        "category": "Cancer",
+        "type": "Tablet",
+        "description": "",
+        "strength": "1mg, 30 count"
+    },
+    {
+        "name": "Everolimus (Generic for Zortress)",
+        "category": "Organ Transplant",
+        "type": "Tablet",
+        "description": "",
+        "strength": "1mg, 30 count"
+    },
+    {
+        "name": "Exemestane (Generic for Aromasin)",
+        "category": "Breast Cancer",
+        "type": "Tablet",
+        "description": "",
+        "strength": "25mg, 30 count"
+    },
+    {
+        "name": "Exemestane (Generic for Aromasin)",
+        "category": "Cancer",
+        "type": "Tablet",
+        "description": "",
+        "strength": "25mg, 30 count"
+    },
+    {
+        "name": "Ezetimibe (Generic for Zetia)",
+        "category": "Heart Health",
+        "type": "Tablet",
+        "description": "",
+        "strength": "10mg, 30 count"
+    },
+    {
+        "name": "Ezetimibe (Generic for Zetia)",
+        "category": "High Cholesterol",
+        "type": "Tablet",
+        "description": "",
+        "strength": "10mg, 30 count"
+    },
+    {
+        "name": "Ezetimibe-Simvastatin (Generic for Vytorin)",
+        "category": "High Cholesterol",
+        "type": "Tablet",
+        "description": "",
+        "strength": "10-80mg, 30 count"
+    },
+    {
+        "name": "Famciclovir (Generic for Famvir)",
+        "category": "Anti-viral",
+        "type": "Tablet",
+        "description": "",
+        "strength": "500mg, 30 count"
+    },
+    {
+        "name": "Famotidine (Generic for Pepcid)",
+        "category": "Acid Reflux",
+        "type": "Liquid",
+        "description": "",
+        "strength": "40mg / 5mL, 50mL, 1 count"
+    },
+    {
+        "name": "Famotidine (Generic for Pepcid)",
+        "category": "Gastrointestinal",
+        "type": "Liquid",
+        "description": "",
+        "strength": "40mg / 5mL, 50mL, 1 count"
+    },
+    {
+        "name": "Febuxostat (Generic for Uloric)",
+        "category": "Gout",
+        "type": "Tablet",
+        "description": "",
+        "strength": "80mg, 30 count"
+    },
+    {
+        "name": "Felbamate (Generic for Felbatol)",
+        "category": "Seizures",
+        "type": "Liquid",
+        "description": "",
+        "strength": "600mg/5mL, 237mL, 1 count"
+    },
+    {
+        "name": "Fenofibrate (Generic for Antara, Lipofen, and other brands)",
+        "category": "High Cholesterol",
+        "type": "Capsule",
+        "description": "",
+        "strength": "134mg, 30 count"
+    },
+    {
+        "name": "Fenofibrate (Generic for Fenoglide)",
+        "category": "High Cholesterol",
+        "type": "Tablet",
+        "description": "",
+        "strength": "120mg, 30 count"
+    },
+    {
+        "name": "Fenofibrate (Generic for TriCor, Triglide, Fenoglide, and other brands)",
+        "category": "High Cholesterol",
+        "type": "Tablet",
+        "description": "",
+        "strength": "54mg, 30 count"
+    },
+    {
+        "name": "Fenofibrate Micronized (Generic for Antara, Lipofen, and other brands)",
+        "category": "High Cholesterol",
+        "type": "Capsule",
+        "description": "",
+        "strength": "130mg, 30 count"
+    },
+    {
+        "name": "Fesoterodine Fumarate ER (Generic for Toviaz)",
+        "category": "Incontinence",
+        "type": "Tablet",
+        "description": "",
+        "strength": "8mg, 30 count"
+    },
+    {
+        "name": "Fesoterodine Fumarate ER (Generic for Toviaz)",
+        "category": "Urinary Symptoms",
+        "type": "Tablet",
+        "description": "",
+        "strength": "8mg, 30 count"
+    },
+    {
+        "name": "Fexofenadine HCl (Generic for Allegra)",
+        "category": "Allergies",
+        "type": "Tablet",
+        "description": "",
+        "strength": "60mg, 30 count"
+    },
+    {
+        "name": "Finasteride (Generic for Propecia)",
+        "category": "Prostate",
+        "type": "Tablet",
+        "description": "",
+        "strength": "5mg, 30 count"
+    },
+    {
+        "name": "Fingolimod HCl (Generic for Gilenya)",
+        "category": "Multiple sclerosis",
+        "type": "Capsule",
+        "description": "",
+        "strength": "0.5mg, 30 Capsules, 1 count"
+    },
+    {
+        "name": "Flavoxate HCl (Generic for Urispas)",
+        "category": "Urinary Symptoms",
+        "type": "Tablet",
+        "description": "",
+        "strength": "100mg, 30 count"
+    },
+    {
+        "name": "Fludrocortisone Acetate (Generic for Florinef)",
+        "category": "Pain & Inflammation",
+        "type": "Tablet",
+        "description": "",
+        "strength": "0.1mg, 30 count"
+    },
+    {
+        "name": "Fludrocortisone Acetate (Generic for Florinef)",
+        "category": "Steroid",
+        "type": "Tablet",
+        "description": "",
+        "strength": "0.1mg, 30 count"
+    },
+    {
+        "name": "Flunisolide (Generic for Nasalide)",
+        "category": "Allergies",
+        "type": "Liquid",
+        "description": "",
+        "strength": "25mcg/Act (0.025%), 25mL, 1 count"
+    },
+    {
+        "name": "Fluoxetine (Generic for Prozac)",
+        "category": "Mental Health",
+        "type": "Tablet",
+        "description": "",
+        "strength": "20mg/5mL, 30 count"
+    },
+    {
+        "name": "Fluphenazine HCl (Generic for Permitil)",
+        "category": "Dementia",
+        "type": "Tablet",
+        "description": "",
+        "strength": "5mg/mL, 120mL, 1 count"
+    },
+    {
+        "name": "Fluphenazine HCl (Generic for Prolixin)",
+        "category": "Dementia",
+        "type": "Tablet",
+        "description": "",
+        "strength": "2.5mg/5mL, 60mL, 1 count"
+    },
+    {
+        "name": "Flurbiprofen (Generic for Ansaid)",
+        "category": "Arthritis",
+        "type": "Tablet",
+        "description": "",
+        "strength": "100mg, 30 count"
+    },
+    {
+        "name": "Flurbiprofen (Generic for Ansaid)",
+        "category": "Rheumatoid Arthritis",
+        "type": "Tablet",
+        "description": "",
+        "strength": "100mg, 30 count"
+    },
+    {
+        "name": "Flurbiprofen Sodium (Generic for Ocufen)",
+        "category": "Eye Health",
+        "type": "Liquid",
+        "description": "",
+        "strength": "0.03%, 2.5mL, 1 count"
+    },
+    {
+        "name": "Fluticasone Propionate (Generic for Flonase)",
+        "category": "Allergies",
+        "type": "Liquid",
+        "description": "",
+        "strength": "50mcg, 16mL, 1 count"
+    },
+    {
+        "name": "Fluticasone-Salmeterol (Generic for Advair Diskus)",
+        "category": "Asthma/COPD",
+        "type": "Tablet",
+        "description": "",
+        "strength": "250mcg-50mcg, 60 doses, 1 count"
+    },
+    {
+        "name": "Fluticasone-Salmeterol (Generic for Advair HFA)",
+        "category": "Asthma/COPD",
+        "type": "Tablet",
+        "description": "",
+        "strength": "45-21 mcg/act, 12gm, 1 count"
+    },
+    {
+        "name": "Fluvastatin Sodium (Generic for Lescol)",
+        "category": "High Cholesterol",
+        "type": "Capsule",
+        "description": "",
+        "strength": "40mg, 30 count"
+    },
+    {
+        "name": "Fluvastatin Sodium ER (Generic for Lescol XL)",
+        "category": "High Cholesterol",
+        "type": "Tablet",
+        "description": "",
+        "strength": "80mg, 30 count"
+    },
+    {
+        "name": "Folic Acid (Generic for Folic Acid)",
+        "category": "Vitamin Deficiency",
+        "type": "Tablet",
+        "description": "",
+        "strength": "1mg, 30 count"
+    },
+    {
+        "name": "Formoterol Fumarate (Generic for Perforomist)",
+        "category": "Asthma/COPD",
+        "type": "Liquid",
+        "description": "",
+        "strength": "20mcg/2mL, 30 Vials, 1 count"
+    },
+    {
+        "name": "Fosamprenavir Calcium (Generic for Lexiva)",
+        "category": "HIV",
+        "type": "Tablet",
+        "description": "",
+        "strength": "700mg, 30 count"
+    },
+    {
+        "name": "Fosfomycin Tromethamine (Generic for Monurol)",
+        "category": "Urinary Symptoms",
+        "type": "Tablet",
+        "description": "",
+        "strength": "3gm, 1 Packet, 1 count"
+    },
+    {
+        "name": "Fosinopril Sodium (Generic for Monopril)",
+        "category": "Heart Failure",
+        "type": "Tablet",
+        "description": "",
+        "strength": "40mg, 30 count"
+    },
+    {
+        "name": "Frovatriptan Succinate (Generic for Frova)",
+        "category": "Migraines",
+        "type": "Tablet",
+        "description": "",
+        "strength": "2.5mg, 30 count"
+    },
+    {
+        "name": "Furosemide (Generic for Lasix)",
+        "category": "Heart Failure",
+        "type": "Liquid",
+        "description": "",
+        "strength": "80mg, 30 count"
+    },
+    {
+        "name": "Galantamine Hydrobromide (Generic for Razadyne)",
+        "category": "Dementia",
+        "type": "Tablet",
+        "description": "",
+        "strength": "8mg, 30 count"
+    },
+    {
+        "name": "Galantamine Hydrobromide (Generic for Reminyl)",
+        "category": "Dementia",
+        "type": "Liquid",
+        "description": "",
+        "strength": "4mg/mL, 100mL, 1 count"
+    },
+    {
+        "name": "Galantamine Hydrobromide ER (Generic for Razadyne ER)",
+        "category": "Dementia",
+        "type": "Capsule",
+        "description": "",
+        "strength": "8mg, 30 count"
+    },
+    {
+        "name": "Gatifloxacin (Generic for Zymaxid)",
+        "category": "Eye Health",
+        "type": "Liquid",
+        "description": "",
+        "strength": "0.50%, 2.5mL, 1 count"
+    },
+    {
+        "name": "GaviLyte-C (PEG 3350-KCl-Na Bicarb-NaCl-Na Sulfate)",
+        "category": "Colonoscopy Preparation",
+        "type": "Liquid",
+        "description": "",
+        "strength": "240gm, 4 liter, 1 count"
+    },
+    {
+        "name": "GaviLyte-C (PEG 3350-KCl-Na Bicarb-NaCl-Na Sulfate)",
+        "category": "Gastrointestinal",
+        "type": "Liquid",
+        "description": "",
+        "strength": "240gm, 4 liter, 1 count"
+    },
+    {
+        "name": "Gemfibrozil (Generic for Lopid)",
+        "category": "High Cholesterol",
+        "type": "Tablet",
+        "description": "",
+        "strength": "600mg, 30 count"
+    },
+    {
+        "name": "Glatopa (Glatiramer Acetate) (Generic for Copaxone)",
+        "category": "Multiple sclerosis",
+        "type": "Liquid",
+        "description": "",
+        "strength": "40mg/mL, 12mL (12 x 1mL Syringes), 1 count"
+    },
+    {
+        "name": "Glimepiride (Generic for Amaryl)",
+        "category": "Diabetes",
+        "type": "Tablet",
+        "description": "",
+        "strength": "4mg, 30 count"
+    },
+    {
+        "name": "Glipizide (Generic for Glucotrol)",
+        "category": "Diabetes",
+        "type": "Tablet",
+        "description": "",
+        "strength": "5mg, 30 count"
+    },
+    {
+        "name": "Glipizide Extended Release (ER) (Generic for Glucotrol XL)",
+        "category": "Diabetes",
+        "type": "Tablet",
+        "description": "",
+        "strength": "5mg, 30 count"
+    },
+    {
+        "name": "Glipizide-Metformin HCl (Generic for Metaglip)",
+        "category": "Diabetes",
+        "type": "Tablet",
+        "description": "",
+        "strength": "5-500mg, 30 count"
+    },
+    {
+        "name": "Glyburide (Generic for Glyburide)",
+        "category": "Diabetes",
+        "type": "Tablet",
+        "description": "",
+        "strength": "5mg, 30 count"
+    },
+    {
+        "name": "Glyburide Micronized (Generic for Glynase)",
+        "category": "Diabetes",
+        "type": "Tablet",
+        "description": "",
+        "strength": "6mg, 30 count"
+    },
+    {
+        "name": "Glyburide-Metformin (Generic for Glucovance)",
+        "category": "Diabetes",
+        "type": "Tablet",
+        "description": "",
+        "strength": "5mg-500mg, 30 count"
+    },
+    {
+        "name": "Glycopyrrolate (Generic for Cuvposa)",
+        "category": "Oral Health",
+        "type": "Liquid",
+        "description": "",
+        "strength": "1mg/5mL, 473mL, 1 count"
+    },
+    {
+        "name": "Glycopyrrolate (Generic for Robinul)",
+        "category": "Gastrointestinal",
+        "type": "Tablet",
+        "description": "",
+        "strength": "2mg, 30 count"
+    },
+    {
+        "name": "Granisetron HCl (Generic for Kytril)",
+        "category": "Nausea",
+        "type": "Tablet",
+        "description": "",
+        "strength": "1mg, 30 count"
+    },
+    {
+        "name": "Griseofulvin Microsize (Generic for Fulvicin U/F)",
+        "category": "Anti-fungal",
+        "type": "Tablet",
+        "description": "",
+        "strength": "500mg, 30 count"
+    },
+    {
+        "name": "Griseofulvin Microsize (Generic for Grifulvin V)",
+        "category": "Anti-fungal",
+        "type": "Liquid",
+        "description": "",
+        "strength": "125mg/5mL, 120mL, 1 count"
+    },
+    {
+        "name": "Griseofulvin Ultramicrosize (Generic for Gris-PEG)",
+        "category": "Anti-fungal",
+        "type": "Tablet",
+        "description": "",
+        "strength": "250mg, 30 count"
+    },
+    {
+        "name": "Guaifenesin (Generic for Bidex)",
+        "category": "Cough",
+        "type": "Tablet",
+        "description": "",
+        "strength": "400mg, 30 count"
+    },
+    {
+        "name": "Guaifenesin ER (Generic for Guaifenex LA)",
+        "category": "Cough",
+        "type": "Tablet",
+        "description": "",
+        "strength": "600mg, 30 count"
+    },
+    {
+        "name": "Hadlima (adalimumab-bwwd)",
+        "category": "Arthritis",
+        "type": "Injection",
+        "description": "",
+        "strength": "40mg/0.8mL, 1.6mL (2 Prefilled Syringes), 1 count"
+    },
+    {
+        "name": "Hadlima (adalimumab-bwwd)",
+        "category": "Rheumatoid Arthritis",
+        "type": "Injection",
+        "description": "",
+        "strength": "40mg/0.8mL, 1.6mL (2 Prefilled Syringes), 1 count"
+    },
+    {
+        "name": "Hadlima PushTouch (adalimumab-bwwd)",
+        "category": "Arthritis",
+        "type": "Tablet",
+        "description": "",
+        "strength": "40mg/0.8mL, 1.6mL (2 Auto-injectors), 1 count"
+    },
+    {
+        "name": "Hadlima PushTouch (adalimumab-bwwd)",
+        "category": "Rheumatoid Arthritis",
+        "type": "Tablet",
+        "description": "",
+        "strength": "40mg/0.8mL, 1.6mL (2 Auto-injectors), 1 count"
+    },
+    {
+        "name": "Hydrocortisone (Generic for Cortef)",
+        "category": "Anti-Inflammation",
+        "type": "Tablet",
+        "description": "",
+        "strength": "5mg, 30 count"
+    },
+    {
+        "name": "Hydrocortisone (Generic for Cortenema)",
+        "category": "Anti-Inflammation",
+        "type": "Tablet",
+        "description": "",
+        "strength": "100mg/60mL, 60mL, 1 count"
+    },
+    {
+        "name": "Hydrocortisone (Generic for Cortenema)",
+        "category": "Gastrointestinal",
+        "type": "Tablet",
+        "description": "",
+        "strength": "100mg/60mL, 60mL, 1 count"
+    },
+    {
+        "name": "Hydrocortisone (Generic for Hytone)",
+        "category": "Anti-Inflammation",
+        "type": "Tablet",
+        "description": "",
+        "strength": "2.50%, 118mL, 1 count"
+    },
+    {
+        "name": "Hydrocortisone (Generic for Hytone)",
+        "category": "Pain & Inflammation",
+        "type": "Tablet",
+        "description": "",
+        "strength": "2.50%, 118mL, 1 count"
+    },
+    {
+        "name": "Hydrocortisone (Perianal) (Generic for Procto-Pak)",
+        "category": "Hemorrhoids",
+        "type": "Tablet",
+        "description": "",
+        "strength": "1%, 28.4g, 1 count"
+    },
+    {
+        "name": "Hydrocortisone Ace-Pramoxine (Generic for Analpram-HC)",
+        "category": "Hemorrhoids",
+        "type": "Tablet",
+        "description": "",
+        "strength": "1-1%, 1oz, 1 count"
+    },
+    {
+        "name": "Hydrocortisone Perianal (Generic for Anusol-HC)",
+        "category": "Hemorrhoids",
+        "type": "Tablet",
+        "description": "",
+        "strength": "2.50%, 30g, 1 count"
+    },
+    {
+        "name": "Hydroxychloroquine Sulfate (Generic for Plaquenil)",
+        "category": "Anti-Parasitic",
+        "type": "Tablet",
+        "description": "",
+        "strength": "400mg, 30 count"
+    },
+    {
+        "name": "Hydroxychloroquine Sulfate (Generic for Plaquenil)",
+        "category": "Arthritis",
+        "type": "Tablet",
+        "description": "",
+        "strength": "400mg, 30 count"
+    },
+    {
+        "name": "Hydroxychloroquine Sulfate (Generic for Plaquenil)",
+        "category": "Rheumatoid Arthritis",
+        "type": "Tablet",
+        "description": "",
+        "strength": "400mg, 30 count"
+    },
+    {
+        "name": "Hydroxyzine HCl (Generic for Atarax)",
+        "category": "Allergies",
+        "type": "Tablet",
+        "description": "",
+        "strength": "50mg, 30 count"
+    },
+    {
+        "name": "Hydroxyzine Pamoate (Generic for Vistaril)",
+        "category": "Allergies",
+        "type": "Capsule",
+        "description": "",
+        "strength": "50mg, 30 count"
+    },
+    {
+        "name": "Hydroxyzine Pamoate (Generic for Vistaril)",
+        "category": "Nausea",
+        "type": "Capsule",
+        "description": "",
+        "strength": "50mg, 30 count"
+    },
+    {
+        "name": "Hydroxyzine Pamoate (Generic for Vistaril)",
+        "category": "Sleep Aid",
+        "type": "Capsule",
+        "description": "",
+        "strength": "50mg, 30 count"
+    },
+    {
+        "name": "Hyoscyamine Sulfate (Generic for Levsin)",
+        "category": "Gastrointestinal",
+        "type": "Tablet",
+        "description": "",
+        "strength": "0.125mg, 30 count"
+    },
+    {
+        "name": "Hyoscyamine Sulfate (Generic for Levsin)",
+        "category": "Urinary Symptoms",
+        "type": "Tablet",
+        "description": "",
+        "strength": "0.125mg, 30 count"
+    },
+    {
+        "name": "Hyoscyamine Sulfate (Generic for Levsin/SL)",
+        "category": "Gastrointestinal",
+        "type": "Tablet",
+        "description": "",
+        "strength": "0.125mg, 30 count"
+    },
+    {
+        "name": "Hyoscyamine Sulfate (Generic for Levsin/SL)",
+        "category": "Urinary Symptoms",
+        "type": "Tablet",
+        "description": "",
+        "strength": "0.125mg, 30 count"
+    },
+    {
+        "name": "Hyoscyamine Sulfate (Generic for NuLev)",
+        "category": "Gastrointestinal",
+        "type": "Tablet",
+        "description": "",
+        "strength": "0.125mg, 30 count"
+    },
+    {
+        "name": "Hyoscyamine Sulfate (Generic for NuLev)",
+        "category": "Urinary Symptoms",
+        "type": "Tablet",
+        "description": "",
+        "strength": "0.125mg, 30 count"
+    },
+    {
+        "name": "Ibandronate Sodium (Generic for Boniva)",
+        "category": "Bone Health",
+        "type": "Tablet",
+        "description": "",
+        "strength": "150mg, 3 Tablets, 1 count"
+    },
+    {
+        "name": "Ibuprofen (Generic for Advil, Motrin)",
+        "category": "Pain & Inflammation",
+        "type": "Liquid",
+        "description": "",
+        "strength": "800mg, 30 count"
+    },
+    {
+        "name": "Ibuprofen-Famotidine (Generic for Duexis)",
+        "category": "Pain & Inflammation",
+        "type": "Tablet",
+        "description": "",
+        "strength": "800-26.6mg, 30 count"
+    },
+    {
+        "name": "Icosapent Ethyl (Generic for Vascepa)",
+        "category": "Antihyperlipidemic",
+        "type": "Capsule",
+        "description": "",
+        "strength": "1g, 30 count"
+    },
+    {
+        "name": "Indapamide (Generic for Lozol)",
+        "category": "Heart Failure",
+        "type": "Tablet",
+        "description": "",
+        "strength": "2.5mg, 30 count"
+    },
+    {
+        "name": "Indomethacin (Generic for Indocin)",
+        "category": "Pain & Inflammation",
+        "type": "Capsule",
+        "description": "",
+        "strength": "50mg, 30 count"
+    },
+    {
+        "name": "Indomethacin Extended Release (ER) (Generic for Indocin SR)",
+        "category": "Pain & Inflammation",
+        "type": "Capsule",
+        "description": "",
+        "strength": "75mg, 30 count"
+    },
+    {
+        "name": "Invokamet (Canagliflozin-Metformin HCl)",
+        "category": "Diabetes",
+        "type": "Tablet",
+        "description": "",
+        "strength": "50-500mg, 60 Tablets, 1 count"
+    },
+    {
+        "name": "Invokamet XR (Canagliflozin-Metformin HCl)",
+        "category": "Diabetes",
+        "type": "Tablet",
+        "description": "",
+        "strength": "50-500mg, 60 Tablets, 1 count"
+    },
+    {
+        "name": "Invokana (Canagliflozin)",
+        "category": "Diabetes",
+        "type": "Tablet",
+        "description": "",
+        "strength": "300mg, 90 Tablets, 1 count"
+    },
+    {
+        "name": "Ipratropium Bromide (Generic for Atrovent)",
+        "category": "Allergies",
+        "type": "Liquid",
+        "description": "",
+        "strength": "0.06%, 15mL, 1 count"
+    },
+    {
+        "name": "Ipratropium Bromide (Generic for Atrovent)",
+        "category": "Asthma/COPD",
+        "type": "Liquid",
+        "description": "",
+        "strength": "0.06%, 15mL, 1 count"
+    },
+    {
+        "name": "Ipratropium-Albuterol (Generic for DuoNeb)",
+        "category": "Asthma/COPD",
+        "type": "Liquid",
+        "description": "",
+        "strength": "0.5-2.5mg / 3mL, 30 x 3mL, 1 count"
+    },
+    {
+        "name": "Irbesartan (Generic for Avapro)",
+        "category": "Diabetes",
+        "type": "Tablet",
+        "description": "",
+        "strength": "75mg, 30 count"
+    },
+    {
+        "name": "Isosorb Dinitrate-Hydralazine (Generic for BiDil)",
+        "category": "Heart Failure",
+        "type": "Tablet",
+        "description": "",
+        "strength": "20-37.5mg, 30 count"
+    },
+    {
+        "name": "Isosorbide Dinitrate (Generic for Isordil Titradose)",
+        "category": "Angina",
+        "type": "Tablet",
+        "description": "",
+        "strength": "5mg, 30 count"
+    },
+    {
+        "name": "Isosorbide Mononitrate (Generic for Monoket)",
+        "category": "Angina",
+        "type": "Tablet",
+        "description": "",
+        "strength": "20mg, 30 count"
+    },
+    {
+        "name": "Isosorbide Mononitrate Extended Release (ER) (Generic for Imdur)",
+        "category": "Angina",
+        "type": "Tablet",
+        "description": "",
+        "strength": "60mg, 30 count"
+    },
+    {
+        "name": "Isosorbide Mononitrate Extended Release (ER) (Generic for Imdur)",
+        "category": "Heart Failure",
+        "type": "Tablet",
+        "description": "",
+        "strength": "60mg, 30 count"
+    },
+    {
+        "name": "Itraconazole (Generic for Sporanox)",
+        "category": "Anti-fungal",
+        "type": "Liquid",
+        "description": "",
+        "strength": "10mg/mL, 150mL, 1 count"
+    },
+    {
+        "name": "Ivermectin (Generic for Soolantra)",
+        "category": "Anti-Inflammation",
+        "type": "Tablet",
+        "description": "",
+        "strength": "1%, 45g, 1 count"
+    },
+    {
+        "name": "Ivermectin (Generic for Soolantra)",
+        "category": "Anti-Parasitic",
+        "type": "Tablet",
+        "description": "",
+        "strength": "1%, 45g, 1 count"
+    },
+    {
+        "name": "Ivermectin (Generic for Stromectol)",
+        "category": "Anti-Parasitic",
+        "type": "Tablet",
+        "description": "",
+        "strength": "3mg, 30 count"
+    },
+    {
+        "name": "Ketoconazole (Generic for Extina)",
+        "category": "Anti-fungal",
+        "type": "Tablet",
+        "description": "",
+        "strength": "2%, 50g, 1 count"
+    },
+    {
+        "name": "Ketoconazole (Generic for Nizoral)",
+        "category": "Anti-fungal",
+        "type": "Tablet",
+        "description": "",
+        "strength": "2%, 60g, 1 count"
+    },
+    {
+        "name": "Ketoprofen (Generic for Ketoprofen ER)",
+        "category": "Anti-Inflammation",
+        "type": "Capsule",
+        "description": "",
+        "strength": "200 mg, 30 count"
+    },
+    {
+        "name": "Ketorolac Tromethamine (Generic for Acular)",
+        "category": "Allergies",
+        "type": "Liquid",
+        "description": "",
+        "strength": "0.50%, 5mL, 1 count"
+    },
+    {
+        "name": "Ketorolac Tromethamine (Generic for Acular)",
+        "category": "Pain & Inflammation",
+        "type": "Liquid",
+        "description": "",
+        "strength": "0.50%, 5mL, 1 count"
+    },
+    {
+        "name": "Ketorolac Tromethamine (Generic for Toradol)",
+        "category": "Pain & Inflammation",
+        "type": "Tablet",
+        "description": "",
+        "strength": "10mg, 30 count"
+    },
+    {
+        "name": "Ketotifen Fumarate (Generic for Zaditor)",
+        "category": "Allergies",
+        "type": "Liquid",
+        "description": "",
+        "strength": "0.035%, 5mL, 1 count"
+    },
+    {
+        "name": "Lactulose (Generic for Duphalac)",
+        "category": "Gastrointestinal",
+        "type": "Liquid",
+        "description": "",
+        "strength": "10g/15mL, 473mL, 1 count"
+    },
+    {
+        "name": "Lamivudine (Generic for Epivir)",
+        "category": "HIV",
+        "type": "Liquid",
+        "description": "",
+        "strength": "300mg, 30 count"
+    },
+    {
+        "name": "Lamivudine-Zidovudine (Generic for Combivir)",
+        "category": "HIV",
+        "type": "Tablet",
+        "description": "",
+        "strength": "150-300mg, 30 count"
+    },
+    {
+        "name": "Lamotrigine (Generic for Lamictal ODT)",
+        "category": "Seizures",
+        "type": "Tablet",
+        "description": "",
+        "strength": "50mg, 30 count"
+    },
+    {
+        "name": "Lamotrigine (Generic for Lamictal)",
+        "category": "Seizures",
+        "type": "Tablet",
+        "description": "",
+        "strength": "5mg, 30 count"
+    },
+    {
+        "name": "Lamotrigine Extended Release (ER) (Generic for Lamictal XR)",
+        "category": "Seizures",
+        "type": "Tablet",
+        "description": "",
+        "strength": "50mg, 30 count"
+    },
+    {
+        "name": "Lamotrigine Starter Kit-Blue (Generic for Lamictal)",
+        "category": "Seizures",
+        "type": "Tablet",
+        "description": "",
+        "strength": "35 x 25mg, 35 Tablets, 1 count"
+    },
+    {
+        "name": "Lamotrigine Starter Kit-Green (Generic for Lamictal)",
+        "category": "Seizures",
+        "type": "Tablet",
+        "description": "",
+        "strength": "84 x 25mg & 14x100mg, 98 Tablets, 1 count"
+    },
+    {
+        "name": "Lamotrigine Starter Kit-Orange (Generic for Lamictal)",
+        "category": "Seizures",
+        "type": "Tablet",
+        "description": "",
+        "strength": "42 x 25mg & 7 x 100mg, 49 Tablets, 1 count"
+    },
+    {
+        "name": "Lansoprazole Delayed Release (DR) (Generic for Prevacid)",
+        "category": "Acid Reflux",
+        "type": "Capsule",
+        "description": "",
+        "strength": "30mg, 30 count"
+    },
+    {
+        "name": "Lansoprazole Delayed Release (DR) (Generic for Prevacid)",
+        "category": "Gastrointestinal",
+        "type": "Capsule",
+        "description": "",
+        "strength": "30mg, 30 count"
+    },
+    {
+        "name": "Lansoprazole DR Orally Disintegrating Tablets (ODT) (Generic for Prevacid SoluTab)",
+        "category": "Gastrointestinal",
+        "type": "Tablet",
+        "description": "",
+        "strength": "30mg, 30 count"
+    },
+    {
+        "name": "Lanthanum Carbonate (Generic for Fosrenol)",
+        "category": "Kidney Disease",
+        "type": "Tablet",
+        "description": "",
+        "strength": "750mg, 30 count"
+    },
+    {
+        "name": "Lapatinib Ditosylate (Generic for Tykerb)",
+        "category": "Breast Cancer",
+        "type": "Tablet",
+        "description": "",
+        "strength": "250mg, 30 count"
+    },
+    {
+        "name": "Lapatinib Ditosylate (Generic for Tykerb)",
+        "category": "Cancer",
+        "type": "Tablet",
+        "description": "",
+        "strength": "250mg, 30 count"
+    },
+    {
+        "name": "Latanoprost (Generic for Xalatan)",
+        "category": "Eye Health",
+        "type": "Liquid",
+        "description": "",
+        "strength": "0.01%, 2.5mL, 1 count"
+    },
+    {
+        "name": "Latanoprost (Generic for Xalatan)",
+        "category": "Glaucoma",
+        "type": "Liquid",
+        "description": "",
+        "strength": "0.01%, 2.5mL, 1 count"
+    },
+    {
+        "name": "Leflunomide (Generic for Arava)",
+        "category": "Rheumatoid Arthritis",
+        "type": "Tablet",
+        "description": "",
+        "strength": "20mg, 30 count"
+    },
+    {
+        "name": "Letrozole (Generic for Femara)",
+        "category": "Breast Cancer",
+        "type": "Tablet",
+        "description": "",
+        "strength": "2.5mg, 30 count"
+    },
+    {
+        "name": "Letrozole (Generic for Femara)",
+        "category": "Cancer",
+        "type": "Tablet",
+        "description": "",
+        "strength": "2.5mg, 30 count"
+    },
+    {
+        "name": "Levalbuterol HCl (Generic for Xopenex)",
+        "category": "Asthma/COPD",
+        "type": "Liquid",
+        "description": "",
+        "strength": "1.25mg/3mL, 90mL (30 x 3mL Vials), 1 count"
+    },
+    {
+        "name": "Levetiracetam (Generic for Keppra)",
+        "category": "Seizures",
+        "type": "Liquid",
+        "description": "",
+        "strength": "750mg, 30 count"
+    },
+    {
+        "name": "Levetiracetam Extended Release (ER) (Generic for Keppra XR)",
+        "category": "Seizures",
+        "type": "Tablet",
+        "description": "",
+        "strength": "750mg, 30 count"
+    },
+    {
+        "name": "Levobunolol HCl (Generic for Betagan)",
+        "category": "Eye Health",
+        "type": "Liquid",
+        "description": "",
+        "strength": "0.50%, 5mL, 1 count"
+    },
+    {
+        "name": "Levobunolol HCl (Generic for Betagan)",
+        "category": "Glaucoma",
+        "type": "Liquid",
+        "description": "",
+        "strength": "0.50%, 5mL, 1 count"
+    },
+    {
+        "name": "Levocarnitine (Generic for Carnitor)",
+        "category": "Kidney Disease",
+        "type": "Liquid",
+        "description": "",
+        "strength": "330mg, 30 count"
+    },
+    {
+        "name": "Levocarnitine (Generic for Carnitor)",
+        "category": "Vitamin Deficiency",
+        "type": "Liquid",
+        "description": "",
+        "strength": "330mg, 30 count"
+    },
+    {
+        "name": "Levocetirizine Dihydrochloride (Generic for Xyzal)",
+        "category": "Allergies",
+        "type": "Liquid",
+        "description": "",
+        "strength": "5mg, 30 count"
+    },
+    {
+        "name": "Levonor-Eth Est (Generic for Rivelsa)",
+        "category": "Birth Control",
+        "type": "Tablet",
+        "description": "",
+        "strength": "0.1/0.125/0.15-0.025mg, 91 Tablets, 1 count"
+    },
+    {
+        "name": "Levonorgestrel & Ethinyl Estradiol (91-day) (Generic for Quasense)",
+        "category": "Birth Control",
+        "type": "Tablet",
+        "description": "",
+        "strength": "0.15mg-0.03mg, 91 Tablets, 1 count"
+    },
+    {
+        "name": "Levonorgestrel & Ethinyl Estradiol (Generic for Levora)",
+        "category": "Birth Control",
+        "type": "Tablet",
+        "description": "",
+        "strength": "0.15mg-30mcg, 28 pack, 1 count"
+    },
+    {
+        "name": "Levonorgestrel & Ethinyl Estradiol-Ethinyl Estradiol (Generic for Daysee)",
+        "category": "Birth Control",
+        "type": "Tablet",
+        "description": "",
+        "strength": "0.15mg-0.03mg & 0.01mg, 91 Tablets, 1 count"
+    },
+    {
+        "name": "Levonorgestrel + EE (Generic for Vienva)",
+        "category": "Birth Control",
+        "type": "Tablet",
+        "description": "",
+        "strength": "0.1mg-20mcg, 28 Tablets, 1 count"
+    },
+    {
+        "name": "Levonorgestrel and Ethinyl Estradiol (Generic for Amethyst)",
+        "category": "Birth Control",
+        "type": "Tablet",
+        "description": "",
+        "strength": "90-20mcg, 28 Tablets, 1 count"
+    },
+    {
+        "name": "Levonorgestrel and Ethinyl Estradiol (Generic for Camrese Lo)",
+        "category": "Birth Control",
+        "type": "Tablet",
+        "description": "",
+        "strength": "0.1-0.02 & 0.01mg, 91 Tablets, 1 count"
+    },
+    {
+        "name": "Levonorgestrel and Ethinyl Estradiol (Generic for Enpresse-28)",
+        "category": "Birth Control",
+        "type": "Tablet",
+        "description": "",
+        "strength": "0.05-30/0.075-40/0.125-30 mg-mcg, 28 Tablets, 1 count"
+    },
+    {
+        "name": "Levothyroxine (Generic for Synthroid)",
+        "category": "Thyroid",
+        "type": "Tablet",
+        "description": "",
+        "strength": "88mcg, 30 count"
+    },
+    {
+        "name": "Lidocaine (Generic for Lidoderm)",
+        "category": "Pain & Inflammation",
+        "type": "Tablet",
+        "description": "",
+        "strength": "5%, 30 count"
+    },
+    {
+        "name": "Lidocaine HCl (Generic for Glydo)",
+        "category": "Pain & Inflammation",
+        "type": "Injection",
+        "description": "",
+        "strength": "2%, 60mL (10 x 6mL Syringes), 1 count"
+    },
+    {
+        "name": "Lidocaine HCl (Generic for Xylocaine)",
+        "category": "Pain & Inflammation",
+        "type": "Liquid",
+        "description": "",
+        "strength": "4%, 50mL, 1 count"
+    },
+    {
+        "name": "Liothyronine Sodium (Generic for Cytomel)",
+        "category": "Thyroid",
+        "type": "Tablet",
+        "description": "",
+        "strength": "5mcg, 30 count"
+    },
+    {
+        "name": "Liraglutide (Generic for Victoza)",
+        "category": "Diabetes",
+        "type": "Liquid",
+        "description": "",
+        "strength": "18 mg/3ml, 6mL, 1 count"
+    },
+    {
+        "name": "Lisinopril (Generic for Prinivil)",
+        "category": "Heart Failure",
+        "type": "Tablet",
+        "description": "",
+        "strength": "5mg, 30 count"
+    },
+    {
+        "name": "Loperamide HCl (Generic for Imodium A-D)",
+        "category": "Gastrointestinal",
+        "type": "Capsule",
+        "description": "",
+        "strength": "2mg, 30 count"
+    },
+    {
+        "name": "Lopinavir-Ritonavir (Generic for Kaletra)",
+        "category": "HIV",
+        "type": "Liquid",
+        "description": "",
+        "strength": "400-100mg/5mL, 160mL, 1 count"
+    },
+    {
+        "name": "Loratadine (Generic for Claritin)",
+        "category": "Allergies",
+        "type": "Liquid",
+        "description": "",
+        "strength": "5mg/5mL, 120mL, 1 count"
+    },
+    {
+        "name": "Losartan (Generic for Cozaar)",
+        "category": "Heart Failure",
+        "type": "Tablet",
+        "description": "",
+        "strength": "50mg, 30 count"
+    },
+    {
+        "name": "Loteprednol Etabonate (Generic for Lotemax)",
+        "category": "Eye Health",
+        "type": "Liquid",
+        "description": "",
+        "strength": "0.50%, 5mL, 1 count"
+    },
+    {
+        "name": "Lovastatin (Generic for Mevacor)",
+        "category": "High Cholesterol",
+        "type": "Tablet",
+        "description": "",
+        "strength": "40mg, 30 count"
+    },
+    {
+        "name": "Lubiprostone (Generic for Amitiza)",
+        "category": "Gastrointestinal",
+        "type": "Capsule",
+        "description": "",
+        "strength": "8mcg, 30 count"
+    },
+    {
+        "name": "Maraviroc (Generic for Selzentry)",
+        "category": "HIV",
+        "type": "Tablet",
+        "description": "",
+        "strength": "300mg, 30 count"
+    },
+    {
+        "name": "Meclizine HCl (Generic for Antivert)",
+        "category": "Nausea",
+        "type": "Tablet",
+        "description": "",
+        "strength": "12.5mg, 30 count"
+    },
+    {
+        "name": "Meclizine HCl (Generic for Travel-Ease)",
+        "category": "Nausea",
+        "type": "Tablet",
+        "description": "",
+        "strength": "25mg, 30 count"
+    },
+    {
+        "name": "Medroxyprogesterone Acetate (Generic for Depo-Provera)",
+        "category": "Birth Control",
+        "type": "Tablet",
+        "description": "",
+        "strength": "150 mg/ml, 1 mL, 1 count"
+    },
+    {
+        "name": "Medroxyprogesterone Acetate (Generic for Provera)",
+        "category": "Hormone Therapy",
+        "type": "Tablet",
+        "description": "",
+        "strength": "5mg, 30 count"
+    },
+    {
+        "name": "Mefloquine HCl (Generic for Lariam)",
+        "category": "Antimalarial",
+        "type": "Tablet",
+        "description": "",
+        "strength": "250mg, 30 count"
+    },
+    {
+        "name": "Megestrol Acetate (Generic for Megace ES)",
+        "category": "Breast Cancer",
+        "type": "Liquid",
+        "description": "",
+        "strength": "625mg/5mL, 150mL, 1 count"
+    },
+    {
+        "name": "Megestrol Acetate (Generic for Megace ES)",
+        "category": "Cancer",
+        "type": "Liquid",
+        "description": "",
+        "strength": "625mg/5mL, 150mL, 1 count"
+    },
+    {
+        "name": "Megestrol Acetate (Generic for Megace Oral)",
+        "category": "Breast Cancer",
+        "type": "Liquid",
+        "description": "",
+        "strength": "40mg/mL, 240mL, 1 count"
+    },
+    {
+        "name": "Megestrol Acetate (Generic for Megace Oral)",
+        "category": "Cancer",
+        "type": "Liquid",
+        "description": "",
+        "strength": "40mg/mL, 240mL, 1 count"
+    },
+    {
+        "name": "Megestrol Acetate (Generic for Megace)",
+        "category": "Breast Cancer",
+        "type": "Tablet",
+        "description": "",
+        "strength": "40mg, 30 count"
+    },
+    {
+        "name": "Megestrol Acetate (Generic for Megace)",
+        "category": "Cancer",
+        "type": "Tablet",
+        "description": "",
+        "strength": "40mg, 30 count"
+    },
+    {
+        "name": "Meloxicam (Generic for Vivlodex)",
+        "category": "Arthritis",
+        "type": "Capsule",
+        "description": "",
+        "strength": "5mg, 30 count"
+    },
+    {
+        "name": "Memantine (Generic for Namenda)",
+        "category": "Dementia",
+        "type": "Liquid",
+        "description": "",
+        "strength": "2mg/mL, 360mL, 1 count"
+    },
+    {
+        "name": "Memantine (Generic for Namenda)",
+        "category": "Neurological",
+        "type": "Liquid",
+        "description": "",
+        "strength": "2mg/mL, 360mL, 1 count"
+    },
+    {
+        "name": "Memantine Extended Release (ER) (Generic for Namenda XR)",
+        "category": "Dementia",
+        "type": "Capsule",
+        "description": "",
+        "strength": "7mg, 30 count"
+    },
+    {
+        "name": "Memantine Extended Release (ER) (Generic for Namenda XR)",
+        "category": "Neurological",
+        "type": "Capsule",
+        "description": "",
+        "strength": "7mg, 30 count"
+    },
+    {
+        "name": "Mercaptopurine (Generic for Purinethol)",
+        "category": "Leukemia",
+        "type": "Tablet",
+        "description": "",
+        "strength": "50mg, 30 count"
+    },
+    {
+        "name": "Mesalamine (Generic for Asacol HD)",
+        "category": "Gastrointestinal",
+        "type": "Tablet",
+        "description": "",
+        "strength": "800mg, 30 count"
+    },
+    {
+        "name": "Mesalamine (Generic for Canasa)",
+        "category": "Gastrointestinal",
+        "type": "Tablet",
+        "description": "",
+        "strength": "1000mg, 30 count"
+    },
+    {
+        "name": "Mesalamine (Generic for Delzicol)",
+        "category": "Gastrointestinal",
+        "type": "Capsule",
+        "description": "",
+        "strength": "400mg, 30 count"
+    },
+    {
+        "name": "Mesalamine (Generic for Rowasa)",
+        "category": "Gastrointestinal",
+        "type": "Tablet",
+        "description": "",
+        "strength": "4gm, 420mL (7 x 60mL Bottles), 1 count"
+    },
+    {
+        "name": "Metaxalone (Generic for Skelaxin)",
+        "category": "Musculoskeletal",
+        "type": "Tablet",
+        "description": "",
+        "strength": "800mg, 30 count"
+    },
+    {
+        "name": "Metformin (Generic for Glucophage)",
+        "category": "Diabetes",
+        "type": "Tablet",
+        "description": "",
+        "strength": "850mg, 30 count"
+    },
+    {
+        "name": "Metformin Extended Release (ER) (Generic for Glucophage XR)",
+        "category": "Diabetes",
+        "type": "Tablet",
+        "description": "",
+        "strength": "750mg, 30 count"
+    },
+    {
+        "name": "Metformin HCl (Generic for Riomet)",
+        "category": "Diabetes",
+        "type": "Liquid",
+        "description": "",
+        "strength": "500mg/5mL, 473mL, 1 count"
+    },
+    {
+        "name": "Metformin HCl ER (Mod) (Generic for Glumetza)",
+        "category": "Diabetes",
+        "type": "Tablet",
+        "description": "",
+        "strength": "500mg, 30 count"
+    },
+    {
+        "name": "Methazolamide (Generic for Neptazane)",
+        "category": "Eye Health",
+        "type": "Tablet",
+        "description": "",
+        "strength": "50mg, 30 count"
+    },
+    {
+        "name": "Methazolamide (Generic for Neptazane)",
+        "category": "Glaucoma",
+        "type": "Tablet",
+        "description": "",
+        "strength": "50mg, 30 count"
+    },
+    {
+        "name": "Methenamine Hippurate (Generic for Hiprex)",
+        "category": "Urinary Symptoms",
+        "type": "Tablet",
+        "description": "",
+        "strength": "1gm, 30 count"
+    },
+    {
+        "name": "Methimazole (Generic for Tapazole)",
+        "category": "Thyroid",
+        "type": "Tablet",
+        "description": "",
+        "strength": "5mg, 30 count"
+    },
+    {
+        "name": "Methocarbamol (Generic for Robaxin)",
+        "category": "Muscle Relaxants",
+        "type": "Tablet",
+        "description": "",
+        "strength": "750mg, 30 count"
+    },
+    {
+        "name": "Methylergonovine Maleate (Generic for Methergine)",
+        "category": "Hemorrhage",
+        "type": "Tablet",
+        "description": "",
+        "strength": "0.2mg, 30 count"
+    },
+    {
+        "name": "Methylprednisolone (Generic for Medrol)",
+        "category": "Allergies",
+        "type": "Tablet",
+        "description": "",
+        "strength": "8mg, 30 count"
+    },
+    {
+        "name": "Metoclopramide HCl (Generic for Reglan)",
+        "category": "Nausea",
+        "type": "Liquid",
+        "description": "",
+        "strength": "5mg / 5mL, 473mL, 1 count"
+    },
+    {
+        "name": "Metolazone (Generic for Zaroxolyn)",
+        "category": "Heart Failure",
+        "type": "Tablet",
+        "description": "",
+        "strength": "5mg, 30 count"
+    },
+    {
+        "name": "Metronidazole (Generic for MetroCream)",
+        "category": "Anti-Parasitic",
+        "type": "Tablet",
+        "description": "",
+        "strength": "0.75%, 45g, 1 count"
+    },
+    {
+        "name": "Metronidazole (Generic for Rosadan)",
+        "category": "Anti-Parasitic",
+        "type": "Tablet",
+        "description": "",
+        "strength": "0.75%, 45g, 1 count"
+    },
+    {
+        "name": "Mexiletine HCl (Generic for Mexitil)",
+        "category": "Arrhythmia",
+        "type": "Capsule",
+        "description": "",
+        "strength": "250mg, 30 count"
+    },
+    {
+        "name": "Miconazole Antifungal (Generic for Micatin)",
+        "category": "Anti-fungal",
+        "type": "Tablet",
+        "description": "",
+        "strength": "2%, 30g, 1 count"
+    },
+    {
+        "name": "Midodrine HCl (Generic for Proamatine)",
+        "category": "Low Blood Pressure",
+        "type": "Tablet",
+        "description": "",
+        "strength": "5mg, 30 count"
+    },
+    {
+        "name": "Midodrine HCl (Generic for ProAmatine)",
+        "category": "Low Blood Pressure",
+        "type": "Tablet",
+        "description": "",
+        "strength": "2.5mg, 30 count"
+    },
+    {
+        "name": "Minocycline HCl (Generic for Dynacin)",
+        "category": "Urinary Symptoms",
+        "type": "Tablet",
+        "description": "",
+        "strength": "75mg, 30 count"
+    },
+    {
+        "name": "Mometasone Furoate (Generic for Nasonex)",
+        "category": "Allergies",
+        "type": "Liquid",
+        "description": "",
+        "strength": "50mcg, 17g, 1 count"
+    },
+    {
+        "name": "Montelukast (Generic for Singulair)",
+        "category": "Asthma/COPD",
+        "type": "Tablet",
+        "description": "",
+        "strength": "4mg, 30 count"
+    },
+    {
+        "name": "Moxifloxacin HCl (2X Day) (Generic for Moxeza)",
+        "category": "Eye Health",
+        "type": "Liquid",
+        "description": "",
+        "strength": "0.50%, 3mL, 1 count"
+    },
+    {
+        "name": "Mycophenolate Mofetil (Generic for CellCept)",
+        "category": "Organ Transplant",
+        "type": "Tablet",
+        "description": "",
+        "strength": "500mg, 30 count"
+    },
+    {
+        "name": "Mycophenolate Sodium DR (Generic for Myfortic)",
+        "category": "Organ Transplant",
+        "type": "Tablet",
+        "description": "",
+        "strength": "360mg, 30 count"
+    },
+    {
+        "name": "Nabumetone (Generic for Relafen)",
+        "category": "Arthritis",
+        "type": "Tablet",
+        "description": "",
+        "strength": "750mg, 30 count"
+    },
+    {
+        "name": "Naftifine HCl (Generic for Naftin)",
+        "category": "Anti-fungal",
+        "type": "Tablet",
+        "description": "",
+        "strength": "2%, 60g, 1 count"
+    },
+    {
+        "name": "Naloxone HCl (Generic for Narcan)",
+        "category": "Opioid Dependence",
+        "type": "Liquid",
+        "description": "",
+        "strength": "4mg/0.1mL, 2 Nasal Sprays, 1 count"
+    },
+    {
+        "name": "Naltrexone HCl (Generic for ReVia)",
+        "category": "Alcohol Dependence",
+        "type": "Tablet",
+        "description": "",
+        "strength": "50mg, 30 count"
+    },
+    {
+        "name": "Naltrexone HCl (Generic for ReVia)",
+        "category": "Opioid Dependence",
+        "type": "Tablet",
+        "description": "",
+        "strength": "50mg, 30 count"
+    },
+    {
+        "name": "Naproxen (Generic for Naprosyn, Anaprox DS)",
+        "category": "Anti-Inflammation",
+        "type": "Liquid",
+        "description": "",
+        "strength": "550mg, 30 count"
+    },
+    {
+        "name": "Naproxen EC (Generic for EC-Naprosyn)",
+        "category": "Anti-Inflammation",
+        "type": "Tablet",
+        "description": "",
+        "strength": "500mg, 30 count"
+    },
+    {
+        "name": "Naproxen Sodium ER (Generic for Naprelan)",
+        "category": "Anti-Inflammation",
+        "type": "Tablet",
+        "description": "",
+        "strength": "750mg, 30 count"
+    },
+    {
+        "name": "Naproxen-Esomeprazole Mg (Generic for Vimovo)",
+        "category": "Arthritis",
+        "type": "Tablet",
+        "description": "",
+        "strength": "500-20mg, 30 count"
+    },
+    {
+        "name": "Naproxen-Esomeprazole Mg (Generic for Vimovo)",
+        "category": "Rheumatoid Arthritis",
+        "type": "Tablet",
+        "description": "",
+        "strength": "500-20mg, 30 count"
+    },
+    {
+        "name": "Naratriptan HCl (Generic for Amerge)",
+        "category": "Migraines",
+        "type": "Tablet",
+        "description": "",
+        "strength": "2.5mg, 30 count"
+    },
+    {
+        "name": "Neomycin-Bacitracin Zn-Polymyx (Generic for Neo-Polycin)",
+        "category": "Eye Health",
+        "type": "Tablet",
+        "description": "",
+        "strength": "5-400-10000, 3.5g, 1 count"
+    },
+    {
+        "name": "Nevirapine (Generic for Viramune)",
+        "category": "HIV",
+        "type": "Liquid",
+        "description": "",
+        "strength": "50mg/5mL, 240mL, 1 count"
+    },
+    {
+        "name": "Nevirapine ER (Generic for Viramune XR)",
+        "category": "HIV",
+        "type": "Tablet",
+        "description": "",
+        "strength": "400mg, 30 count"
+    },
+    {
+        "name": "Niacin ER (Antihyperlipidemic) (Generic for Niaspan)",
+        "category": "High Cholesterol",
+        "type": "Tablet",
+        "description": "",
+        "strength": "750mg, 30 count"
+    },
+    {
+        "name": "Nicardipine HCl (Generic for Cardene)",
+        "category": "Angina",
+        "type": "Capsule",
+        "description": "",
+        "strength": "30mg, 30 count"
+    },
+    {
+        "name": "Nicotine Polacrilex (Generic for Commit)",
+        "category": "Smoking Cessation",
+        "type": "Tablet",
+        "description": "",
+        "strength": "4 mg, 27 Lozenges, 1 count"
+    },
+    {
+        "name": "Nicotine Polacrilex (Generic for Nicorette)",
+        "category": "Smoking Cessation",
+        "type": "Tablet",
+        "description": "",
+        "strength": "4mg, 110 Pieces, 1 count"
+    },
+    {
+        "name": "Nicotine TD (Generic for Habitrol, Nicoderm CQ)",
+        "category": "Smoking Cessation",
+        "type": "Tablet",
+        "description": "",
+        "strength": "7mg, 14 Patches, 1 count"
+    },
+    {
+        "name": "Nifedipine (Generic for Adalat)",
+        "category": "Angina",
+        "type": "Capsule",
+        "description": "",
+        "strength": "20mg, 30 count"
+    },
+    {
+        "name": "Nifedipine (Generic for Procardia)",
+        "category": "Angina",
+        "type": "Capsule",
+        "description": "",
+        "strength": "10mg, 30 count"
+    },
+    {
+        "name": "Nimodipine (Generic for Nimotop)",
+        "category": "Hemorrhage",
+        "type": "Capsule",
+        "description": "",
+        "strength": "30mg, 30 count"
+    },
+    {
+        "name": "Nitazoxanide (Generic for Alinia)",
+        "category": "Anti-Parasitic",
+        "type": "Tablet",
+        "description": "",
+        "strength": "500mg, 30 count"
+    },
+    {
+        "name": "Nitisinone (Generic for Orfadin)",
+        "category": "Kidney Disease",
+        "type": "Capsule",
+        "description": "",
+        "strength": "5mg, 30 count"
+    },
+    {
+        "name": "Nitro-Bid (Nitroglycerin)",
+        "category": "Angina",
+        "type": "Tablet",
+        "description": "",
+        "strength": "2%, 30g, 1 count"
+    },
+    {
+        "name": "Nitrofurantoin (Generic for Furadantin)",
+        "category": "Urinary Symptoms",
+        "type": "Liquid",
+        "description": "",
+        "strength": "25mg/5mL, 230mL, 1 count"
+    },
+    {
+        "name": "Nitroglycerin (Generic for Minitran)",
+        "category": "Angina",
+        "type": "Tablet",
+        "description": "",
+        "strength": "0.6mg/HR, 30 count"
+    },
+    {
+        "name": "Nitroglycerin (Generic for Nitrolingual)",
+        "category": "Angina",
+        "type": "Liquid",
+        "description": "",
+        "strength": "0.4mg/Spray, 4.9g, 1 count"
+    },
+    {
+        "name": "Nitroglycerin SL (Generic for Nitrostat)",
+        "category": "Angina",
+        "type": "Tablet",
+        "description": "",
+        "strength": "0.6mg, 100 Tablets, 1 count"
+    },
+    {
+        "name": "Norelgestromin-Ethinyl Estradiol (Generic for Zafemy)",
+        "category": "Birth Control",
+        "type": "Tablet",
+        "description": "",
+        "strength": "150-35mcg, 30 count"
+    },
+    {
+        "name": "Norethindrone (Generic for Ortho Micronor)",
+        "category": "Birth Control",
+        "type": "Tablet",
+        "description": "",
+        "strength": "0.35mg, 28 pack, 1 count"
+    },
+    {
+        "name": "Norethindrone (Generic for Ortho Micronor)",
+        "category": "Hormone Therapy",
+        "type": "Tablet",
+        "description": "",
+        "strength": "0.35mg, 28 pack, 1 count"
+    },
+    {
+        "name": "Norethindrone Ace-Eth Estradiol-FE (Generic for Mibelas 24 Fe)",
+        "category": "Birth Control",
+        "type": "Tablet",
+        "description": "",
+        "strength": "1mg-20mcg, 28 Chewable Tablets, 1 count"
+    },
+    {
+        "name": "Norethindrone Ace-Ethinyl Estradiol-FE (Generic for Gemmily)",
+        "category": "Birth Control",
+        "type": "Capsule",
+        "description": "",
+        "strength": "1mg-20mcg, 28 Capsules, 1 count"
+    },
+    {
+        "name": "Norethindrone Ace-Ethinyl Estradiol-FE (Generic for Junel Fe 24)",
+        "category": "Birth Control",
+        "type": "Tablet",
+        "description": "",
+        "strength": "1mg-20mcg, 28 Tablets, 1 count"
+    },
+    {
+        "name": "Norethindrone Acetate (Generic for Aygestin)",
+        "category": "Birth Control",
+        "type": "Tablet",
+        "description": "",
+        "strength": "5mg, 30 count"
+    },
+    {
+        "name": "Norethindrone Acetate (Generic for Aygestin)",
+        "category": "Hormone Therapy",
+        "type": "Tablet",
+        "description": "",
+        "strength": "5mg, 30 count"
+    },
+    {
+        "name": "Norethindrone Acetate & Ethinyl Estradiol (Generic for Hailey Fe)",
+        "category": "Birth Control",
+        "type": "Tablet",
+        "description": "",
+        "strength": "1.5mg-30mcg, 28 pack, 1 count"
+    },
+    {
+        "name": "Norethindrone Acetate & Ethinyl Estradiol (Generic for Loestrin Fe)",
+        "category": "Birth Control",
+        "type": "Tablet",
+        "description": "",
+        "strength": "1mg-20mcg, 28 Pack, 1 count"
+    },
+    {
+        "name": "Nystatin (Generic for Mycostatin)",
+        "category": "Anti-fungal",
+        "type": "Liquid",
+        "description": "",
+        "strength": "500000 Unit, 30 count"
+    },
+    {
+        "name": "Nystatin-Triamcinolone (Generic for Mycolog II)",
+        "category": "Anti-fungal",
+        "type": "Tablet",
+        "description": "",
+        "strength": "100000 unit/g 0.1%, 60g, 1 count"
+    },
+    {
+        "name": "Omega 3 Acid Ethyl Esters (Generic for Lovaza)",
+        "category": "High Cholesterol",
+        "type": "Capsule",
+        "description": "",
+        "strength": "1gm, 30 count"
+    },
+    {
+        "name": "Ondansetron (Generic for Zofran ODT)",
+        "category": "Nausea",
+        "type": "Tablet",
+        "description": "",
+        "strength": "8mg, 30 count"
+    },
+    {
+        "name": "Ondansetron HCl (Generic for Zofran)",
+        "category": "Nausea",
+        "type": "Liquid",
+        "description": "",
+        "strength": "4mg/5mL, 50mL, 1 count"
+    },
+    {
+        "name": "Orphenadrine Citrate ER (Generic for Norflex)",
+        "category": "Muscle Relaxants",
+        "type": "Tablet",
+        "description": "",
+        "strength": "100mg, 30 count"
+    },
+    {
+        "name": "Orphenadrine Citrate ER (Generic for Norflex)",
+        "category": "Musculoskeletal",
+        "type": "Tablet",
+        "description": "",
+        "strength": "100mg, 30 count"
+    },
+    {
+        "name": "Oxaprozin (Generic for Daypro)",
+        "category": "Bone Health",
+        "type": "Tablet",
+        "description": "",
+        "strength": "600mg, 30 count"
+    },
+    {
+        "name": "Oxaprozin (Generic for Daypro)",
+        "category": "Rheumatoid Arthritis",
+        "type": "Tablet",
+        "description": "",
+        "strength": "600mg, 30 count"
+    },
+    {
+        "name": "Oxcarbazepine (Generic for Trileptal)",
+        "category": "Neurological",
+        "type": "Liquid",
+        "description": "",
+        "strength": "600mg, 30 count"
+    },
+    {
+        "name": "Oxcarbazepine (Generic for Trileptal)",
+        "category": "Seizures",
+        "type": "Liquid",
+        "description": "",
+        "strength": "600mg, 30 count"
+    },
+    {
+        "name": "Oxiconazole Nitrate (Generic for Oxistat)",
+        "category": "Anti-fungal",
+        "type": "Tablet",
+        "description": "",
+        "strength": "1%, 30g, 1 count"
+    },
+    {
+        "name": "Oxybutynin Chloride (Generic for Ditropan)",
+        "category": "Incontinence",
+        "type": "Liquid",
+        "description": "",
+        "strength": "5mg/5mL, 473mL, 1 count"
+    },
+    {
+        "name": "Oxybutynin Chloride (Generic for Ditropan)",
+        "category": "Urinary Symptoms",
+        "type": "Liquid",
+        "description": "",
+        "strength": "5mg/5mL, 473mL, 1 count"
+    },
+    {
+        "name": "Oxybutynin Extended Release (ER) (Generic for Ditropan XL)",
+        "category": "Incontinence",
+        "type": "Tablet",
+        "description": "",
+        "strength": "5mg, 30 count"
+    },
+    {
+        "name": "Pantoprazole Sodium (Generic for Protonix)",
+        "category": "Acid Reflux",
+        "type": "Tablet",
+        "description": "",
+        "strength": "40mg, 30 count"
+    },
+    {
+        "name": "Paricalcitol (Generic for Zemplar)",
+        "category": "Kidney Disease",
+        "type": "Capsule",
+        "description": "",
+        "strength": "2mcg, 30 count"
+    },
+    {
+        "name": "PEG 3350-KCl-Na Bicarb-NaCl (Generic for Nulytely Lemon-Lime)",
+        "category": "Colonoscopy Preparation",
+        "type": "Liquid",
+        "description": "",
+        "strength": "420gm, 4 liter, 1 count"
+    },
+    {
+        "name": "PEG 3350-KCl-Na Bicarb-NaCl-Na Sulfate (Generic for Golytely)",
+        "category": "Colonoscopy Preparation",
+        "type": "Liquid",
+        "description": "",
+        "strength": "236gm, 4 Liters, 1 count"
+    },
+    {
+        "name": "PEG-KCl-NaCl-NaSulf-Na Asc-C (Generic for MoviPrep)",
+        "category": "Colonoscopy Preparation",
+        "type": "Liquid",
+        "description": "",
+        "strength": "100gm, 1 liter, 1 count"
+    },
+    {
+        "name": "Penciclovir (Generic for Denavir)",
+        "category": "Anti-viral",
+        "type": "Tablet",
+        "description": "",
+        "strength": "1%, 5g, 1 count"
+    },
+    {
+        "name": "Penicillamine (Generic for Cuprimine)",
+        "category": "Rheumatoid Arthritis",
+        "type": "Capsule",
+        "description": "",
+        "strength": "250mg, 30 count"
+    },
+    {
+        "name": "Penicillamine (Generic for Cuprimine)",
+        "category": "Wilson Disease",
+        "type": "Capsule",
+        "description": "",
+        "strength": "250mg, 30 count"
+    },
+    {
+        "name": "Penicillamine (Generic for Depen Titratabs)",
+        "category": "Kidney Disease",
+        "type": "Tablet",
+        "description": "",
+        "strength": "250mg, 30 count"
+    },
+    {
+        "name": "Penicillamine (Generic for Depen Titratabs)",
+        "category": "Rheumatoid Arthritis",
+        "type": "Tablet",
+        "description": "",
+        "strength": "250mg, 30 count"
+    },
+    {
+        "name": "Penicillamine (Generic for Depen Titratabs)",
+        "category": "Wilson Disease",
+        "type": "Tablet",
+        "description": "",
+        "strength": "250mg, 30 count"
+    },
+    {
+        "name": "Pentoxifylline ER (Generic for Trental)",
+        "category": "Anti-Inflammation",
+        "type": "Tablet",
+        "description": "",
+        "strength": "400mg, 30 count"
+    },
+    {
+        "name": "Pentoxifylline ER (Generic for Trental)",
+        "category": "Vascular Disease",
+        "type": "Tablet",
+        "description": "",
+        "strength": "400mg, 30 count"
+    },
+    {
+        "name": "Perphenazine (Generic for Trilafon)",
+        "category": "Nausea",
+        "type": "Tablet",
+        "description": "",
+        "strength": "8mg, 30 count"
+    },
+    {
+        "name": "Phenytoin (Generic for Dilantin)",
+        "category": "Seizures",
+        "type": "Liquid",
+        "description": "",
+        "strength": "100mg, 30 count"
+    },
+    {
+        "name": "Phytonadione (Generic for Mephyton)",
+        "category": "Vitamin Deficiency",
+        "type": "Tablet",
+        "description": "",
+        "strength": "5mg, 30 count"
+    },
+    {
+        "name": "Pilocarpine HCl (Generic for Isopto Carpine)",
+        "category": "Eye Health",
+        "type": "Liquid",
+        "description": "",
+        "strength": "4%, 15mL, 1 count"
+    },
+    {
+        "name": "Pilocarpine HCl (Generic for Isopto Carpine)",
+        "category": "Glaucoma",
+        "type": "Liquid",
+        "description": "",
+        "strength": "4%, 15mL, 1 count"
+    },
+    {
+        "name": "Pilocarpine HCl (Generic for Salagen)",
+        "category": "Oral Health",
+        "type": "Tablet",
+        "description": "",
+        "strength": "7.5mg, 30 count"
+    },
+    {
+        "name": "Pimecrolimus (Generic for Elidel)",
+        "category": "Seizures",
+        "type": "Tablet",
+        "description": "",
+        "strength": "1%, 30g, 1 count"
+    },
+    {
+        "name": "Pirfenidone (Generic for Esbriet)",
+        "category": "Pulmonary Fibrosis",
+        "type": "Tablet",
+        "description": "",
+        "strength": "801mg, 30 count"
+    },
+    {
+        "name": "Piroxicam (Generic for Feldene)",
+        "category": "Rheumatoid Arthritis",
+        "type": "Capsule",
+        "description": "",
+        "strength": "20mg, 30 count"
+    },
+    {
+        "name": "Pitavastatin Calcium (Generic for Livalo)",
+        "category": "High Cholesterol",
+        "type": "Tablet",
+        "description": "",
+        "strength": "1 mg, 30 count"
+    },
+    {
+        "name": "Posaconazole (Generic for Noxafil)",
+        "category": "Anti-fungal",
+        "type": "Liquid",
+        "description": "",
+        "strength": "100mg, 30 count"
+    },
+    {
+        "name": "Potassium Chloride (Generic for K-Sol)",
+        "category": "Low Potassium",
+        "type": "Liquid",
+        "description": "",
+        "strength": "40mEq/15mL (20%), 473mL, 1 count"
+    },
+    {
+        "name": "Potassium Chloride (Generic for Klor-Con)",
+        "category": "Low Potassium",
+        "type": "Tablet",
+        "description": "",
+        "strength": "20mEq, 30 count"
+    },
+    {
+        "name": "Potassium Chloride ER (Generic for K-Tab)",
+        "category": "Low Potassium",
+        "type": "Tablet",
+        "description": "",
+        "strength": "20mEq, 30 count"
+    },
+    {
+        "name": "Potassium Chloride Extended Release (ER) (Generic for Klor-Con M)",
+        "category": "Low Potassium",
+        "type": "Tablet",
+        "description": "",
+        "strength": "8mEq, 30 count"
+    },
+    {
+        "name": "Potassium Chloride Extended Release (ER) (Generic for Micro-K)",
+        "category": "Low Potassium",
+        "type": "Capsule",
+        "description": "",
+        "strength": "8mEq, 30 count"
+    },
+    {
+        "name": "Potassium Citrate ER (Generic for Urocit-K)",
+        "category": "Kidney Disease",
+        "type": "Tablet",
+        "description": "",
+        "strength": "5mEq (540mg), 30 count"
+    },
+    {
+        "name": "Pramipexole Dihydrochloride (Generic for Mirapex)",
+        "category": "Restless Leg Syndrome",
+        "type": "Tablet",
+        "description": "",
+        "strength": "0.75mg, 30 count"
+    },
+    {
+        "name": "Pramipexole Dihydrochloride ER (Generic for Mirapex ER)",
+        "category": "Restless Leg Syndrome",
+        "type": "Tablet",
+        "description": "",
+        "strength": "4.5mg, 30 count"
+    },
+    {
+        "name": "Prasugrel HCl (Generic for Effient)",
+        "category": "Blood Thinner",
+        "type": "Tablet",
+        "description": "",
+        "strength": "5mg, 30 Tablets, 1 count"
+    },
+    {
+        "name": "Pravastatin (Generic for Pravachol)",
+        "category": "High Cholesterol",
+        "type": "Tablet",
+        "description": "",
+        "strength": "80mg, 30 count"
+    },
+    {
+        "name": "Praziquantel (Generic for Biltricide)",
+        "category": "Anti-Parasitic",
+        "type": "Tablet",
+        "description": "",
+        "strength": "600mg, 30 count"
+    },
+    {
+        "name": "Prazosin HCl (Generic for Minipress)",
+        "category": "Urinary Symptoms",
+        "type": "Capsule",
+        "description": "",
+        "strength": "5mg, 30 count"
+    },
+    {
+        "name": "Prednisolone (Generic for Millipred)",
+        "category": "Steroid",
+        "type": "Liquid",
+        "description": "",
+        "strength": "10mg/5mL, 237mL, 1 count"
+    },
+    {
+        "name": "Prednisolone (Generic for Prelone)",
+        "category": "Steroid",
+        "type": "Liquid",
+        "description": "",
+        "strength": "15mg/5mL, 480mL, 1 count"
+    },
+    {
+        "name": "Prednisolone Sodium Phosphate (Generic for Inflamase Forte)",
+        "category": "Eye Health",
+        "type": "Liquid",
+        "description": "",
+        "strength": "1%, 10mL, 1 count"
+    },
+    {
+        "name": "Prednisolone Sodium Phosphate (Generic for Orapred)",
+        "category": "Arthritis",
+        "type": "Tablet",
+        "description": "",
+        "strength": "15mg/5mL, 237mL, 1 count"
+    },
+    {
+        "name": "Prednisolone Sodium Phosphate (Generic for Veripred 20)",
+        "category": "Arthritis",
+        "type": "Tablet",
+        "description": "",
+        "strength": "20mg/5mL, 237mL, 1 count"
+    },
+    {
+        "name": "Prednisone (Generic for Deltasone)",
+        "category": "Anti-Inflammation",
+        "type": "Liquid",
+        "description": "",
+        "strength": "5mg/5mL, 120mL, 1 count"
+    },
+    {
+        "name": "Prednisone (Generic for Deltasone)",
+        "category": "Steroid",
+        "type": "Liquid",
+        "description": "",
+        "strength": "5mg/5mL, 120mL, 1 count"
+    },
+    {
+        "name": "Premarin (Conjugated Estrogens)",
+        "category": "Hormone Therapy",
+        "type": "Tablet",
+        "description": "",
+        "strength": "1.25mg, 30 count"
+    },
+    {
+        "name": "Premphase (Conjugated Estrogens / Medroxyprogesterone)",
+        "category": "Bone Health",
+        "type": "Tablet",
+        "description": "",
+        "strength": "0.625-5mg, 28 Tablets, 1 count"
+    },
+    {
+        "name": "Premphase (Conjugated Estrogens / Medroxyprogesterone)",
+        "category": "Hormone Therapy",
+        "type": "Tablet",
+        "description": "",
+        "strength": "0.625-5mg, 28 Tablets, 1 count"
+    },
+    {
+        "name": "Prempro (Conjugated Estrogens / Medroxyprogesterone)",
+        "category": "Bone Health",
+        "type": "Tablet",
+        "description": "",
+        "strength": "0.625-5mg, 28 Tablets, 1 count"
+    },
+    {
+        "name": "Prempro (Conjugated Estrogens / Medroxyprogesterone)",
+        "category": "Hormone Therapy",
+        "type": "Tablet",
+        "description": "",
+        "strength": "0.625-5mg, 28 Tablets, 1 count"
+    },
+    {
+        "name": "Prenatal Vitamin W/FE Fumarate-FA (Generic for WesTab Plus)",
+        "category": "Vitamin Deficiency",
+        "type": "Tablet",
+        "description": "",
+        "strength": "27-1mg, 30 count"
+    },
+    {
+        "name": "Primidone (Generic for Mysoline)",
+        "category": "Seizures",
+        "type": "Tablet",
+        "description": "",
+        "strength": "50mg, 30 count"
+    },
+    {
+        "name": "Probenecid (Generic for Benemid)",
+        "category": "Gout",
+        "type": "Tablet",
+        "description": "",
+        "strength": "500mg, 30 count"
+    },
+    {
+        "name": "Prochlorperazine (Generic for Compro)",
+        "category": "Nausea",
+        "type": "Tablet",
+        "description": "",
+        "strength": "25mg, 12 Suppositories, 1 count"
+    },
+    {
+        "name": "Prochlorperazine Maleate (Generic for Compazine)",
+        "category": "Nausea",
+        "type": "Tablet",
+        "description": "",
+        "strength": "5mg, 30 count"
+    },
+    {
+        "name": "Progesterone (Generic for Prometrium)",
+        "category": "Hormone Therapy",
+        "type": "Capsule",
+        "description": "",
+        "strength": "200mg, 30 count"
+    },
+    {
+        "name": "Promethazine HCl (Generic for Phenergan)",
+        "category": "Nausea",
+        "type": "Liquid",
+        "description": "",
+        "strength": "6.25mg/5mL, 473mL, 1 count"
+    },
+    {
+        "name": "Promethazine HCl (Generic for Promethegan)",
+        "category": "Nausea",
+        "type": "Tablet",
+        "description": "",
+        "strength": "25mg, 30 count"
+    },
+    {
+        "name": "Propafenone HCl (Generic for Rythmol)",
+        "category": "Arrhythmia",
+        "type": "Tablet",
+        "description": "",
+        "strength": "300mg, 30 count"
+    },
+    {
+        "name": "Propafenone HCl ER (Generic for Rythmol SR)",
+        "category": "Arrhythmia",
+        "type": "Capsule",
+        "description": "",
+        "strength": "425mg, 30 count"
+    },
+    {
+        "name": "Propranolol HCl (Generic for Inderal)",
+        "category": "Angina",
+        "type": "Liquid",
+        "description": "",
+        "strength": "80mg, 30 count"
+    },
+    {
+        "name": "Propranolol HCl (Generic for Inderal)",
+        "category": "Heart Failure",
+        "type": "Liquid",
+        "description": "",
+        "strength": "80mg, 30 count"
+    },
+    {
+        "name": "Propranolol HCl (Generic for Inderal)",
+        "category": "Migraines",
+        "type": "Liquid",
+        "description": "",
+        "strength": "80mg, 30 count"
+    },
+    {
+        "name": "Propylthiouracil (Generic for Propylthiouracil)",
+        "category": "Thyroid",
+        "type": "Tablet",
+        "description": "",
+        "strength": "50mg, 30 count"
+    },
+    {
+        "name": "Pyridostigmine Bromide (Generic for Mestinon)",
+        "category": "Musculoskeletal",
+        "type": "Liquid",
+        "description": "",
+        "strength": "180mg, 30 count"
+    },
+    {
+        "name": "Pyrimethamine (Generic for Daraprim)",
+        "category": "Antimalarial",
+        "type": "Tablet",
+        "description": "",
+        "strength": "25mg, 30 count"
+    },
+    {
+        "name": "Pyrimethamine (Generic for Daraprim)",
+        "category": "Anti-Parasitic",
+        "type": "Tablet",
+        "description": "",
+        "strength": "25mg, 30 count"
+    },
+    {
+        "name": "Quinidine Gluconate ER (Generic for Quinaglute)",
+        "category": "Arrhythmia",
+        "type": "Tablet",
+        "description": "",
+        "strength": "324mg, 30 count"
+    },
+    {
+        "name": "Quinidine Sulfate (Generic for Quinora)",
+        "category": "Arrhythmia",
+        "type": "Tablet",
+        "description": "",
+        "strength": "300mg, 30 count"
+    },
+    {
+        "name": "Quinine Sulfate (Generic for Qualaquin)",
+        "category": "Antimalarial",
+        "type": "Capsule",
+        "description": "",
+        "strength": "324mg, 30 count"
+    },
+    {
+        "name": "Quinine Sulfate (Generic for Qualaquin)",
+        "category": "Anti-Parasitic",
+        "type": "Capsule",
+        "description": "",
+        "strength": "324mg, 30 count"
+    },
+    {
+        "name": "Rabeprazole Sodium DR (Generic for Aciphex)",
+        "category": "Acid Reflux",
+        "type": "Tablet",
+        "description": "",
+        "strength": "20mg, 30 count"
+    },
+    {
+        "name": "Raloxifene HCl (Generic for Evista)",
+        "category": "Bone Health",
+        "type": "Tablet",
+        "description": "",
+        "strength": "60mg, 30 count"
+    },
+    {
+        "name": "Raloxifene HCl (Generic for Evista)",
+        "category": "Breast Cancer",
+        "type": "Tablet",
+        "description": "",
+        "strength": "60mg, 30 count"
+    },
+    {
+        "name": "Raloxifene HCl (Generic for Evista)",
+        "category": "Cancer",
+        "type": "Tablet",
+        "description": "",
+        "strength": "60mg, 30 count"
+    },
+    {
+        "name": "Ramelteon (Generic for Rozerem)",
+        "category": "Insomnia",
+        "type": "Tablet",
+        "description": "",
+        "strength": "8mg, 30 count"
+    },
+    {
+        "name": "Ranolazine Extended Release (ER) (Generic for Ranexa)",
+        "category": "Angina",
+        "type": "Tablet",
+        "description": "",
+        "strength": "500mg, 30 count"
+    },
+    {
+        "name": "Ribavirin (Generic for Copegus)",
+        "category": "Anti-viral",
+        "type": "Tablet",
+        "description": "",
+        "strength": "200mg, 30 count"
+    },
+    {
+        "name": "Ribavirin (Generic for Rebetol)",
+        "category": "Anti-viral",
+        "type": "Capsule",
+        "description": "",
+        "strength": "200mg, 30 count"
+    },
+    {
+        "name": "Riluzole (Generic for Rilutek)",
+        "category": "ALS",
+        "type": "Tablet",
+        "description": "",
+        "strength": "50mg, 30 count"
+    },
+    {
+        "name": "Rimantadine HCl (Generic for Flumadine)",
+        "category": "Anti-viral",
+        "type": "Tablet",
+        "description": "",
+        "strength": "100mg, 30 count"
+    },
+    {
+        "name": "Risedronate Sodium (Generic for Actonel)",
+        "category": "Bone Health",
+        "type": "Tablet",
+        "description": "",
+        "strength": "5mg, 30 count"
+    },
+    {
+        "name": "Risedronate Sodium (Generic for Atelvia)",
+        "category": "Bone Health",
+        "type": "Tablet",
+        "description": "",
+        "strength": "35mg, 30 count"
+    },
+    {
+        "name": "Ritonavir (Generic for Norvir)",
+        "category": "HIV",
+        "type": "Tablet",
+        "description": "",
+        "strength": "100mg, 30 count"
+    },
+    {
+        "name": "Rivastigmine (Generic for Exelon)",
+        "category": "Dementia",
+        "type": "Capsule",
+        "description": "",
+        "strength": "6mg, 30 count"
+    },
+    {
+        "name": "Rizatriptan Benzoate (Generic for Maxalt-MLT)",
+        "category": "Migraines",
+        "type": "Tablet",
+        "description": "",
+        "strength": "5mg, 30 count"
+    },
+    {
+        "name": "Rizatriptan Benzoate (Generic for Maxalt)",
+        "category": "Migraines",
+        "type": "Tablet",
+        "description": "",
+        "strength": "5mg, 30 count"
+    },
+    {
+        "name": "Roflumilast (Generic for Daliresp)",
+        "category": "Asthma/COPD",
+        "type": "Tablet",
+        "description": "",
+        "strength": "500mcg, 30 count"
+    },
+    {
+        "name": "Ropinirole (Generic for Requip)",
+        "category": "Neurological",
+        "type": "Tablet",
+        "description": "",
+        "strength": "5mg, 30 count"
+    },
+    {
+        "name": "Ropinirole (Generic for Requip)",
+        "category": "Restless Leg Syndrome",
+        "type": "Tablet",
+        "description": "",
+        "strength": "5mg, 30 count"
+    },
+    {
+        "name": "Ropinirole Extended Release (ER) (Generic for Requip XL)",
+        "category": "Neurological",
+        "type": "Tablet",
+        "description": "",
+        "strength": "8mg, 30 count"
+    },
+    {
+        "name": "Ropinirole Extended Release (ER) (Generic for Requip XL)",
+        "category": "Restless Leg Syndrome",
+        "type": "Tablet",
+        "description": "",
+        "strength": "8mg, 30 count"
+    },
+    {
+        "name": "Rosuvastatin (Generic for Crestor)",
+        "category": "High Cholesterol",
+        "type": "Tablet",
+        "description": "",
+        "strength": "5mg, 30 count"
+    },
+    {
+        "name": "Rufinamide (Generic for Banzel)",
+        "category": "Seizures",
+        "type": "Liquid",
+        "description": "",
+        "strength": "40mg/mL, 460mL, 1 count"
+    },
+    {
+        "name": "Sapropterin Dihydrochloride (Generic for Kuvan)",
+        "category": "Phenylketonuria",
+        "type": "Tablet",
+        "description": "",
+        "strength": "500mg, 30 count"
+    },
+    {
+        "name": "Scopolamine (Generic for Transderm-Scop)",
+        "category": "Nausea",
+        "type": "Tablet",
+        "description": "",
+        "strength": "1mg, 30 count"
+    },
+    {
+        "name": "Sevelamer Carbonate (Generic for Renvela)",
+        "category": "Kidney Disease",
+        "type": "Tablet",
+        "description": "",
+        "strength": "800mg, 30 count"
+    },
+    {
+        "name": "Sevelamer HCl (Generic for Renagel)",
+        "category": "Kidney Disease",
+        "type": "Tablet",
+        "description": "",
+        "strength": "800mg, 30 count"
+    },
+    {
+        "name": "Sildenafil Citrate (Generic for Revatio)",
+        "category": "Erectile Dysfunction",
+        "type": "Tablet",
+        "description": "",
+        "strength": "20mg, 30 count"
+    },
+    {
+        "name": "Sildenafil Citrate (Generic for Viagra)",
+        "category": "Erectile Dysfunction",
+        "type": "Tablet",
+        "description": "",
+        "strength": "50mg, 30 count"
+    },
+    {
+        "name": "Silodosin (Generic for Rapaflo)",
+        "category": "Prostate",
+        "type": "Capsule",
+        "description": "",
+        "strength": "8mg, 30 count"
+    },
+    {
+        "name": "Silver Sulfadiazine (Generic for SSD)",
+        "category": "Burns",
+        "type": "Tablet",
+        "description": "",
+        "strength": "1%, 85g, 1 count"
+    },
+    {
+        "name": "Simvastatin (Generic for Zocor)",
+        "category": "High Cholesterol",
+        "type": "Tablet",
+        "description": "",
+        "strength": "80mg, 30 count"
+    },
+    {
+        "name": "Sirolimus (Generic for Rapamune)",
+        "category": "Organ Transplant",
+        "type": "Tablet",
+        "description": "",
+        "strength": "2mg, 30 count"
+    },
+    {
+        "name": "Sirolimus Oral Solution (Generic for Rapamune Oral Solution)",
+        "category": "Organ Transplant",
+        "type": "Liquid",
+        "description": "",
+        "strength": "1mg/mL, 60mL, 1 count"
+    },
+    {
+        "name": "Sodium Fluoride (Generic for Ludent)",
+        "category": "Dental Care",
+        "type": "Tablet",
+        "description": "",
+        "strength": "0.5mg, 30 count"
+    },
+    {
+        "name": "Sodium Fluoride (Generic for Luride)",
+        "category": "Dental Care",
+        "type": "Liquid",
+        "description": "",
+        "strength": "0.5mg/mL, 50mL, 1 count"
+    },
+    {
+        "name": "Sodium Fluoride (Generic for NaFrinse)",
+        "category": "Dental Care",
+        "type": "Tablet",
+        "description": "",
+        "strength": "2.2mg (1mg fluoride), 30 count"
+    },
+    {
+        "name": "Sodium Phenylbutyrate (Generic for Buphenyl)",
+        "category": "Urea Cycle Disorders",
+        "type": "Tablet",
+        "description": "",
+        "strength": "500mg, 30 count"
+    },
+    {
+        "name": "Sodium Polystyrene Sulfonate (Generic for Kayexalate)",
+        "category": "High Potassium",
+        "type": "Tablet",
+        "description": "",
+        "strength": "60mEq, 15g, 1 count"
+    },
+    {
+        "name": "Solifenacin Succinate (Generic for Vesicare)",
+        "category": "Urinary Symptoms",
+        "type": "Tablet",
+        "description": "",
+        "strength": "5mg, 30 count"
+    },
+    {
+        "name": "Sotalol HCl (AF) (Generic for Betapace AF)",
+        "category": "Arrhythmia",
+        "type": "Tablet",
+        "description": "",
+        "strength": "80mg, 30 count"
+    },
+    {
+        "name": "Sulfacetamide-Prednisolone (Generic for Vasocidin)",
+        "category": "Eye Health",
+        "type": "Liquid",
+        "description": "",
+        "strength": "10-0.23%, 5mL, 1 count"
+    },
+    {
+        "name": "Sulindac (Generic for Clinoril)",
+        "category": "Gout",
+        "type": "Tablet",
+        "description": "",
+        "strength": "200mg, 30 count"
+    },
+    {
+        "name": "Sulindac (Generic for Clinoril)",
+        "category": "Rheumatoid Arthritis",
+        "type": "Tablet",
+        "description": "",
+        "strength": "200mg, 30 count"
+    },
+    {
+        "name": "Sumatriptan (Generic for Imitrex)",
+        "category": "Migraines",
+        "type": "Liquid",
+        "description": "",
+        "strength": "50mg, 30 count"
+    },
+    {
+        "name": "Sumatriptan Succinate (Generic for Imitrex Auto-Injector System (PFS))",
+        "category": "Migraines",
+        "type": "Injection",
+        "description": "",
+        "strength": "6mg/0.5mL, 1mL (2 Syringes), 1 count"
+    },
+    {
+        "name": "Sumatriptan-Naproxen Sodium (Generic for Treximet)",
+        "category": "Migraines",
+        "type": "Tablet",
+        "description": "",
+        "strength": "85-500mg, 30 count"
+    },
+    {
+        "name": "Tacrolimus (Generic for Prograf)",
+        "category": "Organ Transplant",
+        "type": "Capsule",
+        "description": "",
+        "strength": "5mg, 30 count"
+    },
+    {
+        "name": "Tadalafil (Generic for Cialis)",
+        "category": "Erectile Dysfunction",
+        "type": "Tablet",
+        "description": "",
+        "strength": "5mg, 30 count"
+    },
+    {
+        "name": "Tafluprost (PF) (Generic for Zioptan)",
+        "category": "Glaucoma",
+        "type": "Liquid",
+        "description": "",
+        "strength": "0.0015%, 30 Unit Doses, 1 count"
+    },
+    {
+        "name": "Tamsulosin (Generic for Flomax)",
+        "category": "Prostate",
+        "type": "Capsule",
+        "description": "",
+        "strength": "0.4mg, 30 count"
+    },
+    {
+        "name": "Tamsulosin (Generic for Flomax)",
+        "category": "Urinary Symptoms",
+        "type": "Capsule",
+        "description": "",
+        "strength": "0.4mg, 30 count"
+    },
+    {
+        "name": "Tasimelteon (Generic for Hetlioz)",
+        "category": "Insomnia",
+        "type": "Capsule",
+        "description": "",
+        "strength": "20mg, 30 count"
+    },
+    {
+        "name": "Tavaborole (Generic for Kerydin)",
+        "category": "Anti-fungal",
+        "type": "Liquid",
+        "description": "",
+        "strength": "5%, 10mL, 1 count"
+    },
+    {
+        "name": "Tenofovir Disoproxil Fumarate (Generic for Viread)",
+        "category": "Anti-viral",
+        "type": "Tablet",
+        "description": "",
+        "strength": "300mg, 30 count"
+    },
+    {
+        "name": "Terbinafine HCl (Generic for Lamisil AT)",
+        "category": "Anti-fungal",
+        "type": "Tablet",
+        "description": "",
+        "strength": "1%, 15g, 1 count"
+    },
+    {
+        "name": "Terbinafine HCl (Generic for Lamisil)",
+        "category": "Anti-fungal",
+        "type": "Tablet",
+        "description": "",
+        "strength": "250mg, 30 count"
+    },
+    {
+        "name": "Terbutaline Sulfate (Generic for Brethine)",
+        "category": "Asthma/COPD",
+        "type": "Tablet",
+        "description": "",
+        "strength": "5mg, 30 count"
+    },
+    {
+        "name": "Terconazole (Generic for Terazol 7)",
+        "category": "Anti-fungal",
+        "type": "Tablet",
+        "description": "",
+        "strength": "0.40%, 45g, 1 count"
+    },
+    {
+        "name": "Terconazole (Generic for Zazole)",
+        "category": "Anti-fungal",
+        "type": "Tablet",
+        "description": "",
+        "strength": "80mg, 3 Suppositories, 1 count"
+    },
+    {
+        "name": "Teriflunomide (Generic for Aubagio)",
+        "category": "Multiple sclerosis",
+        "type": "Tablet",
+        "description": "",
+        "strength": "7mg, 30 count"
+    },
+    {
+        "name": "Teriparatide (Generic for Forteo)",
+        "category": "Bone Health",
+        "type": "Liquid",
+        "description": "",
+        "strength": "600 mcg/2.4ml, 2.4 mL, 1 count"
+    },
+    {
+        "name": "Theophylline (Generic for Elixophyllin)",
+        "category": "Asthma/COPD",
+        "type": "Tablet",
+        "description": "",
+        "strength": "80mg/15mL, 473mL, 1 count"
+    },
+    {
+        "name": "Theophylline ER (Generic for Theochron)",
+        "category": "Asthma/COPD",
+        "type": "Tablet",
+        "description": "",
+        "strength": "600mg, 30 count"
+    },
+    {
+        "name": "Tiagabine HCl (Generic for Gabitril)",
+        "category": "Seizures",
+        "type": "Tablet",
+        "description": "",
+        "strength": "4mg, 30 count"
+    },
+    {
+        "name": "Timolol Maleate (Generic for Timoptic-XE)",
+        "category": "Glaucoma",
+        "type": "Tablet",
+        "description": "",
+        "strength": "0.50%, 5mL, 1 count"
+    },
+    {
+        "name": "Timolol Maleate (Generic for Timoptic)",
+        "category": "Glaucoma",
+        "type": "Liquid",
+        "description": "",
+        "strength": "0.50%, 5mL, 1 count"
+    },
+    {
+        "name": "Timolol Maleate (Once-Daily) (Generic for Istalol)",
+        "category": "Glaucoma",
+        "type": "Liquid",
+        "description": "",
+        "strength": "0.50%, 2.5mL, 1 count"
+    },
+    {
+        "name": "Timolol Maleate Ocudose (Generic for Timoptic Ocudose)",
+        "category": "Glaucoma",
+        "type": "Liquid",
+        "description": "",
+        "strength": "0.50%, 60 Unit Doses, 1 count"
+    },
+    {
+        "name": "Tinidazole (Generic for Tindamax)",
+        "category": "Anti-Parasitic",
+        "type": "Tablet",
+        "description": "",
+        "strength": "500mg, 30 count"
+    },
+    {
+        "name": "Tiopronin (Generic for Thiola)",
+        "category": "Kidney Disease",
+        "type": "Tablet",
+        "description": "",
+        "strength": "100mg, 30 count"
+    },
+    {
+        "name": "Tiotropium Bromide Inhalation Powder (Generic for Spiriva HandiHaler)",
+        "category": "Asthma/COPD",
+        "type": "Capsule",
+        "description": "",
+        "strength": "18mcg, 30 Capsules, 1 count"
+    },
+    {
+        "name": "Tirosint (Levothyroxine Sodium)",
+        "category": "Thyroid",
+        "type": "Capsule",
+        "description": "",
+        "strength": "88mcg, 30 Capsules, 1 count"
+    },
+    {
+        "name": "Tizanidine HCl (Generic for Zanaflex)",
+        "category": "Muscle Relaxants",
+        "type": "Tablet",
+        "description": "",
+        "strength": "6mg, 30 count"
+    },
+    {
+        "name": "Tizanidine HCl (Generic for Zanaflex)",
+        "category": "Musculoskeletal",
+        "type": "Tablet",
+        "description": "",
+        "strength": "6mg, 30 count"
+    },
+    {
+        "name": "Tolmetin Sodium (Generic for Tolectin DS)",
+        "category": "Arthritis",
+        "type": "Capsule",
+        "description": "",
+        "strength": "400mg, 30 count"
+    },
+    {
+        "name": "Tolmetin Sodium (Generic for Tolectin DS)",
+        "category": "Rheumatoid Arthritis",
+        "type": "Capsule",
+        "description": "",
+        "strength": "400mg, 30 count"
+    },
+    {
+        "name": "Tolterodine Tartrate (Generic for Detrol)",
+        "category": "Urinary Symptoms",
+        "type": "Tablet",
+        "description": "",
+        "strength": "2mg, 30 count"
+    },
+    {
+        "name": "Tolvaptan (Generic for Samsca)",
+        "category": "Hyponatremia",
+        "type": "Tablet",
+        "description": "",
+        "strength": "30mg, 30 count"
+    },
+    {
+        "name": "Topiramate (Generic for Topamax)",
+        "category": "Migraines",
+        "type": "Tablet",
+        "description": "",
+        "strength": "50mg, 30 count"
+    },
+    {
+        "name": "Topiramate (Generic for Topamax)",
+        "category": "Seizures",
+        "type": "Tablet",
+        "description": "",
+        "strength": "50mg, 30 count"
+    },
+    {
+        "name": "Topiramate ER (Generic for Qudexy XR)",
+        "category": "Migraines",
+        "type": "Capsule",
+        "description": "",
+        "strength": "50mg, 30 count"
+    },
+    {
+        "name": "Topiramate ER (Generic for Qudexy XR)",
+        "category": "Seizures",
+        "type": "Capsule",
+        "description": "",
+        "strength": "50mg, 30 count"
+    },
+    {
+        "name": "Topiramate ER (Generic for Trokendi XR)",
+        "category": "Migraines",
+        "type": "Capsule",
+        "description": "",
+        "strength": "50mg, 30 count"
+    },
+    {
+        "name": "Toremifene Citrate (Generic for Fareston)",
+        "category": "Breast Cancer",
+        "type": "Tablet",
+        "description": "",
+        "strength": "60mg, 30 count"
+    },
+    {
+        "name": "Toremifene Citrate (Generic for Fareston)",
+        "category": "Cancer",
+        "type": "Tablet",
+        "description": "",
+        "strength": "60mg, 30 count"
+    },
+    {
+        "name": "Trandolapril (Generic for Mavik)",
+        "category": "Heart Failure",
+        "type": "Tablet",
+        "description": "",
+        "strength": "4mg, 30 count"
+    },
+    {
+        "name": "Travoprost (BAK Free) (Generic for Travatan Z)",
+        "category": "Glaucoma",
+        "type": "Liquid",
+        "description": "",
+        "strength": "0.004%, 5mL, 1 count"
+    },
+    {
+        "name": "Trazodone (Generic for Desyrel)",
+        "category": "Sleep Aid",
+        "type": "Tablet",
+        "description": "",
+        "strength": "300mg, 30 count"
+    },
+    {
+        "name": "Tretinoin (Generic for Vesanoid)",
+        "category": "Leukemia",
+        "type": "Capsule",
+        "description": "",
+        "strength": "10mg, 30 count"
+    },
+    {
+        "name": "Triamcinolone Acetonide (Generic for Aristocort A)",
+        "category": "Steroid",
+        "type": "Tablet",
+        "description": "",
+        "strength": "0.10%, 454g, 1 count"
+    },
+    {
+        "name": "Triamcinolone Acetonide (Generic for Kenalog)",
+        "category": "Steroid",
+        "type": "Liquid",
+        "description": "",
+        "strength": "0.025%, 60mL, 1 count"
+    },
+    {
+        "name": "Triamcinolone Acetonide (Generic for Triderm)",
+        "category": "Steroid",
+        "type": "Tablet",
+        "description": "",
+        "strength": "0.10%, 30g, 1 count"
+    },
+    {
+        "name": "Triamterene (Generic for Dyrenium)",
+        "category": "Heart Failure",
+        "type": "Capsule",
+        "description": "",
+        "strength": "50mg, 30 count"
+    },
+    {
+        "name": "Triamterene (Generic for Dyrenium)",
+        "category": "Kidney Disease",
+        "type": "Capsule",
+        "description": "",
+        "strength": "50mg, 30 count"
+    },
+    {
+        "name": "Trientine HCl (Generic for Syprine)",
+        "category": "Wilson Disease",
+        "type": "Capsule",
+        "description": "",
+        "strength": "250mg, 30 count"
+    },
+    {
+        "name": "Trifluridine (Generic for Viroptic)",
+        "category": "Anti-viral",
+        "type": "Liquid",
+        "description": "",
+        "strength": "1%, 7.5mL, 1 count"
+    },
+    {
+        "name": "Ursodiol (Generic for Actigall)",
+        "category": "Gallstone",
+        "type": "Capsule",
+        "description": "",
+        "strength": "300mg, 30 count"
+    },
+    {
+        "name": "Ursodiol (Generic for Urso 250)",
+        "category": "Gallstone",
+        "type": "Tablet",
+        "description": "",
+        "strength": "250mg, 30 count"
+    },
+    {
+        "name": "Ursodiol (Generic for Urso Forte)",
+        "category": "Gallstone",
+        "type": "Tablet",
+        "description": "",
+        "strength": "500mg, 30 count"
+    },
+    {
+        "name": "Vardenafil HCl (Generic for Levitra)",
+        "category": "Erectile Dysfunction",
+        "type": "Tablet",
+        "description": "",
+        "strength": "5mg, 30 count"
+    },
+    {
+        "name": "Vardenafil HCl Orally Disintegrating Tablet (Generic for Staxyn)",
+        "category": "Erectile Dysfunction",
+        "type": "Tablet",
+        "description": "",
+        "strength": "10mg, 4 Tablets, 1 count"
+    },
+    {
+        "name": "Varenicline Tartrate (Generic for Chantix)",
+        "category": "Smoking Cessation",
+        "type": "Tablet",
+        "description": "",
+        "strength": "1mg, 30 count"
+    },
+    {
+        "name": "Verapamil HCl ER (Generic for Verelan PM)",
+        "category": "Angina",
+        "type": "Capsule",
+        "description": "",
+        "strength": "300mg, 30 count"
+    },
+    {
+        "name": "Verapamil HCl ER (Generic for Verelan)",
+        "category": "Angina",
+        "type": "Capsule",
+        "description": "",
+        "strength": "360mg, 30 count"
+    },
+    {
+        "name": "Voriconazole (Generic for Vfend)",
+        "category": "Anti-fungal",
+        "type": "Tablet",
+        "description": "",
+        "strength": "50mg, 30 count"
+    },
+    {
+        "name": "Warfarin (Generic for Coumadin)",
+        "category": "Blood Thinner",
+        "type": "Tablet",
+        "description": "",
+        "strength": "7.5mg, 30 count"
+    },
+    {
+        "name": "Yusimry (adalimumab-aqvh)",
+        "category": "Arthritis",
+        "type": "Tablet",
+        "description": "",
+        "strength": "40mg/0.8mL, 1.6mL (2 Pen-injectors), 1 count"
+    },
+    {
+        "name": "Yusimry (adalimumab-aqvh)",
+        "category": "Rheumatoid Arthritis",
+        "type": "Tablet",
+        "description": "",
+        "strength": "40mg/0.8mL, 1.6mL (2 Pen-injectors), 1 count"
+    },
+    {
+        "name": "Zafirlukast (Generic for Accolate)",
+        "category": "Asthma/COPD",
+        "type": "Tablet",
+        "description": "",
+        "strength": "20mg, 30 count"
+    },
+    {
+        "name": "Zidovudine (Generic for Retrovir)",
+        "category": "HIV",
+        "type": "Liquid",
+        "description": "",
+        "strength": "50mg/5mL, 240mL, 1 count"
+    },
+    {
+        "name": "Zileuton ER (Generic for Zyflo CR)",
+        "category": "Asthma/COPD",
+        "type": "Tablet",
+        "description": "",
+        "strength": "600mg, 30 count"
+    },
+    {
+        "name": "Zolmitriptan (Generic for Zomig ZMT)",
+        "category": "Migraines",
+        "type": "Tablet",
+        "description": "",
+        "strength": "5mg, 3 Tablets, 1 count"
+    },
+    {
+        "name": "Zolmitriptan (Generic for Zomig)",
+        "category": "Migraines",
+        "type": "Liquid",
+        "description": "",
+        "strength": "5mg, 6 Doses, 1 count"
+    }
+]

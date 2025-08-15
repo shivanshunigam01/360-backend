@@ -1,0 +1,500 @@
+[
+  {
+    "name": "Anti-bacterial",
+    "description": "",
+    "createdAt": "2025-02-22T20:18:16.267Z",
+    "updatedAt": "2025-02-22T20:18:16.267Z"
+  },
+  {
+    "name": "HIV",
+    "description": "",
+    "createdAt": "2025-02-22T20:18:16.267Z",
+    "updatedAt": "2025-02-22T20:18:16.267Z"
+  },
+  {
+    "name": "Prostate",
+    "description": "",
+    "createdAt": "2025-02-22T20:18:16.267Z",
+    "updatedAt": "2025-02-22T20:18:16.267Z"
+  },
+  {
+    "name": "Alcohol Dependence",
+    "description": "",
+    "createdAt": "2025-02-22T20:18:16.267Z",
+    "updatedAt": "2025-02-22T20:18:16.267Z"
+  },
+  {
+    "name": "Diabetes",
+    "description": "",
+    "createdAt": "2025-02-22T20:18:16.267Z",
+    "updatedAt": "2025-02-22T20:18:16.267Z"
+  },
+  {
+    "name": "High Blood Pressure",
+    "description": "",
+    "createdAt": "2025-02-22T20:18:16.267Z",
+    "updatedAt": "2025-02-22T20:18:16.267Z"
+  },
+  {
+    "name": "Diuretic",
+    "description": "",
+    "createdAt": "2025-02-22T20:18:16.267Z",
+    "updatedAt": "2025-02-22T20:18:16.267Z"
+  },
+  {
+    "name": "Glaucoma",
+    "description": "",
+    "createdAt": "2025-02-22T20:18:16.267Z",
+    "updatedAt": "2025-02-22T20:18:16.267Z"
+  },
+  {
+    "name": "Nausea",
+    "description": "",
+    "createdAt": "2025-02-22T20:18:16.267Z",
+    "updatedAt": "2025-02-22T20:18:16.267Z"
+  },
+  {
+    "name": "Seizures",
+    "description": "",
+    "createdAt": "2025-02-22T20:18:16.267Z",
+    "updatedAt": "2025-02-22T20:18:16.267Z"
+  },
+  {
+    "name": "Anti-fungal",
+    "description": "",
+    "createdAt": "2025-02-22T20:18:16.267Z",
+    "updatedAt": "2025-02-22T20:18:16.267Z"
+  },
+  {
+    "name": "Hair & Skin Health",
+    "description": "",
+    "createdAt": "2025-02-22T20:18:16.267Z",
+    "updatedAt": "2025-02-22T20:18:16.267Z"
+  },
+  {
+    "name": "Anti-viral",
+    "description": "",
+    "createdAt": "2025-02-22T20:18:16.267Z",
+    "updatedAt": "2025-02-22T20:18:16.267Z"
+  },
+  {
+    "name": "Infection",
+    "description": "",
+    "createdAt": "2025-02-22T20:18:16.267Z",
+    "updatedAt": "2025-02-22T20:18:16.267Z"
+  },
+  {
+    "name": "Asthma/COPD",
+    "description": "",
+    "createdAt": "2025-02-22T20:18:16.267Z",
+    "updatedAt": "2025-02-22T20:18:16.267Z"
+  },
+  {
+    "name": "Anti-Parasitic",
+    "description": "",
+    "createdAt": "2025-02-22T20:18:16.267Z",
+    "updatedAt": "2025-02-22T20:18:16.267Z"
+  },
+  {
+    "name": "Bone Health",
+    "description": "",
+    "createdAt": "2025-02-22T20:18:16.267Z",
+    "updatedAt": "2025-02-22T20:18:16.267Z"
+  },
+  {
+    "name": "Urinary Symptoms",
+    "description": "",
+    "createdAt": "2025-02-22T20:18:16.267Z",
+    "updatedAt": "2025-02-22T20:18:16.267Z"
+  },
+  {
+    "name": "Gout",
+    "description": "",
+    "createdAt": "2025-02-22T20:18:16.267Z",
+    "updatedAt": "2025-02-22T20:18:16.267Z"
+  },
+  {
+    "name": "Migraines",
+    "description": "",
+    "createdAt": "2025-02-22T20:18:16.267Z",
+    "updatedAt": "2025-02-22T20:18:16.267Z"
+  },
+  {
+    "name": "Gastrointestinal",
+    "description": "",
+    "createdAt": "2025-02-22T20:18:16.267Z",
+    "updatedAt": "2025-02-22T20:18:16.267Z"
+  },
+  {
+    "name": "Heart Failure",
+    "description": "",
+    "createdAt": "2025-02-22T20:18:16.267Z",
+    "updatedAt": "2025-02-22T20:18:16.267Z"
+  },
+  {
+    "name": "Hemorrhage",
+    "description": "",
+    "createdAt": "2025-02-22T20:18:16.267Z",
+    "updatedAt": "2025-02-22T20:18:16.267Z"
+  },
+  {
+    "name": "Heart Health",
+    "description": "",
+    "createdAt": "2025-02-22T20:18:16.267Z",
+    "updatedAt": "2025-02-22T20:18:16.267Z"
+  },
+  {
+    "name": "Mental Health",
+    "description": "",
+    "createdAt": "2025-02-22T20:18:16.267Z",
+    "updatedAt": "2025-02-22T20:18:16.267Z"
+  },
+  {
+    "name": "Angina",
+    "description": "",
+    "createdAt": "2025-02-22T20:18:16.267Z",
+    "updatedAt": "2025-02-22T20:18:16.267Z"
+  },
+  {
+    "name": "High Cholesterol",
+    "description": "",
+    "createdAt": "2025-02-22T20:18:16.267Z",
+    "updatedAt": "2025-02-22T20:18:16.267Z"
+  },
+  {
+    "name": "Blood Thinner",
+    "description": "",
+    "createdAt": "2025-02-22T20:18:16.267Z",
+    "updatedAt": "2025-02-22T20:18:16.267Z"
+  },
+  {
+    "name": "Breast Cancer",
+    "description": "",
+    "createdAt": "2025-02-22T20:18:16.267Z",
+    "updatedAt": "2025-02-22T20:18:16.267Z"
+  },
+  {
+    "name": "Cancer",
+    "description": "",
+    "createdAt": "2025-02-22T20:18:16.267Z",
+    "updatedAt": "2025-02-22T20:18:16.267Z"
+  },
+  {
+    "name": "Pain & Inflammation",
+    "description": "",
+    "createdAt": "2025-02-22T20:18:16.267Z",
+    "updatedAt": "2025-02-22T20:18:16.267Z"
+  },
+  {
+    "name": "Rheumatoid Arthritis",
+    "description": "",
+    "createdAt": "2025-02-22T20:18:16.267Z",
+    "updatedAt": "2025-02-22T20:18:16.267Z"
+  },
+  {
+    "name": "Stroke Prevention",
+    "description": "",
+    "createdAt": "2025-02-22T20:18:16.267Z",
+    "updatedAt": "2025-02-22T20:18:16.267Z"
+  },
+  {
+    "name": "Eye Health",
+    "description": "",
+    "createdAt": "2025-02-22T20:18:16.267Z",
+    "updatedAt": "2025-02-22T20:18:16.267Z"
+  },
+  {
+    "name": "Organ Transplant",
+    "description": "",
+    "createdAt": "2025-02-22T20:18:16.267Z",
+    "updatedAt": "2025-02-22T20:18:16.267Z"
+  },
+  {
+    "name": "Allergies",
+    "description": "",
+    "createdAt": "2025-02-22T20:18:16.267Z",
+    "updatedAt": "2025-02-22T20:18:16.267Z"
+  },
+  {
+    "name": "Steroid",
+    "description": "",
+    "createdAt": "2025-02-22T20:18:16.267Z",
+    "updatedAt": "2025-02-22T20:18:16.267Z"
+  },
+  {
+    "name": "Vitamin Deficiency",
+    "description": "",
+    "createdAt": "2025-02-22T20:18:16.267Z",
+    "updatedAt": "2025-02-22T20:18:16.267Z"
+  },
+  {
+    "name": "Muscle Relaxants",
+    "description": "",
+    "createdAt": "2025-02-22T20:18:16.267Z",
+    "updatedAt": "2025-02-22T20:18:16.267Z"
+  },
+  {
+    "name": "Anti-Inflammation",
+    "description": "",
+    "createdAt": "2025-02-22T20:18:16.267Z",
+    "updatedAt": "2025-02-22T20:18:16.267Z"
+  },
+  {
+    "name": "Cough",
+    "description": "",
+    "createdAt": "2025-02-22T20:18:16.267Z",
+    "updatedAt": "2025-02-22T20:18:16.267Z"
+  },
+  {
+    "name": "Neurological",
+    "description": "",
+    "createdAt": "2025-02-22T20:18:16.267Z",
+    "updatedAt": "2025-02-22T20:18:16.267Z"
+  },
+  {
+    "name": "Smoking Cessation",
+    "description": "",
+    "createdAt": "2025-02-22T20:18:16.267Z",
+    "updatedAt": "2025-02-22T20:18:16.267Z"
+  },
+  {
+    "name": "Fertility",
+    "description": "",
+    "createdAt": "2025-02-22T20:18:16.267Z",
+    "updatedAt": "2025-02-22T20:18:16.267Z"
+  },
+  {
+    "name": "Kidney Disease",
+    "description": "",
+    "createdAt": "2025-02-22T20:18:16.267Z",
+    "updatedAt": "2025-02-22T20:18:16.267Z"
+  },
+  {
+    "name": "Oral Health",
+    "description": "",
+    "createdAt": "2025-02-22T20:18:16.267Z",
+    "updatedAt": "2025-02-22T20:18:16.267Z"
+  },
+  {
+    "name": "Dental Care",
+    "description": "",
+    "createdAt": "2025-02-22T20:18:16.267Z",
+    "updatedAt": "2025-02-22T20:18:16.267Z"
+  },
+  {
+    "name": "Antimalarial",
+    "description": "",
+    "createdAt": "2025-02-22T20:18:16.267Z",
+    "updatedAt": "2025-02-22T20:18:16.267Z"
+  },
+  {
+    "name": "Musculoskeletal",
+    "description": "",
+    "createdAt": "2025-02-22T20:18:16.267Z",
+    "updatedAt": "2025-02-22T20:18:16.267Z"
+  },
+  {
+    "name": "Chronic Dry Eye",
+    "description": "",
+    "createdAt": "2025-02-22T20:18:16.267Z",
+    "updatedAt": "2025-02-22T20:18:16.267Z"
+  },
+  {
+    "name": "Arthritis",
+    "description": "",
+    "createdAt": "2025-02-22T20:18:16.267Z",
+    "updatedAt": "2025-02-22T20:18:16.267Z"
+  },
+  {
+    "name": "Multiple sclerosis",
+    "description": "",
+    "createdAt": "2025-02-22T20:18:16.267Z",
+    "updatedAt": "2025-02-22T20:18:16.267Z"
+  },
+  {
+    "name": "Endometriosis",
+    "description": "",
+    "createdAt": "2025-02-22T20:18:16.267Z",
+    "updatedAt": "2025-02-22T20:18:16.267Z"
+  },
+  {
+    "name": "Iron Overload",
+    "description": "",
+    "createdAt": "2025-02-22T20:18:16.267Z",
+    "updatedAt": "2025-02-22T20:18:16.267Z"
+  },
+  {
+    "name": "Birth Control",
+    "description": "",
+    "createdAt": "2025-02-22T20:18:16.267Z",
+    "updatedAt": "2025-02-22T20:18:16.267Z"
+  },
+  {
+    "name": "Low Blood Sugar",
+    "description": "",
+    "createdAt": "2025-02-22T20:18:16.267Z",
+    "updatedAt": "2025-02-22T20:18:16.267Z"
+  },
+  {
+    "name": "Arrhythmia",
+    "description": "",
+    "createdAt": "2025-02-22T20:18:16.267Z",
+    "updatedAt": "2025-02-22T20:18:16.267Z"
+  },
+  {
+    "name": "Dementia",
+    "description": "",
+    "createdAt": "2025-02-22T20:18:16.267Z",
+    "updatedAt": "2025-02-22T20:18:16.267Z"
+  },
+  {
+    "name": "Insomnia",
+    "description": "",
+    "createdAt": "2025-02-22T20:18:16.267Z",
+    "updatedAt": "2025-02-22T20:18:16.267Z"
+  },
+  {
+    "name": "Low Blood Pressure",
+    "description": "",
+    "createdAt": "2025-02-22T20:18:16.267Z",
+    "updatedAt": "2025-02-22T20:18:16.267Z"
+  },
+  {
+    "name": "Hormone Therapy",
+    "description": "",
+    "createdAt": "2025-02-22T20:18:16.267Z",
+    "updatedAt": "2025-02-22T20:18:16.267Z"
+  },
+  {
+    "name": "Thyroid",
+    "description": "",
+    "createdAt": "2025-02-22T20:18:16.267Z",
+    "updatedAt": "2025-02-22T20:18:16.267Z"
+  },
+  {
+    "name": "Acid Reflux",
+    "description": "",
+    "createdAt": "2025-02-22T20:18:16.267Z",
+    "updatedAt": "2025-02-22T20:18:16.267Z"
+  },
+  {
+    "name": "Incontinence",
+    "description": "",
+    "createdAt": "2025-02-22T20:18:16.267Z",
+    "updatedAt": "2025-02-22T20:18:16.267Z"
+  },
+  {
+    "name": "Colonoscopy Preparation",
+    "description": "",
+    "createdAt": "2025-02-22T20:18:16.267Z",
+    "updatedAt": "2025-02-22T20:18:16.267Z"
+  },
+  {
+    "name": "Hemorrhoids",
+    "description": "",
+    "createdAt": "2025-02-22T20:18:16.267Z",
+    "updatedAt": "2025-02-22T20:18:16.267Z"
+  },
+  {
+    "name": "Sleep Aid",
+    "description": "",
+    "createdAt": "2025-02-22T20:18:16.267Z",
+    "updatedAt": "2025-02-22T20:18:16.267Z"
+  },
+  {
+    "name": "Antihyperlipidemic",
+    "description": "",
+    "createdAt": "2025-02-22T20:18:16.267Z",
+    "updatedAt": "2025-02-22T20:18:16.267Z"
+  },
+  {
+    "name": "Leukemia",
+    "description": "",
+    "createdAt": "2025-02-22T20:18:16.267Z",
+    "updatedAt": "2025-02-22T20:18:16.267Z"
+  },
+  {
+    "name": "Opioid Dependence",
+    "description": "",
+    "createdAt": "2025-02-22T20:18:16.267Z",
+    "updatedAt": "2025-02-22T20:18:16.267Z"
+  },
+  {
+    "name": "Wilson Disease",
+    "description": "",
+    "createdAt": "2025-02-22T20:18:16.267Z",
+    "updatedAt": "2025-02-22T20:18:16.267Z"
+  },
+  {
+    "name": "Vascular Disease",
+    "description": "",
+    "createdAt": "2025-02-22T20:18:16.267Z",
+    "updatedAt": "2025-02-22T20:18:16.267Z"
+  },
+  {
+    "name": "Pulmonary Fibrosis",
+    "description": "",
+    "createdAt": "2025-02-22T20:18:16.267Z",
+    "updatedAt": "2025-02-22T20:18:16.267Z"
+  },
+  {
+    "name": "Low Potassium",
+    "description": "",
+    "createdAt": "2025-02-22T20:18:16.267Z",
+    "updatedAt": "2025-02-22T20:18:16.267Z"
+  },
+  {
+    "name": "Restless Leg Syndrome",
+    "description": "",
+    "createdAt": "2025-02-22T20:18:16.267Z",
+    "updatedAt": "2025-02-22T20:18:16.267Z"
+  },
+  {
+    "name": "ALS",
+    "description": "",
+    "createdAt": "2025-02-22T20:18:16.267Z",
+    "updatedAt": "2025-02-22T20:18:16.267Z"
+  },
+  {
+    "name": "Phenylketonuria",
+    "description": "",
+    "createdAt": "2025-02-22T20:18:16.267Z",
+    "updatedAt": "2025-02-22T20:18:16.267Z"
+  },
+  {
+    "name": "Erectile Dysfunction",
+    "description": "",
+    "createdAt": "2025-02-22T20:18:16.267Z",
+    "updatedAt": "2025-02-22T20:18:16.267Z"
+  },
+  {
+    "name": "Burns",
+    "description": "",
+    "createdAt": "2025-02-22T20:18:16.267Z",
+    "updatedAt": "2025-02-22T20:18:16.267Z"
+  },
+  {
+    "name": "Urea Cycle Disorders",
+    "description": "",
+    "createdAt": "2025-02-22T20:18:16.267Z",
+    "updatedAt": "2025-02-22T20:18:16.267Z"
+  },
+  {
+    "name": "High Potassium",
+    "description": "",
+    "createdAt": "2025-02-22T20:18:16.267Z",
+    "updatedAt": "2025-02-22T20:18:16.267Z"
+  },
+  {
+    "name": "Hyponatremia",
+    "description": "",
+    "createdAt": "2025-02-22T20:18:16.267Z",
+    "updatedAt": "2025-02-22T20:18:16.267Z"
+  },
+  {
+    "name": "Gallstone",
+    "description": "",
+    "createdAt": "2025-02-22T20:18:16.267Z",
+    "updatedAt": "2025-02-22T20:18:16.267Z"
+  }
+]
