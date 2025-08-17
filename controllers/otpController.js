@@ -35,7 +35,7 @@ exports.sendOtp = async (req, res) => {
 
   try {
     await client.messages.create({
-      body: `Your OTP for registeration with 360 is: ${otp}`,
+      body: `Your OTP for registeration with ZENTROVERSE is: ${otp}`,
       from: process.env.TWILIO_PHONE_NUMBER,
       to: phone, // e.g., +919999999999
     });
