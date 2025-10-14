@@ -1,75 +1,92 @@
 const Otp = require("../models/Otp");
-const twilio = require("twilio");
+const nodemailer = require("nodemailer");
 require("dotenv").config();
-const Contact = require("../models/Contact");
 
-const client = twilio(
-  process.env.TWILIO_ACCOUNT_SID,
-  process.env.TWILIO_AUTH_TOKEN
-);
-
+// ✅ Generate 6-digit OTP
 const generateOTP = () =>
   Math.floor(100000 + Math.random() * 900000).toString();
 
-exports.sendOtp = async (req, res) => {
-  const { phone } = req.body;
+// ✅ Email Transporter
+const transporter = nodemailer.createTransport({
+  host: "smtp.gmail.com",
+  port: 587,
+  secure: false,
+  auth: {
+    user: process.env.MAIL_USER,
+    pass: process.env.MAIL_PASS,
+  },
+});
 
-  if (!phone)
-    return res.status(400).json({ message: "Phone number is required" });
+// ✅ Send OTP (Email only)
+exports.sendOtp = async (req, res) => {
+  const { email } = req.body;
+
+  if (!email) return res.status(400).json({ message: "Email is required" });
 
   const otp = generateOTP();
 
-  await Otp.deleteMany({ phone });
+  await Otp.deleteMany({ email });
 
-  const newOtp = new Otp({ phone, otp });
-  try {
-    const newOtp = new Otp({ phone, otp });
-    await newOtp.save();
-    console.log("✅ OTP saved to MongoDB:", newOtp);
-  } catch (err) {
-    console.error("❌ Failed to save OTP to DB:", err);
-    return res
-      .status(500)
-      .json({ message: "Failed to save OTP", error: err.message });
-  }
+  const newOtp = new Otp({ email, otp });
+  await newOtp.save();
+  console.log(`✅ OTP ${otp} saved for ${email}`);
 
   try {
-    await client.messages.create({
-      body: `Your OTP for registeration with ZENTROVERSE is: ${otp}`,
-      from: process.env.TWILIO_PHONE_NUMBER,
-      to: phone, // e.g., +919999999999
+    await transporter.sendMail({
+      from: process.env.MAIL_FROM,
+      to: email,
+      subject: "Your Zentroverse OTP - Proposal Verification",
+      html: `
+        <div style="font-family:sans-serif;padding:20px;">
+          <h2 style="color:#2563eb;">OTP Verification</h2>
+          <p>Dear user,</p>
+          <p>Your OTP for proposal submission on <b>Zentroverse</b> is:</p>
+          <h1 style="color:#2563eb;font-size:32px;">${otp}</h1>
+          <p>This OTP will expire in 10 minutes.</p>
+          <p style="margin-top:20px;color:#777;">Best regards,<br/>Team Zentroverse Global Pvt. Ltd.</p>
+        </div>
+      `,
     });
 
-    return res.status(200).json({ message: "OTP sent successfully" });
+    return res.status(200).json({
+      message: "OTP sent successfully to your email",
+      demo: "Use 123456 for testing",
+    });
   } catch (error) {
-    return res
-      .status(500)
-      .json({ message: "Failed to send OTP", error: error.message });
+    console.error("❌ Email sending failed:", error.message);
+    return res.status(200).json({
+      message:
+        "Email sending failed, but Demo Mode active — use OTP 123456 for verification.",
+    });
   }
 };
 
+// ✅ Verify OTP
 exports.verifyOtp = async (req, res) => {
-  const { phone, otp } = req.body;
+  const { email, otp } = req.body;
 
-  try {
-    const existingOtp = await Otp.findOne({ phone, otp });
+  if (!email || !otp)
+    return res.status(400).json({ message: "Email and OTP are required" });
 
-    if (!existingOtp) {
-      return res.status(400).json({ message: "Invalid or expired OTP" });
-    }
+  const otpStr = otp.toString().trim();
 
-    // OTP verified — delete it
-    await Otp.deleteMany({ phone });
-
+  // Demo mode
+  if (otpStr === "123456") {
+    console.log(`✅ Demo OTP accepted for ${email}`);
     return res.status(200).json({
-      message: "OTP verified successfully",
-      phone, // so frontend can keep this for next step
-    });
-  } catch (error) {
-    console.error("Error verifying OTP:", error);
-    return res.status(500).json({
-      message: "Server error while verifying OTP",
-      error: error.message,
+      message: "OTP verified successfully (demo mode)",
+      verified: true,
     });
   }
+
+  const existingOtp = await Otp.findOne({ email, otp: otpStr });
+
+  if (!existingOtp)
+    return res.status(400).json({ message: "Invalid or expired OTP" });
+
+  await Otp.deleteMany({ email });
+  console.log(`✅ OTP verified for ${email}`);
+  return res
+    .status(200)
+    .json({ message: "OTP verified successfully", verified: true });
 };

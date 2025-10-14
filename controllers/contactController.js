@@ -57,9 +57,17 @@ exports.getAllContacts = async (req, res) => {
 exports.createContact = async (req, res) => {
   try {
     const contact = await Contact.create(req.body);
-    res.status(201).json(contact);
-  } catch (error) {
-    res.status(400).json({ message: error.message });
+    console.log("✅ New contact saved:", contact);
+    return res.status(200).json({
+      message: "Proposal request saved successfully",
+      contact,
+    });
+  } catch (err) {
+    console.error("❌ Error saving contact:", err);
+    return res.status(500).json({
+      message: "Failed to save contact",
+      error: err.message,
+    });
   }
 };
 
