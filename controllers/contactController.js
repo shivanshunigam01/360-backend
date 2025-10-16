@@ -54,18 +54,54 @@ exports.getAllContacts = async (req, res) => {
   }
 };
 
+// controllers/contactController.js
+
 exports.createContact = async (req, res) => {
   try {
-    const contact = await Contact.create(req.body);
-    console.log("✅ New contact saved:", contact);
-    return res.status(200).json({
-      message: "Proposal request saved successfully",
+    const { name, email, phone, company, address, industry, message, budget } =
+      req.body;
+
+    // 🔹 Basic validation
+    if (!name || !email) {
+      return res.status(400).json({
+        success: false,
+        message: "Name and email are required.",
+      });
+    }
+
+    // 🔹 Create new contact entry
+    const contact = await Contact.create({
+      name: name.trim(),
+      email: email.trim().toLowerCase(),
+      phone: phone ? phone.trim() : "",
+      company: company || "",
+      address: address || "",
+      industry: industry || "Other",
+      message: message || "",
+      budget: budget || null,
+      status: "unread",
+      createdAt: new Date(),
+    });
+
+    console.log("✅ New contact saved:", {
+      id: contact._id,
+      name: contact.name,
+      email: contact.email,
+      phone: contact.phone,
+      industry: contact.industry,
+      budget: contact.budget,
+    });
+
+    return res.status(201).json({
+      success: true,
+      message: "Proposal request saved successfully 🎯",
       contact,
     });
   } catch (err) {
-    console.error("❌ Error saving contact:", err);
+    console.error("❌ Error saving contact:", err.message);
     return res.status(500).json({
-      message: "Failed to save contact",
+      success: false,
+      message: "Failed to save contact.",
       error: err.message,
     });
   }
@@ -137,5 +173,15 @@ exports.exportContactsCSV = async (req, res) => {
     res.status(200).send(csvData);
   } catch (error) {
     res.status(500).json({ message: error.message });
+  }
+};
+
+exports.getContactById = async (req, res) => {
+  try {
+    const contact = await Contact.findById(req.params.id);
+    if (!contact) return res.status(404).json({ message: "Contact not found" });
+    res.status(200).json(contact);
+  } catch (error) {
+    res.status(400).json({ message: error.message });
   }
 };

@@ -67,31 +67,30 @@ exports.register = async (req, res) => {
 exports.login = async (req, res) => {
   try {
     const { email, password } = req.body;
-    
-    // Find user by email
-    const user = await User.findOne({ email });
+
+    // ✅ Fetch user including password (since it's select: false in schema)
+    const user = await User.findOne({ email }).select("+password");
+
     if (!user) {
-        return res.status(401).json({ message: "Invalid credentials" });
+      return res.status(401).json({ message: "Invalid credentials" });
     }
 
-    console.log(user);
-
-    // Check password
+    // ✅ Compare passwords
     const isMatch = await bcrypt.compare(password, user.password);
-    console.log(isMatch);
     if (!isMatch) {
       return res.status(401).json({ message: "Invalid credentials" });
     }
 
-
-    // Generate JWT token
+    // ✅ Generate token
     const token = jwt.sign(
-      { userId: user._id },
+      { userId: user._id, role: user.role },
       process.env.JWT_SECRET || "your-secret-key",
       { expiresIn: "24h" }
     );
 
-    res.json({
+    // ✅ Respond
+    return res.json({
+      message: "Login successful",
       token,
       user: {
         id: user._id,
@@ -100,8 +99,51 @@ exports.login = async (req, res) => {
         role: user.role,
       },
     });
-  } catch (error) {
-    res.status(500).json({ message: error.message });
+  } catch (err) {
+    console.error("Login Error:", err);
+    res.status(500).json({ message: "Server error" });
+  }
+};
+// -------------------- CREATE ADMIN --------------------
+exports.createAdmin = async (req, res) => {
+  try {
+    // Check if admin already exists
+    const existingAdmin = await User.findOne({
+      email: "admin@zentroverse.com",
+    });
+    if (existingAdmin) {
+      return res.status(400).json({ message: "Admin already exists" });
+    }
+
+    // Default admin credentials
+    const name = "System Admin";
+    const email = "admin@zentroverse.com";
+    const plainPassword = "Admin@123"; // ⚠️ Change later for security
+
+    // Hash password
+    const hashedPassword = await bcrypt.hash(plainPassword, 12);
+
+    // Create new admin user
+    const admin = new User({
+      name,
+      email,
+      password: hashedPassword,
+      role: "admin",
+      isActive: true,
+    });
+
+    await admin.save();
+
+    res.status(201).json({
+      message: "Admin created successfully",
+      credentials: {
+        email,
+        password: plainPassword,
+      },
+    });
+  } catch (err) {
+    console.error("Error creating admin:", err);
+    res.status(500).json({ message: "Failed to create admin" });
   }
 };
 
