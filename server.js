@@ -18,6 +18,7 @@ const newsletterRoutes = require("./routes/newsletterRoutes");
 const authRoutes = require("./routes/authRoutes");
 const dashboardRoutes = require("./routes/dashboardRoutes");
 const uploadRoutes = require("./routes/uploadRoutes");
+const landingLeadRoutes = require("./routes/landingLeadRoutes");
 
 //new things
 const otpRoutes = require("./routes/otpRoutes.js");
@@ -59,6 +60,8 @@ app.use("/api/newsletter", newsletterRoutes);
 app.use("/api/auth", authRoutes);
 app.use("/api/dashboard", dashboardRoutes);
 app.use("/api/upload", uploadRoutes);
+
+app.use("/api/landing-leads", landingLeadRoutes);
 
 //new rotues
 app.use("/api/otp", otpRoutes);

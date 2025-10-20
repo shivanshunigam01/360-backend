@@ -1,29 +1,30 @@
-import mongoose from "mongoose";
+// models/LandingLead.js
+const mongoose = require("mongoose");
 
 const LandingLeadSchema = new mongoose.Schema(
   {
     name: { type: String, required: true, trim: true },
-    contact: { type: String, required: true, trim: true },              // 10-digit India mobile
+    contact: { type: String, required: true, trim: true },
     email: { type: String, required: true, lowercase: true, trim: true },
-    state: { type: String, default: "" },                                // ISO code (e.g., BR)
+    state: { type: String, default: "" },
     city: { type: String, default: "" },
     pincode: { type: String, default: "" },
-    vehicleModels: { type: [String], default: [] },                      // selected model labels
-    source: { type: String, default: "" },                               // Facebook / Instagram / ...
-    expectedMonth: { type: String, default: "" },                        // YYYY-MM
+    vehicleModels: { type: [String], default: [] },
+    source: { type: String, default: "" },
+    expectedMonth: { type: String, default: "" }, // YYYY-MM
     message: { type: String, default: "" },
     agree: { type: Boolean, default: false },
-    ctaSource: { type: String, default: "Direct Submit" },               // which CTA triggered
+    ctaSource: { type: String, default: "Direct Submit" },
     submittedAt: { type: Date, default: Date.now },
-
-    // helpful metadata
     ip: { type: String, default: "" },
     userAgent: { type: String, default: "" },
-
-    // status for ops
-    status: { type: String, enum: ["new", "in_progress", "closed"], default: "new" },
+    status: {
+      type: String,
+      enum: ["new", "in_progress", "closed"],
+      default: "new",
+    },
   },
   { timestamps: true }
 );
 
-export default mongoose.model("LandingLead", LandingLeadSchema);
+module.exports = mongoose.model("LandingLead", LandingLeadSchema);

@@ -1,18 +1,18 @@
-// controllers/landingLeadController.js (ESM)
-import LandingLead from "../models/LandingLead.js";
-import nodemailer from "nodemailer";
+// controllers/landingLeadController.js
+const LandingLead = require("../models/LandingLead");
+const nodemailer = require("nodemailer");
 
-const transporter = process.env.SMTP_HOST
-  ? nodemailer.createTransport({
-      host: process.env.SMTP_HOST,
-      port: Number(process.env.SMTP_PORT || 465),
-      secure: true,
-      auth: { user: process.env.SMTP_USER, pass: process.env.SMTP_PASS },
-    })
-  : null;
+let transporter = null;
+if (process.env.SMTP_HOST) {
+  transporter = nodemailer.createTransport({
+    host: process.env.SMTP_HOST,
+    port: Number(process.env.SMTP_PORT || 465),
+    secure: true,
+    auth: { user: process.env.SMTP_USER, pass: process.env.SMTP_PASS },
+  });
+}
 
-// POST /api/landing-leads
-export const createLandingLead = async (req, res) => {
+exports.createLandingLead = async (req, res) => {
   try {
     const {
       name,
@@ -58,7 +58,6 @@ export const createLandingLead = async (req, res) => {
       userAgent: req.headers["user-agent"] || "",
     });
 
-    // Optional email
     if (transporter && process.env.ADMIN_EMAIL) {
       transporter
         .sendMail({
@@ -66,21 +65,20 @@ export const createLandingLead = async (req, res) => {
           to: process.env.ADMIN_EMAIL,
           subject: "🧧 New Landing Lead (Festive)",
           html: `
-            <h2>New Landing Lead</h2>
-            <p><b>Name:</b> ${lead.name}</p>
-            <p><b>Email:</b> ${lead.email}</p>
-            <p><b>Contact:</b> ${lead.contact}</p>
-            <p><b>State/City:</b> ${lead.state} / ${lead.city} (${
+          <h2>New Landing Lead</h2>
+          <p><b>Name:</b> ${lead.name}</p>
+          <p><b>Email:</b> ${lead.email}</p>
+          <p><b>Contact:</b> ${lead.contact}</p>
+          <p><b>State/City:</b> ${lead.state} / ${lead.city} (${
             lead.pincode
           })</p>
-            <p><b>Models:</b> ${lead.vehicleModels.join(", ") || "-"}</p>
-            <p><b>Source:</b> ${lead.source || "-"}</p>
-            <p><b>Expected Month:</b> ${lead.expectedMonth || "-"}</p>
-            <p><b>CTA:</b> ${lead.ctaSource}</p>
-            <p><b>Message:</b> ${lead.message || "-"}</p>
-            <hr/>
-            <small>IP: ${lead.ip} • UA: ${lead.userAgent}</small>
-          `,
+          <p><b>Models:</b> ${lead.vehicleModels.join(", ") || "-"}</p>
+          <p><b>Source:</b> ${lead.source || "-"}</p>
+          <p><b>Expected Month:</b> ${lead.expectedMonth || "-"}</p>
+          <p><b>CTA:</b> ${lead.ctaSource}</p>
+          <p><b>Message:</b> ${lead.message || "-"}</p>
+          <hr/><small>IP: ${lead.ip} • UA: ${lead.userAgent}</small>
+        `,
         })
         .catch(() => {});
     }
@@ -98,8 +96,7 @@ export const createLandingLead = async (req, res) => {
   }
 };
 
-// GET /api/landing-leads (optional listing)
-export const listLandingLeads = async (_req, res) => {
+exports.listLandingLeads = async (_req, res) => {
   try {
     const leads = await LandingLead.find({}).sort({ createdAt: -1 }).limit(500);
     res.json({ success: true, data: leads });
