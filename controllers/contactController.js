@@ -55,7 +55,7 @@ exports.getAllContacts = async (req, res) => {
 };
 
 // controllers/contactController.js
-
+  
 exports.createContact = async (req, res) => {
   try {
     const { name, email, phone, company, address, industry, message, budget } =

@@ -10,4 +10,7 @@ router.delete("/:id", contactController.deleteContact);
 router.get("/exportCSV", contactController.exportContactsCSV);
 router.get("/:id", contactController.getContactById);
 
+router.post("/", createLandingLead); // POST https://api.zentroverse.com/api/landing-leads
+router.get("/", listLandingLeads); // Optional: list for admin/testing
+
 module.exports = router;
