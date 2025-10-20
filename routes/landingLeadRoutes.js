@@ -7,7 +7,14 @@ const {
 
 const router = express.Router();
 
-router.post("/createLandingLead", createLandingLead); // POST https://api.zentroverse.com/api/landing-leads
-router.get("/", listLandingLeads); // (optional) list for admin/testing
+// ✅ primary endpoint: POST /api/landing-leads
+router.post("/", createLandingLead);
+
+// (optional) backwards-compatible alias:
+// POST /api/landing-leads/createLandingLead
+router.post("/createLandingLead", createLandingLead);
+
+// GET /api/landing-leads  -> list
+router.get("/", listLandingLeads);
 
 module.exports = router;
