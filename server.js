@@ -1,3 +1,4 @@
+// server.js
 const express = require("express");
 const mongoose = require("mongoose");
 const cors = require("cors");
@@ -6,7 +7,9 @@ const dotenv = require("dotenv");
 const morgan = require("morgan");
 const fs = require("fs");
 
-// Routes
+// Load env ASAP
+dotenv.config();
+
 const heroRoutes = require("./routes/heroRoutes");
 const medicineRoutes = require("./routes/medicineRoutes");
 const testimonialRoutes = require("./routes/testimonialRoutes");
@@ -25,16 +28,22 @@ const otpRoutes = require("./routes/otpRoutes.js");
 // const contactRoutes = require("./routes/contact.routes.js");
 const app = express();
 
+// -------------------------------------
 // Middleware
 app.use(morgan("dev"));
-app.use(cors());
+
+// ✅ Allow-all CORS (includes preflight)
+app.use(cors());           // Access-Control-Allow-Origin: *
+app.options("*", cors());  // handle preflight globally
+
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
+// -------------------------------------
 
 // Static files
 app.use("/uploads", express.static(path.join(__dirname, "uploads")));
 
-// Create uploads directories if they don't exist
+// Ensure upload dirs exist
 const uploadsDir = path.join(__dirname, "uploads");
 const medicineUploadsDir = path.join(uploadsDir, "medicines");
 const testimonialUploadsDir = path.join(uploadsDir, "testimonials");
@@ -74,8 +83,6 @@ mongoose
   .catch((err) => console.error("MongoDB connection error:", err));
 
 const PORT = process.env.PORT || 5000;
-app.listen(PORT, () => {
-  console.log(`Server is running on port ${PORT}`);
-});
+app.listen(PORT, () => console.log(`Server is running on port ${PORT}`));
 
 module.exports = app;
