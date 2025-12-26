@@ -1,8 +1,8 @@
 const User = require("../models/User");
-const jwt = require("jsonwebtoken");
+const Session = require("../models/session/Session");
 const crypto = require("crypto");
 const nodemailer = require("nodemailer");
-const bcrypt = require("bcryptjs");
+const { generateAccessToken, generateRefreshToken ,parseUserAgent, getClientIp} = require("../utils/function");
 
 const transporter = nodemailer.createTransport({
   host: process.env.SMTP_HOST,
@@ -14,17 +14,6 @@ const transporter = nodemailer.createTransport({
   },
 });
 
-const generateToken = (user) => {
-  return jwt.sign(
-    {
-      id: user._id,
-      email: user.email,
-      role: user.role,
-    },
-    process.env.JWT_SECRET,
-    { expiresIn: "24h" }
-  );
-};
 
 exports.register = async (req, res) => {
   try {
@@ -46,12 +35,26 @@ exports.register = async (req, res) => {
 
     await user.save();
 
-    // Generate token
-    const token = generateToken(user);
+    // // Generate tokens
+    // const accessToken = generateAccessToken(user);
+    // const refreshToken = generateRefreshToken();
+
+    // // Create session
+    // const session = new Session({
+    //   userId: user._id,
+    //   refreshToken,
+    //   ipAddress: getClientIp(req),
+    //   device: parseUserAgent(req.headers["user-agent"]),
+    //   isActive: true,
+    //   lastUsedAt: new Date(),
+    // });
+
+    // await session.save();
 
     res.status(201).json({
       message: "User registered successfully",
-      token,
+      // accessToken,
+      // refreshToken,
       user: {
         id: user._id,
         name: user.name,
@@ -68,30 +71,48 @@ exports.login = async (req, res) => {
   try {
     const { email, password } = req.body;
 
-    // ✅ Fetch user including password (since it's select: false in schema)
+    // Fetch user including password
     const user = await User.findOne({ email }).select("+password");
 
     if (!user) {
       return res.status(401).json({ message: "Invalid credentials" });
     }
 
-    // ✅ Compare passwords
-    const isMatch = await bcrypt.compare(password, user.password);
+    // Check if user is active
+    if (!user.isActive) {
+      return res.status(401).json({ message: "Account is deactivated" });
+    }
+
+    // Compare passwords using the model method
+    const isMatch = await user.comparePassword(password);
     if (!isMatch) {
       return res.status(401).json({ message: "Invalid credentials" });
     }
 
-    // ✅ Generate token
-    const token = jwt.sign(
-      { userId: user._id, role: user.role },
-      process.env.JWT_SECRET || "your-secret-key",
-      { expiresIn: "24h" }
-    );
+    // Generate tokens
+    const accessToken = generateAccessToken(user);
+    const refreshToken = generateRefreshToken();
 
-    // ✅ Respond
-    return res.json({
+    // Create new session
+    const session = new Session({
+      userId: user._id,
+      refreshToken,
+      ipAddress: getClientIp(req),
+      device: parseUserAgent(req.headers["user-agent"]),
+      isActive: true,
+      lastUsedAt: new Date(),
+    });
+
+    await session.save();
+
+    // Update last login
+    user.lastLogin = new Date();
+    await user.save({ validateModifiedOnly: true });
+
+    res.json({
       message: "Login successful",
-      token,
+      accessToken,
+      refreshToken,
       user: {
         id: user._id,
         name: user.name,
@@ -104,6 +125,148 @@ exports.login = async (req, res) => {
     res.status(500).json({ message: "Server error" });
   }
 };
+
+// Refresh Access Token
+exports.refreshToken = async (req, res) => {
+  try {
+    const { refreshToken } = req.body;
+
+    if (!refreshToken) {
+      return res.status(400).json({ message: "Refresh token is required" });
+    }
+
+    // Find session with this refresh token
+    const session = await Session.findOne({
+      refreshToken,
+      isActive: true,
+    });
+
+    if (!session) {
+      return res.status(401).json({ message: "Invalid or expired refresh token" });
+    }
+
+    // Check if session is expired (7 days)
+    const sessionAge = Date.now() - new Date(session.createdAt).getTime();
+    const maxAge = 7 * 24 * 60 * 60 * 1000; // 7 days in ms
+
+    if (sessionAge > maxAge) {
+      session.isActive = false;
+      await session.save();
+      return res.status(401).json({ message: "Session expired, please login again" });
+    }
+
+    // Get user
+    const user = await User.findById(session.userId);
+    if (!user || !user.isActive) {
+      return res.status(401).json({ message: "User not found or deactivated" });
+    }
+
+    // Generate new access token
+    const accessToken = generateAccessToken(user);
+
+    // Update session last used
+    session.lastUsedAt = new Date();
+    session.ipAddress = getClientIp(req);
+    session.device = parseUserAgent(req.headers["user-agent"]);
+    await session.save();
+
+    res.json({
+      accessToken,
+      user: {
+        id: user._id,
+        name: user.name,
+        email: user.email,
+        role: user.role,
+      },
+    });
+  } catch (error) {
+    console.error("Refresh Token Error:", error);
+    res.status(500).json({ message: "Server error" });
+  }
+};
+
+// Logout - Invalidate current session
+exports.logout = async (req, res) => {
+  try {
+    const { refreshToken } = req.body;
+
+    if (refreshToken) {
+      // Invalidate the session
+      await Session.findOneAndUpdate(
+        { refreshToken },
+        { isActive: false }
+      );
+    }
+
+    res.json({ message: "Logged out successfully" });
+  } catch (error) {
+    console.error("Logout Error:", error);
+    res.status(500).json({ message: "Server error" });
+  }
+};
+
+// Logout from all devices
+exports.logoutAll = async (req, res) => {
+  try {
+    const userId = req.user.userId;
+
+    // Invalidate all sessions for this user
+    await Session.updateMany(
+      { userId, isActive: true },
+      { isActive: false }
+    );
+
+    res.json({ message: "Logged out from all devices successfully" });
+  } catch (error) {
+    console.error("Logout All Error:", error);
+    res.status(500).json({ message: "Server error" });
+  }
+};
+
+// Get all active sessions for current user
+exports.getSessions = async (req, res) => {
+  
+  try {
+    // const userId = req.user.userId;
+
+    const sessions = await Session.find({
+      // userId,
+      isActive: true,
+    }).select("-refreshToken").sort({ lastUsedAt: -1 });
+
+    res.json(sessions);
+  } catch (error) {
+    console.error("Get Sessions Error:", error);
+    res.status(500).json({ message: "Server error" });
+  }
+};
+
+// Revoke a specific session
+exports.revokeSession = async (req, res) => {
+  try {
+    const { sessionId } = req.params;
+    const userId = req.user.userId;
+
+    const session = await Session.findOne({
+      _id: sessionId,
+      userId,
+      isActive: true,
+    });
+
+    if (!session) {
+      return res.status(404).json({ message: "Session not found" });
+    }
+
+    session.isActive = false;
+    await session.save();
+
+    res.json({ message: "Session revoked successfully" });
+  } catch (error) {
+    console.error("Revoke Session Error:", error);
+    res.status(500).json({ message: "Server error" });
+  }
+};
+
 // -------------------- CREATE ADMIN --------------------
 exports.createAdmin = async (req, res) => {
   try {
@@ -120,14 +283,11 @@ exports.createAdmin = async (req, res) => {
     const email = "admin@zentroverse.com";
     const plainPassword = "Admin@123"; // ⚠️ Change later for security
 
-    // Hash password
-    const hashedPassword = await bcrypt.hash(plainPassword, 12);
-
-    // Create new admin user
+    // Create new admin user (password will be hashed by pre-save hook)
     const admin = new User({
       name,
       email,
-      password: hashedPassword,
+      password: plainPassword,
       role: "admin",
       isActive: true,
     });
@@ -212,6 +372,12 @@ exports.resetPassword = async (req, res) => {
     user.resetPasswordExpires = undefined;
     await user.save();
 
+    // Invalidate all existing sessions after password reset
+    await Session.updateMany(
+      { userId: user._id, isActive: true },
+      { isActive: false }
+    );
+
     res.status(200).json({
       message: "Password reset successful",
     });
@@ -223,14 +389,18 @@ exports.resetPassword = async (req, res) => {
 exports.changePassword = async (req, res) => {
   try {
     const { currentPassword, newPassword } = req.body;
-    const user = await User.findById(req.user.userId);
+    const user = await User.findById(req.user.userId).select("+password");
 
-    const isMatch = await bcrypt.compare(currentPassword, user.password);
+    if (!user) {
+      return res.status(404).json({ message: "User not found" });
+    }
+
+    const isMatch = await user.comparePassword(currentPassword);
     if (!isMatch) {
       return res.status(400).json({ message: "Current password is incorrect" });
     }
 
-    user.password = await bcrypt.hash(newPassword, 10);
+    user.password = newPassword;
     await user.save();
 
     res.json({ message: "Password changed successfully" });
@@ -242,6 +412,9 @@ exports.changePassword = async (req, res) => {
 exports.getProfile = async (req, res) => {
   try {
     const user = await User.findById(req.user.userId).select("-password");
+    if (!user) {
+      return res.status(404).json({ message: "User not found" });
+    }
     res.json(user);
   } catch (error) {
     res.status(500).json({ message: error.message });
