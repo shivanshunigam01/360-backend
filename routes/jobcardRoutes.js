@@ -2,15 +2,15 @@
 const express = require("express");
 const router = express.Router();
 const jobcardController = require("../controllers/jobcardController");
-const auth = require("../middleware/auth");
+// NOTE: JobCard endpoints are intentionally public/static (no auth required)
 
 // List with pagination, filtering, sorting
 router.get("/", jobcardController.getAllJobCards);
 // Schema for dynamic table UI
 router.get("/schema", jobcardController.getJobCardSchema);
 router.get("/:id", jobcardController.getJobCardById);
-router.post("/", auth, jobcardController.createJobCard);
-router.put("/:id", auth, jobcardController.updateJobCard);
-router.delete("/:id", auth, jobcardController.deleteJobCard);
+router.post("/", jobcardController.createJobCard);
+router.put("/:id", jobcardController.updateJobCard);
+router.delete("/:id", jobcardController.deleteJobCard);
 
 module.exports = router;

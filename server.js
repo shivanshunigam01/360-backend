@@ -93,6 +93,8 @@ app.use("/api/blogs", blogRoutes);
 app.use("/api/contacts", contactRoutes);
 app.use("/api/newsletter", newsletterRoutes);
 app.use("/api/auth", authRoutes);
+// Legacy mount for compatibility with older clients that hit "/auth/*"
+app.use("/auth", authRoutes);
 app.use("/api/dashboard", dashboardRoutes);
 app.use("/api/upload", uploadRoutes);
 
