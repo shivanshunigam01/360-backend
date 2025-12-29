@@ -8,6 +8,8 @@ const jobcardController = require("../controllers/jobcardController");
 router.get("/", jobcardController.getAllJobCards);
 // Schema for dynamic table UI
 router.get("/schema", jobcardController.getJobCardSchema);
+// Export as Excel (.xlsx)
+router.get("/export", jobcardController.exportJobCards);
 router.get("/:id", jobcardController.getJobCardById);
 router.post("/", jobcardController.createJobCard);
 router.put("/:id", jobcardController.updateJobCard);
