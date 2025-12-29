@@ -22,6 +22,7 @@ const authRoutes = require("./routes/authRoutes");
 const dashboardRoutes = require("./routes/dashboardRoutes");
 const uploadRoutes = require("./routes/uploadRoutes");
 const landingLeadRoutes = require("./routes/landingLeadRoutes");
+const jobcardRoutes = require("./routes/jobcardRoutes");
 
 //new things
 const otpRoutes = require("./routes/otpRoutes.js");
@@ -58,6 +59,31 @@ if (!fs.existsSync(testimonialUploadsDir)) {
   fs.mkdirSync(testimonialUploadsDir);
 }
 
+// Ensure logs directory exists for server error logging
+const logsDir = path.join(__dirname, 'logs');
+if (!fs.existsSync(logsDir)) {
+  fs.mkdirSync(logsDir);
+}
+
+// Global handlers to capture and persist unexpected crashes/rejections
+process.on('unhandledRejection', (reason, p) => {
+  console.error('Unhandled Rejection at Promise', p, 'reason:', reason);
+  try {
+    fs.appendFileSync(path.join(logsDir, 'server-errors.log'), `${new Date().toISOString()} - unhandledRejection: ${reason}\n`);
+  } catch (e) {
+    console.error('Failed to write unhandledRejection to log', e);
+  }
+});
+
+process.on('uncaughtException', (err) => {
+  console.error('Uncaught Exception', err);
+  try {
+    fs.appendFileSync(path.join(logsDir, 'server-errors.log'), `${new Date().toISOString()} - uncaughtException: ${err.stack || err}\n`);
+  } catch (e) {
+    console.error('Failed to write uncaughtException to log', e);
+  }
+});
+
 // Routes
 app.use("/api/hero", heroRoutes);
 app.use("/api/medicines", medicineRoutes);
@@ -71,6 +97,9 @@ app.use("/api/dashboard", dashboardRoutes);
 app.use("/api/upload", uploadRoutes);
 
 app.use("/api/landing-leads", landingLeadRoutes);
+
+// JobCard CRUD
+app.use("/api/jobcards", jobcardRoutes);
 
 //new rotues
 app.use("/api/otp", otpRoutes);
