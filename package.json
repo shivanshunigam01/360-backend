@@ -26,7 +26,8 @@
     "rotating-file-stream": "^3.2.5",
     "twilio": "^5.8.0",
     "uuid": "^11.0.5",
-    "xss-clean": "^0.1.4"
+    "xss-clean": "^0.1.4",
+    "exceljs": "^4.3.0"
   },
   "devDependencies": {
     "nodemon": "^3.1.9"
