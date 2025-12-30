@@ -23,7 +23,7 @@ const authRoutes = require("./routes/authRoutes");
 const dashboardRoutes = require("./routes/dashboardRoutes");
 const uploadRoutes = require("./routes/uploadRoutes");
 const landingLeadRoutes = require("./routes/landingLeadRoutes");
-const jobcardRoutes = require("./routes/jobcardRoutes");
+const jobCardRoutes = require("./routes/jobCardRoutes");
 
 //new things
 const otpRoutes = require("./routes/otpRoutes.js");
@@ -101,6 +101,7 @@ app.use("/api/dashboard", dashboardRoutes);
 app.use("/api/upload", uploadRoutes);
 
 app.use("/api/landing-leads", landingLeadRoutes);
+app.use("/api/job-cards", jobCardRoutes);
 
 // JobCard CRUD
 app.use("/api/jobcards", jobcardRoutes);
