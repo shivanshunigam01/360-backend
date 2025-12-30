@@ -1,43 +1,118 @@
 const JobCard = require("../models/JobCard");
 
+// Helper function to generate the next sequential job card number
+const generateJobCardNo = async (retryCount = 0) => {
+    try {
+        // Find all job cards with valid jobCardNo and extract the highest number
+        const allJobCards = await JobCard.find({
+            jobCardNo: { $exists: true, $ne: null, $ne: "" }
+        })
+            .select("jobCardNo")
+            .sort({ jobCardNo: -1 }) // Sort descending to get the latest first
+            .lean();
+
+        let maxNumber = 0;
+
+        // Extract numbers from all job card numbers and find the maximum
+        // Supports formats: "JC-001", "JC001", "JC-123", etc.
+        allJobCards.forEach((card) => {
+            if (card.jobCardNo) {
+                // Extract number from job card number (e.g., "JC-001" -> 1, "JC001" -> 1, "JC-123" -> 123)
+                const match = card.jobCardNo.match(/\d+$/);
+                if (match) {
+                    const num = parseInt(match[0], 10);
+                    if (!isNaN(num) && num > maxNumber) {
+                        maxNumber = num;
+                    }
+                }
+            }
+        });
+
+        // Increment and format as JC-001, JC-002, etc. (3-digit padding with hyphen)
+        const nextNumber = maxNumber + 1;
+        const generatedNo = `JC-${nextNumber.toString().padStart(3, "0")}`;
+
+        // Double-check if this number already exists (race condition protection)
+        const exists = await JobCard.findOne({ jobCardNo: generatedNo });
+        if (exists) {
+            if (retryCount < 10) {
+                // If exists, recursively try again with incremented number
+                return generateJobCardNo(retryCount + 1);
+            } else {
+                // If too many retries, throw error
+                throw new Error("Unable to generate unique job card number after multiple attempts");
+            }
+        }
+
+        return generatedNo;
+    } catch (error) {
+        console.error("Error generating job card number:", error);
+        // If retry count exceeded, throw the error
+        if (error.message.includes("Unable to generate")) {
+            throw error;
+        }
+        // Fallback: use timestamp-based number with hyphen (only as last resort)
+        const timestamp = Date.now().toString().slice(-6);
+        return `JC-${timestamp}`;
+    }
+};
+
 // Create a new job card
 exports.createJobCard = async (req, res) => {
+    // Extract variables outside try block so they're accessible in catch block
+    const {
+        rfeNo,
+        jobCardNo,
+        regNo,
+        invoiceNo,
+        serviceType,
+        vehicle,
+        status,
+        customerName,
+        mobileNo,
+        arrivalDate,
+        arrivalTime,
+        notes,
+    } = req.body;
+
     try {
-        const {
-            rfeNo,
-            jobCardNo,
-            regNo,
-            invoiceNo,
-            serviceType,
-            vehicle,
-            status,
-            customerName,
-            mobileNo,
-            arrivalDate,
-            arrivalTime,
-            notes,
-        } = req.body;
 
         // Basic validation
-        if (!jobCardNo || !regNo || !vehicle || !customerName || !mobileNo || !arrivalDate || !arrivalTime) {
+        if (!regNo || !vehicle || !customerName || !mobileNo || !arrivalDate || !arrivalTime) {
             return res.status(400).json({
                 success: false,
-                message: "Required fields: jobCardNo, regNo, vehicle, customerName, mobileNo, arrivalDate, arrivalTime",
+                message: "Required fields: regNo, vehicle, customerName, mobileNo, arrivalDate, arrivalTime",
             });
         }
 
-        // Check if job card number already exists
-        const existingJobCard = await JobCard.findOne({ jobCardNo: jobCardNo.toUpperCase() });
-        if (existingJobCard) {
-            return res.status(400).json({
+        // Always auto-generate jobCardNo (never null, never empty, always sequential)
+        // Ignore any manual input and always auto-generate to ensure sequence and uniqueness
+        let finalJobCardNo;
+        try {
+            finalJobCardNo = await generateJobCardNo();
+            console.log("✅ Generated job card number:", finalJobCardNo);
+        } catch (genError) {
+            console.error("❌ Failed to generate job card number:", genError);
+            return res.status(500).json({
                 success: false,
-                message: "Job Card No. already exists",
+                message: "Failed to generate Job Card No. Please try again.",
+                error: genError.message,
             });
         }
 
+        // Final validation: ensure jobCardNo is always set (should never be null/undefined/empty)
+        if (!finalJobCardNo || finalJobCardNo.trim() === "") {
+            console.error("❌ Generated job card number is empty or null!");
+            return res.status(500).json({
+                success: false,
+                message: "Failed to generate Job Card No.",
+            });
+        }
+
+        console.log("📝 Creating job card with jobCardNo:", finalJobCardNo);
         const jobCard = await JobCard.create({
             rfeNo: rfeNo || "",
-            jobCardNo: jobCardNo.toUpperCase().trim(),
+            jobCardNo: finalJobCardNo,
             regNo: regNo.toUpperCase().trim(),
             invoiceNo: invoiceNo || "",
             serviceType: serviceType || "",
@@ -57,13 +132,59 @@ exports.createJobCard = async (req, res) => {
         });
     } catch (err) {
         console.error("❌ Error creating job card:", err.message);
+        console.error("❌ Error details:", JSON.stringify(err, null, 2));
 
-        // Handle duplicate key error
-        if (err.code === 11000) {
-            return res.status(400).json({
+        // Check for old database index error
+        if (err.message && err.message.includes("jobNumber_1")) {
+            return res.status(500).json({
                 success: false,
-                message: "Job Card No. already exists",
+                message: "Database configuration error: Old index detected",
+                error: "The database has an old 'jobNumber_1' index that needs to be removed. Please run the migration script: node scripts/dropOldJobCardIndex.js",
+                details: err.message,
             });
+        }
+
+        // Handle duplicate key error - always retry since we auto-generate
+        if (err.code === 11000) {
+            try {
+                // Retry with a new generated number (handles race conditions)
+                const retryJobCardNo = await generateJobCardNo();
+                const jobCard = await JobCard.create({
+                    rfeNo: rfeNo || "",
+                    jobCardNo: retryJobCardNo,
+                    regNo: regNo.toUpperCase().trim(),
+                    invoiceNo: invoiceNo || "",
+                    serviceType: serviceType || "",
+                    vehicle: vehicle.trim(),
+                    status: status || "Pending",
+                    customerName: customerName.trim(),
+                    mobileNo: mobileNo.trim(),
+                    arrivalDate: new Date(arrivalDate),
+                    arrivalTime: arrivalTime.trim(),
+                    notes: notes || "",
+                });
+                return res.status(201).json({
+                    success: true,
+                    message: "Job card created successfully",
+                    jobCard,
+                });
+            } catch (retryErr) {
+                console.error("❌ Retry failed:", retryErr.message);
+                // Check if retry also has the old index error
+                if (retryErr.message && retryErr.message.includes("jobNumber_1")) {
+                    return res.status(500).json({
+                        success: false,
+                        message: "Database configuration error: Old index detected",
+                        error: "The database has an old 'jobNumber_1' index that needs to be removed. Please run the migration script: node scripts/dropOldJobCardIndex.js",
+                        details: retryErr.message,
+                    });
+                }
+                return res.status(400).json({
+                    success: false,
+                    message: "Job Card No. conflict. Please try again.",
+                    error: retryErr.message,
+                });
+            }
         }
 
         return res.status(500).json({
