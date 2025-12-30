@@ -35,8 +35,8 @@ const app = express();
 app.use(morgan("dev"));
 
 // ✅ Allow-all CORS (includes preflight)
-app.use(cors());           // Access-Control-Allow-Origin: *
-app.options("*", cors());  // handle preflight globally
+app.use(cors()); // Access-Control-Allow-Origin: *
+app.options("*", cors()); // handle preflight globally
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
@@ -61,27 +61,33 @@ if (!fs.existsSync(testimonialUploadsDir)) {
 }
 
 // Ensure logs directory exists for server error logging
-const logsDir = path.join(__dirname, 'logs');
+const logsDir = path.join(__dirname, "logs");
 if (!fs.existsSync(logsDir)) {
   fs.mkdirSync(logsDir);
 }
 
 // Global handlers to capture and persist unexpected crashes/rejections
-process.on('unhandledRejection', (reason, p) => {
-  console.error('Unhandled Rejection at Promise', p, 'reason:', reason);
+process.on("unhandledRejection", (reason, p) => {
+  console.error("Unhandled Rejection at Promise", p, "reason:", reason);
   try {
-    fs.appendFileSync(path.join(logsDir, 'server-errors.log'), `${new Date().toISOString()} - unhandledRejection: ${reason}\n`);
+    fs.appendFileSync(
+      path.join(logsDir, "server-errors.log"),
+      `${new Date().toISOString()} - unhandledRejection: ${reason}\n`
+    );
   } catch (e) {
-    console.error('Failed to write unhandledRejection to log', e);
+    console.error("Failed to write unhandledRejection to log", e);
   }
 });
 
-process.on('uncaughtException', (err) => {
-  console.error('Uncaught Exception', err);
+process.on("uncaughtException", (err) => {
+  console.error("Uncaught Exception", err);
   try {
-    fs.appendFileSync(path.join(logsDir, 'server-errors.log'), `${new Date().toISOString()} - uncaughtException: ${err.stack || err}\n`);
+    fs.appendFileSync(
+      path.join(logsDir, "server-errors.log"),
+      `${new Date().toISOString()} - uncaughtException: ${err.stack || err}\n`
+    );
   } catch (e) {
-    console.error('Failed to write uncaughtException to log', e);
+    console.error("Failed to write uncaughtException to log", e);
   }
 });
 
@@ -104,7 +110,7 @@ app.use("/api/landing-leads", landingLeadRoutes);
 app.use("/api/job-cards", jobCardRoutes);
 
 // JobCard CRUD
-app.use("/api/jobcards", jobcardRoutes);
+// app.use("/api/jobcards", jobCardRoutes);
 
 //new rotues
 app.use("/api/otp", otpRoutes);

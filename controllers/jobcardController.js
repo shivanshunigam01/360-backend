@@ -1,178 +1,415 @@
 const JobCard = require("../models/JobCard");
 
-exports.getAllJobCards = async (req, res) => {
-  try {
-    const { status, search, page = 1, limit = 20, sortBy = "createdAt", order = "desc" } = req.query;
-    const pageNum = Math.max(parseInt(page) || 1, 1);
-    const perPage = Math.max(parseInt(limit) || 20, 1);
+// Helper function to generate the next sequential job card number
+const generateJobCardNo = async (retryCount = 0) => {
+    try {
+        // Find all job cards with valid jobCardNo and extract the highest number
+        const allJobCards = await JobCard.find({
+            jobCardNo: { $exists: true, $ne: null, $ne: "" }
+        })
+            .select("jobCardNo")
+            .sort({ jobCardNo: -1 }) // Sort descending to get the latest first
+            .lean();
 
-    let query = {};
-    if (status) query.status = status;
-    if (search) {
-      const re = new RegExp(search, "i");
-      query.$or = [
-        { jobNumber: { $regex: re } },
-        { title: { $regex: re } },
-        { customer: { $regex: re } },
-      ];
+        let maxNumber = 0;
+
+        // Extract numbers from all job card numbers and find the maximum
+        // Supports formats: "JC-001", "JC001", "JC-123", etc.
+        allJobCards.forEach((card) => {
+            if (card.jobCardNo) {
+                // Extract number from job card number (e.g., "JC-001" -> 1, "JC001" -> 1, "JC-123" -> 123)
+                const match = card.jobCardNo.match(/\d+$/);
+                if (match) {
+                    const num = parseInt(match[0], 10);
+                    if (!isNaN(num) && num > maxNumber) {
+                        maxNumber = num;
+                    }
+                }
+            }
+        });
+
+        // Increment and format as JC-001, JC-002, etc. (3-digit padding with hyphen)
+        const nextNumber = maxNumber + 1;
+        const generatedNo = `JC-${nextNumber.toString().padStart(3, "0")}`;
+
+        // Double-check if this number already exists (race condition protection)
+        const exists = await JobCard.findOne({ jobCardNo: generatedNo });
+        if (exists) {
+            if (retryCount < 10) {
+                // If exists, recursively try again with incremented number
+                return generateJobCardNo(retryCount + 1);
+            } else {
+                // If too many retries, throw error
+                throw new Error("Unable to generate unique job card number after multiple attempts");
+            }
+        }
+
+        return generatedNo;
+    } catch (error) {
+        console.error("Error generating job card number:", error);
+        // If retry count exceeded, throw the error
+        if (error.message.includes("Unable to generate")) {
+            throw error;
+        }
+        // Fallback: use timestamp-based number with hyphen (only as last resort)
+        const timestamp = Date.now().toString().slice(-6);
+        return `JC-${timestamp}`;
     }
-
-    const total = await JobCard.countDocuments(query);
-    const sortOrder = order === "asc" ? 1 : -1;
-    const jobcards = await JobCard.find(query)
-      .sort({ [sortBy]: sortOrder })
-      .skip((pageNum - 1) * perPage)
-      .limit(perPage);
-
-    res.status(200).json({ total, page: pageNum, limit: perPage, totalPages: Math.ceil(total / perPage), data: jobcards });
-  } catch (error) {
-    res.status(500).json({ message: error.message });
-  }
 };
 
-// Export job cards to an Excel (.xlsx) file. Accepts same query params as listing (search, status, sortBy, order)
-exports.exportJobCards = async (req, res) => {
-  try {
-    const { status, search, sortBy = "createdAt", order = "desc" } = req.query;
-    let query = {};
-    if (status) query.status = status;
-    if (search) {
-      const re = new RegExp(search, "i");
-      query.$or = [
-        { jobNumber: { $regex: re } },
-        { title: { $regex: re } },
-        { customer: { $regex: re } },
-        { regNo: { $regex: re } },
-      ];
-    }
-
-    const sortOrder = order === "asc" ? 1 : -1;
-    const rows = await JobCard.find(query).sort({ [sortBy]: sortOrder }).lean();
-
-    const ExcelJS = require('exceljs');
-    const workbook = new ExcelJS.Workbook();
-    const sheet = workbook.addWorksheet('Job Cards');
-
-    sheet.columns = [
-      { header: 'Job Number', key: 'jobNumber', width: 20 },
-      { header: 'Title', key: 'title', width: 30 },
-      { header: 'Customer', key: 'customer', width: 25 },
-      { header: 'Reg No', key: 'regNo', width: 15 },
-      { header: 'VIN', key: 'vin', width: 30 },
-      { header: 'Vehicle', key: 'vehicle', width: 20 },
-      { header: 'Service Advisor', key: 'assignedTo', width: 20 },
-      { header: 'Status', key: 'status', width: 15 },
-      { header: 'Odometer', key: 'odometer', width: 12 },
-      { header: 'Mobile', key: 'mobile', width: 15 },
-      { header: 'Email', key: 'email', width: 25 },
-      { header: 'Advance', key: 'advance', width: 12 },
-      { header: 'Insurance', key: 'insurance', width: 25 },
-      { header: 'Created At', key: 'createdAt', width: 20 }
-    ];
-
-    rows.forEach(r => {
-      sheet.addRow({
-        jobNumber: r.jobNumber,
-        title: r.title,
-        customer: r.customer,
-        regNo: r.regNo,
-        vin: r.vin,
-        vehicle: r.vehicle,
-        assignedTo: r.assignedTo,
-        status: r.status,
-        odometer: r.odometer,
-        mobile: r.mobile,
-        email: r.email,
-        advance: r.advance,
-        insurance: r.insurance,
-        createdAt: r.createdAt ? new Date(r.createdAt) : null,
-      });
-    });
-
-    // Make header row bold
-    sheet.getRow(1).font = { bold: true };
-
-    res.setHeader('Content-Type', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet');
-    res.setHeader('Content-Disposition', `attachment; filename=jobcards-${new Date().toISOString().slice(0,10)}.xlsx`);
-
-    await workbook.xlsx.write(res);
-    res.end();
-  } catch (error) {
-    res.status(500).json({ message: error.message });
-  }
-};
-
-exports.getJobCardById = async (req, res) => {
-  try {
-    const jobcard = await JobCard.findById(req.params.id);
-    if (!jobcard) return res.status(404).json({ message: "JobCard not found" });
-    res.status(200).json(jobcard);
-  } catch (error) {
-    res.status(500).json({ message: error.message });
-  }
-};
-
+// Create a new job card
 exports.createJobCard = async (req, res) => {
-  try {
-    const data = { ...req.body };
-    if (!data.jobNumber) data.jobNumber = `JC-${Date.now()}`;
+    // Extract variables outside try block so they're accessible in catch block
+    const {
+        rfeNo,
+        jobCardNo,
+        regNo,
+        invoiceNo,
+        serviceType,
+        vehicle,
+        status,
+        customerName,
+        mobileNo,
+        arrivalDate,
+        arrivalTime,
+        notes,
+    } = req.body;
 
-    // Provide a sensible default title if frontend didn't send one
-    if (!data.title) {
-      const customersPart = data.customer ? `${data.customer}` : "Job Card";
-      const vehiclePart = data.vehicle ? ` - ${data.vehicle}` : "";
-      data.title = `${customersPart}${vehiclePart}`;
-    }
+    try {
 
-    const exists = await JobCard.findOne({ jobNumber: data.jobNumber });
-    if (exists) return res.status(400).json({ message: "Job number already exists" });
-    const jobcard = new JobCard(data);
-    const saved = await jobcard.save();
-    res.status(201).json(saved);
-  } catch (error) {
-    // Better handling for Mongoose validation errors
-    if (error.name === 'ValidationError') {
-      const errors = Object.values(error.errors).map(e => e.message).join(', ');
-      return res.status(400).json({ message: `Validation failed: ${errors}` });
+        // Basic validation
+        if (!regNo || !vehicle || !customerName || !mobileNo || !arrivalDate || !arrivalTime) {
+            return res.status(400).json({
+                success: false,
+                message: "Required fields: regNo, vehicle, customerName, mobileNo, arrivalDate, arrivalTime",
+            });
+        }
+
+        // Always auto-generate jobCardNo (never null, never empty, always sequential)
+        // Ignore any manual input and always auto-generate to ensure sequence and uniqueness
+        let finalJobCardNo;
+        try {
+            finalJobCardNo = await generateJobCardNo();
+            console.log("✅ Generated job card number:", finalJobCardNo);
+        } catch (genError) {
+            console.error("❌ Failed to generate job card number:", genError);
+            return res.status(500).json({
+                success: false,
+                message: "Failed to generate Job Card No. Please try again.",
+                error: genError.message,
+            });
+        }
+
+        // Final validation: ensure jobCardNo is always set (should never be null/undefined/empty)
+        if (!finalJobCardNo || finalJobCardNo.trim() === "") {
+            console.error("❌ Generated job card number is empty or null!");
+            return res.status(500).json({
+                success: false,
+                message: "Failed to generate Job Card No.",
+            });
+        }
+
+        console.log("📝 Creating job card with jobCardNo:", finalJobCardNo);
+        const jobCard = await JobCard.create({
+            rfeNo: rfeNo || "",
+            jobCardNo: finalJobCardNo,
+            regNo: regNo.toUpperCase().trim(),
+            invoiceNo: invoiceNo || "",
+            serviceType: serviceType || "",
+            vehicle: vehicle.trim(),
+            status: status || "Pending",
+            customerName: customerName.trim(),
+            mobileNo: mobileNo.trim(),
+            arrivalDate: new Date(arrivalDate),
+            arrivalTime: arrivalTime.trim(),
+            notes: notes || "",
+        });
+
+        return res.status(201).json({
+            success: true,
+            message: "Job card created successfully",
+            jobCard,
+        });
+    } catch (err) {
+        console.error("❌ Error creating job card:", err.message);
+        console.error("❌ Error details:", JSON.stringify(err, null, 2));
+
+        // Check for old database index error
+        if (err.message && err.message.includes("jobNumber_1")) {
+            return res.status(500).json({
+                success: false,
+                message: "Database configuration error: Old index detected",
+                error: "The database has an old 'jobNumber_1' index that needs to be removed. Please run the migration script: node scripts/dropOldJobCardIndex.js",
+                details: err.message,
+            });
+        }
+
+        // Handle duplicate key error - always retry since we auto-generate
+        if (err.code === 11000) {
+            try {
+                // Retry with a new generated number (handles race conditions)
+                const retryJobCardNo = await generateJobCardNo();
+                const jobCard = await JobCard.create({
+                    rfeNo: rfeNo || "",
+                    jobCardNo: retryJobCardNo,
+                    regNo: regNo.toUpperCase().trim(),
+                    invoiceNo: invoiceNo || "",
+                    serviceType: serviceType || "",
+                    vehicle: vehicle.trim(),
+                    status: status || "Pending",
+                    customerName: customerName.trim(),
+                    mobileNo: mobileNo.trim(),
+                    arrivalDate: new Date(arrivalDate),
+                    arrivalTime: arrivalTime.trim(),
+                    notes: notes || "",
+                });
+                return res.status(201).json({
+                    success: true,
+                    message: "Job card created successfully",
+                    jobCard,
+                });
+            } catch (retryErr) {
+                console.error("❌ Retry failed:", retryErr.message);
+                // Check if retry also has the old index error
+                if (retryErr.message && retryErr.message.includes("jobNumber_1")) {
+                    return res.status(500).json({
+                        success: false,
+                        message: "Database configuration error: Old index detected",
+                        error: "The database has an old 'jobNumber_1' index that needs to be removed. Please run the migration script: node scripts/dropOldJobCardIndex.js",
+                        details: retryErr.message,
+                    });
+                }
+                return res.status(400).json({
+                    success: false,
+                    message: "Job Card No. conflict. Please try again.",
+                    error: retryErr.message,
+                });
+            }
+        }
+
+        return res.status(500).json({
+            success: false,
+            message: "Failed to create job card",
+            error: err.message,
+        });
     }
-    res.status(400).json({ message: error.message });
-  }
 };
 
+// Get all job cards with optional filters
+exports.getAllJobCards = async (req, res) => {
+    try {
+        const { status, regNo, customerName, startDate, endDate, page = 1, limit = 10 } = req.query;
+
+        let query = {};
+
+        // Apply filters
+        if (status) {
+            query.status = status;
+        }
+        if (regNo) {
+            query.regNo = { $regex: regNo, $options: "i" };
+        }
+        if (customerName) {
+            query.customerName = { $regex: customerName, $options: "i" };
+        }
+        if (startDate || endDate) {
+            query.arrivalDate = {};
+            if (startDate) query.arrivalDate.$gte = new Date(startDate);
+            if (endDate) query.arrivalDate.$lte = new Date(endDate);
+        }
+
+        const pageNum = parseInt(page);
+        const limitNum = parseInt(limit);
+        const skip = (pageNum - 1) * limitNum;
+
+        const jobCards = await JobCard.find(query)
+            .sort({ arrivalDate: -1, createdAt: -1 })
+            .skip(skip)
+            .limit(limitNum);
+
+        const total = await JobCard.countDocuments(query);
+
+        return res.status(200).json({
+            success: true,
+            jobCards,
+            pagination: {
+                currentPage: pageNum,
+                totalPages: Math.ceil(total / limitNum),
+                totalItems: total,
+                itemsPerPage: limitNum,
+            },
+        });
+    } catch (err) {
+        console.error("❌ Error fetching job cards:", err.message);
+        return res.status(500).json({
+            success: false,
+            message: "Failed to fetch job cards",
+            error: err.message,
+        });
+    }
+};
+
+// Get a single job card by ID
+exports.getJobCardById = async (req, res) => {
+    try {
+        const jobCard = await JobCard.findById(req.params.id);
+
+        if (!jobCard) {
+            return res.status(404).json({
+                success: false,
+                message: "Job card not found",
+            });
+        }
+
+        return res.status(200).json({
+            success: true,
+            jobCard,
+        });
+    } catch (err) {
+        console.error("❌ Error fetching job card:", err.message);
+        return res.status(500).json({
+            success: false,
+            message: "Failed to fetch job card",
+            error: err.message,
+        });
+    }
+};
+
+// Update a job card
 exports.updateJobCard = async (req, res) => {
-  try {
-    const updates = { ...req.body, updatedAt: Date.now() };
-    const jobcard = await JobCard.findByIdAndUpdate(req.params.id, updates, {
-      new: true,
-    });
-    if (!jobcard) return res.status(404).json({ message: "JobCard not found" });
-    res.status(200).json(jobcard);
-  } catch (error) {
-    res.status(400).json({ message: error.message });
-  }
+    try {
+        const {
+            rfeNo,
+            jobCardNo,
+            regNo,
+            invoiceNo,
+            serviceType,
+            vehicle,
+            status,
+            customerName,
+            mobileNo,
+            arrivalDate,
+            arrivalTime,
+            notes,
+        } = req.body;
+
+        // Check if job card exists
+        const existingJobCard = await JobCard.findById(req.params.id);
+        if (!existingJobCard) {
+            return res.status(404).json({
+                success: false,
+                message: "Job card not found",
+            });
+        }
+
+        // If jobCardNo is being updated, check for duplicates
+        if (jobCardNo && jobCardNo.toUpperCase() !== existingJobCard.jobCardNo) {
+            const duplicate = await JobCard.findOne({ jobCardNo: jobCardNo.toUpperCase() });
+            if (duplicate) {
+                return res.status(400).json({
+                    success: false,
+                    message: "Job Card No. already exists",
+                });
+            }
+        }
+
+        // Build update object
+        const updateData = {};
+        if (rfeNo !== undefined) updateData.rfeNo = rfeNo;
+        if (jobCardNo !== undefined) updateData.jobCardNo = jobCardNo.toUpperCase().trim();
+        if (regNo !== undefined) updateData.regNo = regNo.toUpperCase().trim();
+        if (invoiceNo !== undefined) updateData.invoiceNo = invoiceNo;
+        if (serviceType !== undefined) updateData.serviceType = serviceType;
+        if (vehicle !== undefined) updateData.vehicle = vehicle.trim();
+        if (status !== undefined) updateData.status = status;
+        if (customerName !== undefined) updateData.customerName = customerName.trim();
+        if (mobileNo !== undefined) updateData.mobileNo = mobileNo.trim();
+        if (arrivalDate !== undefined) updateData.arrivalDate = new Date(arrivalDate);
+        if (arrivalTime !== undefined) updateData.arrivalTime = arrivalTime.trim();
+        if (notes !== undefined) updateData.notes = notes;
+
+        const jobCard = await JobCard.findByIdAndUpdate(
+            req.params.id,
+            updateData,
+            {
+                new: true,
+                runValidators: true,
+            }
+        );
+
+        return res.status(200).json({
+            success: true,
+            message: "Job card updated successfully",
+            jobCard,
+        });
+    } catch (err) {
+        console.error("❌ Error updating job card:", err.message);
+
+        // Handle duplicate key error
+        if (err.code === 11000) {
+            return res.status(400).json({
+                success: false,
+                message: "Job Card No. already exists",
+            });
+        }
+
+        return res.status(500).json({
+            success: false,
+            message: "Failed to update job card",
+            error: err.message,
+        });
+    }
 };
 
+// Delete a job card
 exports.deleteJobCard = async (req, res) => {
-  try {
-    const jobcard = await JobCard.findByIdAndDelete(req.params.id);
-    if (!jobcard) return res.status(404).json({ message: "JobCard not found" });
-    res.status(200).json({ message: "JobCard deleted successfully" });
-  } catch (error) {
-    res.status(500).json({ message: error.message });
-  }
+    try {
+        const jobCard = await JobCard.findByIdAndDelete(req.params.id);
+
+        if (!jobCard) {
+            return res.status(404).json({
+                success: false,
+                message: "Job card not found",
+            });
+        }
+
+        return res.status(200).json({
+            success: true,
+            message: "Job card deleted successfully",
+        });
+    } catch (err) {
+        console.error("❌ Error deleting job card:", err.message);
+        return res.status(500).json({
+            success: false,
+            message: "Failed to delete job card",
+            error: err.message,
+        });
+    }
 };
 
-// Return schema fields and types for dynamic table UI
-exports.getJobCardSchema = (req, res) => {
-  try {
-    const paths = JobCard.schema.paths;
-    const schema = {};
-    Object.keys(paths).forEach((p) => {
-      if (p === "__v") return;
-      schema[p] = { type: paths[p].instance };
-    });
-    res.status(200).json(schema);
-  } catch (error) {
-    res.status(500).json({ message: error.message });
-  }
+// Get job card by job card number
+exports.getJobCardByJobCardNo = async (req, res) => {
+    try {
+        const jobCard = await JobCard.findOne({ jobCardNo: req.params.jobCardNo.toUpperCase() });
+
+        if (!jobCard) {
+            return res.status(404).json({
+                success: false,
+                message: "Job card not found",
+            });
+        }
+
+        return res.status(200).json({
+            success: true,
+            jobCard,
+        });
+    } catch (err) {
+        console.error("❌ Error fetching job card:", err.message);
+        return res.status(500).json({
+            success: false,
+            message: "Failed to fetch job card",
+            error: err.message,
+        });
+    }
 };
+
