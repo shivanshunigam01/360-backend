@@ -1,14 +1,14 @@
+const jwt = require("jsonwebtoken");
+const crypto = require("crypto");
+const User = require("../models/User");
 
-import jwt from "jsonwebtoken";
-import crypto from "crypto";
-import User from "../models/User.js";
 // Token configuration
 const ACCESS_TOKEN_EXPIRY = "15m"; // Short-lived access token
 const REFRESH_TOKEN_EXPIRY = "7d"; // Long-lived refresh token
 
 
 // Parse user agent for device info
-export const parseUserAgent = (userAgent) => {
+const parseUserAgent = (userAgent) => {
     const ua = userAgent || "";
     let browser = "Unknown";
     let os = "Unknown";
@@ -39,7 +39,7 @@ export const parseUserAgent = (userAgent) => {
   };
   
   // Get client IP
-  export const getClientIp = (req) => {
+  const getClientIp = (req) => {
     return (
       req.headers["x-forwarded-for"]?.split(",")[0] ||
       req.connection?.remoteAddress ||
@@ -49,12 +49,12 @@ export const parseUserAgent = (userAgent) => {
   };
 
   // Generate Refresh Token (long-lived)
-export const generateRefreshToken = () => {
+const generateRefreshToken = () => {
     return crypto.randomBytes(64).toString("hex");
   };
 
   // Generate Access Token (short-lived)
-export const generateAccessToken = (user) => {
+const generateAccessToken = (user) => {
     return jwt.sign(
       {
         userId: user._id,
@@ -65,3 +65,10 @@ export const generateAccessToken = (user) => {
       { expiresIn: ACCESS_TOKEN_EXPIRY }
     );
   };
+
+module.exports = {
+  parseUserAgent,
+  getClientIp,
+  generateRefreshToken,
+  generateAccessToken
+};
