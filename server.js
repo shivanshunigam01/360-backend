@@ -24,6 +24,14 @@ const dashboardRoutes = require("./routes/dashboardRoutes");
 const uploadRoutes = require("./routes/uploadRoutes");
 const landingLeadRoutes = require("./routes/landingLeadRoutes");
 const jobcardRoutes = require("./routes/jobcardRoutes");
+const stockRoutes = require("./routes/stockRoutes");
+const purchaseOrderRoutes = require("./routes/purchaseOrderRoutes");
+const stockInwardRoutes = require("./routes/stockInwardRoutes");
+const stockIssueRoutes = require("./routes/stockIssueRoutes");
+const purchaseReturnRoutes = require("./routes/purchaseReturnRoutes");
+const stockAlertRoutes = require("./routes/stockAlertRoutes");
+const stockTransferRoutes = require("./routes/stockTransferRoutes");
+const counterSaleRoutes = require("./routes/counterSaleRoutes");
 
 //new things
 const otpRoutes = require("./routes/otpRoutes.js");
@@ -103,11 +111,37 @@ app.use("/api/upload", uploadRoutes);
 app.use("/api/landing-leads", landingLeadRoutes);
 
 // JobCard CRUD
-app.use("/api/jobcards", jobcardRoutes);
+app.use("/api/job-cards", jobcardRoutes);
 
 //new rotues
 app.use("/api/otp", otpRoutes);
 app.use("/api/contact", contactRoutes);
+
+
+//stock routes
+app.use("/api/stock", stockRoutes);
+
+// Purchase order routes
+app.use("/api/purchase-orders", purchaseOrderRoutes);
+
+// Stock inward routes
+app.use("/api/stock-inwards", stockInwardRoutes);
+
+// Stock issue routes
+app.use("/api/stock-issues", stockIssueRoutes);
+
+// Purchase return routes
+app.use("/api/purchase-returns", purchaseReturnRoutes);
+
+// Stock alert routes
+app.use("/api/stock-alerts", stockAlertRoutes);
+
+// Stock transfer routes
+app.use("/api/stock-transfers", stockTransferRoutes);
+
+// Counter sale / POS routes
+app.use("/api/counter-sales", counterSaleRoutes);
+
 
 // Database connection
 mongoose
