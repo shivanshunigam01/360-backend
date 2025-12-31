@@ -1,39 +1,90 @@
 const mongoose = require("mongoose");
 
-const noteSchema = new mongoose.Schema({
-  text: { type: String },
-  author: { type: String },
-  createdAt: { type: Date, default: Date.now },
-});
-
-const jobCardSchema = new mongoose.Schema({
-  jobNumber: { type: String, required: true, unique: true },
-  title: { type: String, required: true, trim: true },
-  description: { type: String, trim: true },
-  customer: { type: String, trim: true },
-  assignedTo: { type: String, trim: true },
-  vehicleMake: { type: String, trim: true },
-  vehicle: { type: String, trim: true },
-  regNo: { type: String, trim: true },
-  vin: { type: String, trim: true },
-  odometer: { type: Number },
-  mobile: { type: String, trim: true },
-  email: { type: String, trim: true },
-  advance: { type: Number, default: 0 },
-  insurance: { type: String, trim: true },
-  status: {
-    type: String,
-    enum: ["open", "in_progress", "completed", "closed"],
-    default: "open",
+const jobCardSchema = new mongoose.Schema(
+  {
+    rfeNo: {
+      type: String,
+      trim: true,
+    },
+    jobCardNo: {
+      type: String,
+      unique: false,
+      sparse: true, // Allows multiple null values, but enforces uniqueness for non-null values
+      trim: true,
+      uppercase: true,
+    },
+    regNo: {
+      type: String,
+      required: [true, "Registration No. is required"],
+      trim: true,
+      uppercase: true,
+    },
+    invoiceNo: {
+      type: String,
+      trim: true,
+    },
+    serviceType: {
+      type: String,
+      trim: true,
+    },
+    vehicle: {
+      type: String,
+      required: [true, "Vehicle is required"],
+      trim: true,
+    },
+    status: {
+      type: String,
+      enum: ["Pending", "In Progress", "Invoice", "Delivered", "Cancelled"],
+      default: "Pending",
+    },
+    customerName: {
+      type: String,
+      required: [true, "Customer Name is required"],
+      trim: true,
+    },
+    mobileNo: {
+      type: String,
+      required: [true, "Mobile No. is required"],
+      trim: true,
+    },
+    arrivalDate: {
+      type: Date,
+      required: [true, "Arrival Date is required"],
+    },
+    arrivalTime: {
+      type: String,
+      required: [true, "Arrival Time is required"],
+      trim: true,
+    },
+    notes: {
+      type: String,
+      trim: true,
+    },
   },
-  notes: [noteSchema],
-  createdAt: { type: Date, default: Date.now },
-  updatedAt: { type: Date, default: Date.now },
-});
+  {
+    timestamps: true,
+  }
+);
 
-jobCardSchema.pre("save", function (next) {
-  this.updatedAt = Date.now();
+// Pre-save hook to ensure jobCardNo is never null or empty
+jobCardSchema.pre("save", async function (next) {
+  // If jobCardNo is missing or empty, it should have been generated in the controller
+  // This is a safety check to prevent null/empty values
+  if (!this.jobCardNo || this.jobCardNo.trim() === "") {
+    // This should not happen if controller logic is correct
+    // But as a fallback, we'll throw an error
+    const error = new Error(
+      "Job Card No. cannot be null or empty. It must be auto-generated."
+    );
+    return next(error);
+  }
   next();
 });
+
+// Index for better query performance
+// jobCardSchema.index({ jobCardNo: 1 });
+jobCardSchema.index({ regNo: 1 });
+jobCardSchema.index({ status: 1 });
+jobCardSchema.index({ arrivalDate: -1 });
 
 module.exports = mongoose.model("JobCard", jobCardSchema);
