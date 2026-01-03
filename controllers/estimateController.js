@@ -73,6 +73,7 @@ exports.getEstimateById = async (req, res) => {
 exports.createEstimate = async (req, res) => {
   try {
     const {
+      jobNo,
       customerName,
       vehicleDetails,
       registrationNo,
@@ -90,18 +91,19 @@ exports.createEstimate = async (req, res) => {
     }
 
     const ids = await generateNextIds();
-    const normalizedItems = normalizeItems(items);
+    const normalizedItems = normalizeItems(items || []);
     const grandTotal = calculateGrandTotal(normalizedItems);
 
     const payload = {
       ...ids,
+      jobNo: jobNo ? jobNo.trim() : ids.jobNo,
       customerName: customerName.trim(),
       vehicleDetails: vehicleDetails.trim(),
       registrationNo: registrationNo ? registrationNo.trim() : undefined,
       date: date ? new Date(date) : undefined,
       status: status || "requested",
       items: normalizedItems,
-      grandTotal,
+      grandTotal: grandTotal || 0,
       notes,
     };
 
