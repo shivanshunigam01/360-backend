@@ -115,7 +115,7 @@ app.use("/api/dashboard", dashboardRoutes);
 app.use("/api/upload", uploadRoutes);
 
 app.use("/api/landing-leads", landingLeadRoutes);
-app.use("/api/job-cards", jobCardRoutes);
+app.use("/api/job-cards", jobcardRoutes);
 
 // JobCard CRUD
 // app.use("/api/jobcards", jobCardRoutes);
