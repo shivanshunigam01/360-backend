@@ -13,10 +13,12 @@
     "cors": "^2.8.5",
     "csv-writer": "^1.6.0",
     "dotenv": "^16.4.7",
+    "exceljs": "^4.3.0",
     "express": "^4.21.2",
     "express-mongo-sanitize": "^2.2.0",
     "express-rate-limit": "^7.5.0",
     "helmet": "^8.0.0",
+    "joi": "^18.0.2",
     "json2csv": "^6.0.0-alpha.2",
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.10.0",
@@ -26,8 +28,7 @@
     "rotating-file-stream": "^3.2.5",
     "twilio": "^5.8.0",
     "uuid": "^11.0.5",
-    "xss-clean": "^0.1.4",
-    "exceljs": "^4.3.0"
+    "xss-clean": "^0.1.4"
   },
   "devDependencies": {
     "nodemon": "^3.1.9"
