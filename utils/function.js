@@ -3,7 +3,7 @@ const crypto = require("crypto");
 const User = require("../models/User");
 
 // Token configuration
-const ACCESS_TOKEN_EXPIRY = "1m"; // Short-lived access token
+const ACCESS_TOKEN_EXPIRY = "15m"; // Short-lived access token
 const REFRESH_TOKEN_EXPIRY = "7d"; // Long-lived refresh token
 
 

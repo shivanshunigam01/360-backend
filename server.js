@@ -33,6 +33,7 @@ const stockAlertRoutes = require("./routes/stockAlertRoutes");
 const stockTransferRoutes = require("./routes/stockTransferRoutes");
 const counterSaleRoutes = require("./routes/counterSaleRoutes");
 const vendorRoutes = require("./routes/vendorRoutes");
+const customerRoutes = require("./routes/customerRoutes");
 
 //new things
 const otpRoutes = require("./routes/otpRoutes.js");
@@ -152,6 +153,8 @@ app.use("/api/counter-sales", counterSaleRoutes);
 
 // Vendor routes
 app.use("/api/vendors", vendorRoutes);
+// Customer routes
+app.use("/api/customers", customerRoutes);
 
 
 // Database connection
