@@ -101,6 +101,17 @@ process.on("uncaughtException", (err) => {
   }
 });
 
+//Test
+// Health check
+app.get("/", (req, res) => {
+  res.status(200).json({
+    status: "ok",
+    service: "Zentroverse ERP API",
+    uptime: process.uptime(),
+    timestamp: new Date().toISOString(),
+  });
+});
+
 // Routes
 app.use("/api/hero", heroRoutes);
 app.use("/api/medicines", medicineRoutes);
@@ -125,7 +136,6 @@ app.use("/api/job-cards", jobcardRoutes);
 //new rotues
 app.use("/api/otp", otpRoutes);
 app.use("/api/contact", contactRoutes);
-
 
 //stock routes
 app.use("/api/stock", stockRoutes);
@@ -155,7 +165,6 @@ app.use("/api/counter-sales", counterSaleRoutes);
 app.use("/api/vendors", vendorRoutes);
 // Customer routes
 app.use("/api/customers", customerRoutes);
-
 
 // Database connection
 mongoose
